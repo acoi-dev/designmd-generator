@@ -10,8 +10,8 @@
 <link rel="canonical" href="https://designmd-generator-production.up.railway.app/">
 
 <!-- OGP -->
-<meta property="og:title" content="好きなサイトのデザインをAIに真似させる">
-<meta property="og:description" content="色・フォント・コンポーネントを抽出 → AIがそっくりなUIを作る。252ブランド対応、無料">
+<meta property="og:title" content="サイトのデザインをAIにコピーさせる — DESIGN.md Generator">
+<meta property="og:description" content="URL貼るだけで色・フォント・UIを丸ごと抽出。AIにそのまま食わせてそっくりなサイトが作れる。252ブランド対応、無料">
 <meta property="og:image" content="https://designmd-generator-production.up.railway.app/og-image.png">
 <meta property="og:url" content="https://designmd-generator-production.up.railway.app/">
 <meta property="og:type" content="website">
@@ -22,8 +22,8 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@claude_skill">
-<meta name="twitter:title" content="好きなサイトのデザインをAIに真似させる">
-<meta name="twitter:description" content="色・フォント・コンポーネントを抽出 → AIがそっくりなUIを作る。252ブランド対応、無料">
+<meta name="twitter:title" content="サイトのデザインをAIにコピーさせる — DESIGN.md Generator">
+<meta name="twitter:description" content="URL貼るだけで色・フォント・UIを丸ごと抽出。AIにそのまま食わせてそっくりなサイトが作れる。252ブランド対応、無料">
 <meta name="twitter:image" content="https://designmd-generator-production.up.railway.app/og-image.png">
 
 <!-- Favicon -->
@@ -1672,9 +1672,10 @@ document.addEventListener('DOMContentLoaded', () => {
   if (lpShare) {
     const updateLpShare = () => {
       const text = currentLang === 'ja'
-        ? '好きなサイトのデザインをAIに真似させるやつ'
-        : "extract any site's design → feed to AI";
-      lpShare.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&via=claude_skill`;
+        ? 'URL貼るだけでサイトのデザインを丸ごと抽出→AIにそのまま食わせてUI作れるやつ、252ブランド対応で無料'
+        : "paste a URL → extract colors, fonts, components → AI builds matching UI. 252 brands, free";
+      const shareUrl = 'https://designmd-generator-production.up.railway.app';
+      lpShare.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}&via=claude_skill`;
     };
     updateLpShare();
     // Update when language changes
@@ -1954,8 +1955,8 @@ function renderResults(data) {
   const shareBtn = document.getElementById('share-btn');
   if (shareBtn) {
     const shareText = currentLang === 'ja'
-      ? `${d.title}のデザイン抽出した`
-      : `extracted ${d.title}'s design`;
+      ? `${d.title}のカラー・フォント・UIを抽出した。これAIに食わせたらそっくりなサイト作れる`
+      : `extracted ${d.title}'s colors, fonts & UI — feed this to AI and it builds a matching site`;
     const shareUrl = location.href;
     shareBtn.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}&via=claude_skill`;
   }
