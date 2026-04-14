@@ -526,7 +526,7 @@ const server = http.createServer(async (req, res) => {
           const brand = data[parsedDomain];
           const escAttr = (s: string) => s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
           const brandTitle = escAttr(brand?.design?.title || brand?.label || parsedDomain);
-          const ogImageUrl = `https://designmd.dev/og/${parsedDomain}.png`;
+          const ogImageUrl = `https://designmd-generator-production.up.railway.app/og/${parsedDomain}.png`;
           const ogTitle = `${brandTitle} — DESIGN.md Generator`;
           const ogDesc = `${brandTitle}のカラー・フォント・コンポーネントを抽出。AIにそっくりなUIを作らせよう`;
           // Replace og:image
@@ -562,7 +562,7 @@ const server = http.createServer(async (req, res) => {
           // Replace og:url
           html = html.replace(
             /<meta property="og:url" content="[^"]*">/,
-            `<meta property="og:url" content="https://designmd.dev/?url=${parsedDomain}">`
+            `<meta property="og:url" content="https://designmd-generator-production.up.railway.app/?url=${parsedDomain}">`
           );
         }
       } catch (_) {
