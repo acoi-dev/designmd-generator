@@ -77,6 +77,12 @@ export interface TypographyDetail {
   font: string;        // family name
 }
 
+export interface CssCustomProperty {
+  name: string;        // e.g. "--color-primary"
+  value: string;       // e.g. "#ff5500"
+  category: 'color' | 'spacing' | 'typography' | 'other';
+}
+
 export interface ExtractedDesign {
   url: string;
   title: string;
@@ -114,6 +120,7 @@ export interface ExtractedDesign {
     card?: CardSample;
   };
   fontFaces: FontFace[];
+  cssCustomProperties: CssCustomProperty[];
   // Tags / characterization
   tags: string[];      // "minimal" "playful" "dark" "high-contrast" etc.
   mood: string;        // overall feel description
@@ -474,6 +481,58 @@ const EXTRACT_FN = `(() => {
     }
   } catch (e) {}
 
+  // ===== CSS CUSTOM PROPERTIES EXTRACTION =====
+  var cssCustomProps = [];
+  var seenVarNames = {};
+  try {
+    for (var vs = 0; vs < document.styleSheets.length; vs++) {
+      var vsheet = document.styleSheets[vs];
+      try {
+        var vrules = vsheet.cssRules || vsheet.rules;
+        if (!vrules) continue;
+        for (var vr = 0; vr < vrules.length; vr++) {
+          var vrule = vrules[vr];
+          // CSSStyleRule type === 1; check if selector targets :root or html
+          if (vrule.type === 1 && /^(:root|html)$/i.test((vrule.selectorText || '').trim())) {
+            var vstyle = vrule.style;
+            for (var vp = 0; vp < vstyle.length; vp++) {
+              var propName = vstyle[vp];
+              if (propName.indexOf('--') === 0 && !seenVarNames[propName]) {
+                seenVarNames[propName] = true;
+                var propValue = vstyle.getPropertyValue(propName).trim();
+                if (propValue) {
+                  // Categorize
+                  var cat = 'other';
+                  var valLower = propValue.toLowerCase();
+                  if (/#[0-9a-f]{3,8}\\b/.test(valLower) || valLower.indexOf('rgb') >= 0 || valLower.indexOf('hsl') >= 0 || valLower.indexOf('oklch') >= 0 || valLower.indexOf('color(') >= 0) {
+                    cat = 'color';
+                  } else if (/^-?[\\d.]+\\s*(px|rem|em|vh|vw|%)$/.test(valLower) || /^-?[\\d.]+$/.test(valLower)) {
+                    // Check if it's typography-related by name
+                    var nameLower = propName.toLowerCase();
+                    if (nameLower.indexOf('font') >= 0 || nameLower.indexOf('line-height') >= 0 || nameLower.indexOf('letter-spacing') >= 0 || nameLower.indexOf('text') >= 0) {
+                      cat = 'typography';
+                    } else {
+                      cat = 'spacing';
+                    }
+                  } else if (/font|family|weight|line-height|letter-spacing|text/.test(propName.toLowerCase())) {
+                    cat = 'typography';
+                  }
+                  cssCustomProps.push({ name: propName, value: propValue, category: cat });
+                }
+              }
+            }
+          }
+        }
+      } catch (e) {}
+    }
+  } catch (e) {}
+  // Also extract from computed style on :root (catches properties set via JS)
+  try {
+    var rootCS = getComputedStyle(document.documentElement);
+    // We already got stylesheet-declared ones; now check for any that were set dynamically
+    // Unfortunately getComputedStyle doesn't enumerate custom properties, so we skip this
+  } catch (e) {}
+
   // ===== JAPANESE DETECTION =====
   var htmlLang = document.documentElement.lang || '';
   var isJapanese = htmlLang.startsWith('ja') ||
@@ -527,7 +586,8 @@ const EXTRACT_FN = `(() => {
     fontFaces: fontFaces,
     shadows: shadowList,
     typoDetails: typoDetails,
-    isJapanese: isJapanese
+    isJapanese: isJapanese,
+    cssCustomProps: cssCustomProps
   };
 })()`;
 
@@ -742,6 +802,11 @@ export async function extractStyle(url: string): Promise<ExtractedDesign> {
       card: raw.card,
     },
     fontFaces,
+    cssCustomProperties: (raw.cssCustomProps || []).map((cp: any) => ({
+      name: cp.name,
+      value: cp.value,
+      category: cp.category as 'color' | 'spacing' | 'typography' | 'other',
+    })),
     tags,
     mood,
     heroHeadline: raw.heading?.text,

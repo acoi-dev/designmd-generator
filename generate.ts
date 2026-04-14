@@ -420,6 +420,68 @@ export function generateDesignMd(d: ExtractedDesign, mode: 'compact' | 'extended
   lines.push(`${d.shadows.length > 0 ? '8' : '7'}. Final pass — verify all colors match, spacing is consistent, fonts are correct`);
   lines.push('');
 
+  // ── Section 10: CSS Custom Properties ──
+  const cssProps = (d.cssCustomProperties || []);
+  if (cssProps.length > 0) {
+    lines.push('## 10. CSS Custom Properties');
+    lines.push('');
+    lines.push(`> ${cssProps.length} custom properties extracted from \`:root\` / \`html\` stylesheets.`);
+    lines.push('');
+
+    const colorProps = cssProps.filter(p => p.category === 'color');
+    const spacingProps = cssProps.filter(p => p.category === 'spacing');
+    const typoProps = cssProps.filter(p => p.category === 'typography');
+    const otherProps = cssProps.filter(p => p.category === 'other');
+
+    if (colorProps.length > 0) {
+      lines.push('### Color Variables');
+      lines.push('');
+      lines.push('| Variable | Value |');
+      lines.push('|---|---|');
+      colorProps.slice(0, 30).forEach(p => {
+        lines.push(`| \`${p.name}\` | \`${p.value}\` |`);
+      });
+      if (colorProps.length > 30) lines.push(`| ... | *(${colorProps.length - 30} more)* |`);
+      lines.push('');
+    }
+
+    if (spacingProps.length > 0) {
+      lines.push('### Spacing Variables');
+      lines.push('');
+      lines.push('| Variable | Value |');
+      lines.push('|---|---|');
+      spacingProps.slice(0, 20).forEach(p => {
+        lines.push(`| \`${p.name}\` | \`${p.value}\` |`);
+      });
+      if (spacingProps.length > 20) lines.push(`| ... | *(${spacingProps.length - 20} more)* |`);
+      lines.push('');
+    }
+
+    if (typoProps.length > 0) {
+      lines.push('### Typography Variables');
+      lines.push('');
+      lines.push('| Variable | Value |');
+      lines.push('|---|---|');
+      typoProps.slice(0, 20).forEach(p => {
+        lines.push(`| \`${p.name}\` | \`${p.value}\` |`);
+      });
+      if (typoProps.length > 20) lines.push(`| ... | *(${typoProps.length - 20} more)* |`);
+      lines.push('');
+    }
+
+    if (mode === 'extended' && otherProps.length > 0) {
+      lines.push('### Other Variables');
+      lines.push('');
+      lines.push('| Variable | Value |');
+      lines.push('|---|---|');
+      otherProps.slice(0, 15).forEach(p => {
+        lines.push(`| \`${p.name}\` | \`${p.value}\` |`);
+      });
+      if (otherProps.length > 15) lines.push(`| ... | *(${otherProps.length - 15} more)* |`);
+      lines.push('');
+    }
+  }
+
   return lines.join('\n');
 }
 
@@ -494,6 +556,29 @@ export function generateCssVars(d: ExtractedDesign): string {
   d.borderRadius.slice(0, 4).forEach(r => {
     lines.push(`  --radius-${r.role}: ${r.value}px;`);
   });
+
+  // Include original CSS custom properties from the source site
+  const cssProps = (d.cssCustomProperties || []);
+  if (cssProps.length > 0) {
+    lines.push('');
+    lines.push(`  /* Original custom properties from ${d.url} */`);
+    const categories: Array<{ label: string; cat: string }> = [
+      { label: 'Colors', cat: 'color' },
+      { label: 'Spacing', cat: 'spacing' },
+      { label: 'Typography', cat: 'typography' },
+      { label: 'Other', cat: 'other' },
+    ];
+    for (const { label, cat } of categories) {
+      const props = cssProps.filter(p => p.category === cat);
+      if (props.length > 0) {
+        lines.push(`  /* ${label} */`);
+        props.forEach(p => {
+          lines.push(`  ${p.name}: ${p.value};`);
+        });
+      }
+    }
+  }
+
   lines.push(`}`);
   return lines.join('\n');
 }
@@ -532,6 +617,11 @@ export function generateTokensJson(d: ExtractedDesign): string {
     borderRadius: d.borderRadius.map(r => ({ value: r.value, type: 'dimension', unit: 'px', role: r.role })),
     shadows: (d.shadows || []).map(s => ({ value: s.value, level: s.level })),
     components: d.components,
+    cssCustomProperties: (d.cssCustomProperties || []).reduce((acc: Record<string, any[]>, p) => {
+      if (!acc[p.category]) acc[p.category] = [];
+      acc[p.category].push({ name: p.name, value: p.value });
+      return acc;
+    }, {} as Record<string, any[]>),
   };
   return JSON.stringify(tokens, null, 2);
 }
