@@ -1,0 +1,2388 @@
+{
+  "categories": {
+    "en": [
+      "All",
+      "SaaS",
+      "Dev Tools",
+      "Design",
+      "Media",
+      "E-commerce",
+      "Fintech"
+    ],
+    "ja": [
+      "All",
+      "SaaS",
+      "開発ツール",
+      "デザイン",
+      "エンタメ・SNS",
+      "EC・小売",
+      "金融・決済"
+    ]
+  },
+  "brands": {
+    "en": [
+      {
+        "domain": "apple.com",
+        "label": "Apple",
+        "cat": "Media"
+      },
+      {
+        "domain": "stripe.com",
+        "label": "Stripe",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "spotify.com",
+        "label": "Spotify",
+        "cat": "Media"
+      },
+      {
+        "domain": "netflix.com",
+        "label": "Netflix",
+        "cat": "Media"
+      },
+      {
+        "domain": "github.com",
+        "label": "GitHub",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "figma.com",
+        "label": "Figma",
+        "cat": "Design"
+      },
+      {
+        "domain": "notion.so",
+        "label": "Notion",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "discord.com",
+        "label": "Discord",
+        "cat": "Media"
+      },
+      {
+        "domain": "nike.com",
+        "label": "Nike",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "airbnb.com",
+        "label": "Airbnb",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "tiktok.com",
+        "label": "TikTok",
+        "cat": "Media"
+      },
+      {
+        "domain": "canva.com",
+        "label": "Canva",
+        "cat": "Design"
+      },
+      {
+        "domain": "vercel.com",
+        "label": "Vercel",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "pinterest.jp",
+        "label": "Pinterest",
+        "cat": "Design"
+      },
+      {
+        "domain": "twitch.tv",
+        "label": "Twitch",
+        "cat": "Media"
+      },
+      {
+        "domain": "linear.app",
+        "label": "Linear",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "framer.com",
+        "label": "Framer",
+        "cat": "Design"
+      },
+      {
+        "domain": "dribbble.com",
+        "label": "Dribbble",
+        "cat": "Design"
+      },
+      {
+        "domain": "supabase.com",
+        "label": "Supabase",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "webflow.com",
+        "label": "Webflow",
+        "cat": "Design"
+      },
+      {
+        "domain": "zapier.com",
+        "label": "Zapier",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "revolut.com",
+        "label": "Revolut",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "intercom.com",
+        "label": "Intercom",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "airtable.com",
+        "label": "Airtable",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "loom.com",
+        "label": "Loom",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "raycast.com",
+        "label": "Raycast",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "warp.dev",
+        "label": "Warp",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "railway.app",
+        "label": "Railway",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "wise.com",
+        "label": "Wise",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "plaid.com",
+        "label": "Plaid",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "google.com",
+        "label": "Google",
+        "cat": "Media"
+      },
+      {
+        "domain": "amazon.com",
+        "label": "Amazon",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "microsoft.com",
+        "label": "Microsoft",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "youtube.com",
+        "label": "YouTube",
+        "cat": "Media"
+      },
+      {
+        "domain": "x.com",
+        "label": "X (Twitter)",
+        "cat": "Media"
+      },
+      {
+        "domain": "uber.com",
+        "label": "Uber",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "meta.com",
+        "label": "Meta",
+        "cat": "Media"
+      },
+      {
+        "domain": "paypal.com",
+        "label": "PayPal",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "zoom.us",
+        "label": "Zoom",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "openai.com",
+        "label": "OpenAI",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "anthropic.com",
+        "label": "Anthropic",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "aws.amazon.com",
+        "label": "AWS",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "azure.microsoft.com",
+        "label": "Azure",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "atlassian.com",
+        "label": "Atlassian",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "dropbox.com",
+        "label": "Dropbox",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "hubspot.com",
+        "label": "HubSpot",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "docker.com",
+        "label": "Docker",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "kubernetes.io",
+        "label": "Kubernetes",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "ebay.com",
+        "label": "eBay",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "ikea.com",
+        "label": "IKEA",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "adidas.com",
+        "label": "Adidas",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "puma.com",
+        "label": "PUMA",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "uniqlo.com",
+        "label": "UNIQLO",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "bmw.com",
+        "label": "BMW",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "porsche.com",
+        "label": "Porsche",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "ferrari.com",
+        "label": "Ferrari",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "lamborghini.com",
+        "label": "Lamborghini",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "audi.com",
+        "label": "Audi",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "toyota.com",
+        "label": "Toyota",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "rivian.com",
+        "label": "Rivian",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "asana.com",
+        "label": "Asana",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "monday.com",
+        "label": "monday.com",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "clickup.com",
+        "label": "ClickUp",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "basecamp.com",
+        "label": "Basecamp",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "todoist.com",
+        "label": "Todoist",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "cloudflare.com",
+        "label": "Cloudflare",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "digitalocean.com",
+        "label": "DigitalOcean",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "heroku.com",
+        "label": "Heroku",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "fly.io",
+        "label": "Fly.io",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "render.com",
+        "label": "Render",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "gitlab.com",
+        "label": "GitLab",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "hashicorp.com",
+        "label": "HashiCorp",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "twilio.com",
+        "label": "Twilio",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "datadog.com",
+        "label": "Datadog",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "elastic.co",
+        "label": "Elastic",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "mongodb.com",
+        "label": "MongoDB",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "snowflake.com",
+        "label": "Snowflake",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "databricks.com",
+        "label": "Databricks",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "behance.net",
+        "label": "Behance",
+        "cat": "Design"
+      },
+      {
+        "domain": "unsplash.com",
+        "label": "Unsplash",
+        "cat": "Design"
+      },
+      {
+        "domain": "pexels.com",
+        "label": "Pexels",
+        "cat": "Design"
+      },
+      {
+        "domain": "awwwards.com",
+        "label": "Awwwards",
+        "cat": "Design"
+      },
+      {
+        "domain": "mobbin.com",
+        "label": "Mobbin",
+        "cat": "Design"
+      },
+      {
+        "domain": "squarespace.com",
+        "label": "Squarespace",
+        "cat": "Design"
+      },
+      {
+        "domain": "wix.com",
+        "label": "Wix",
+        "cat": "Design"
+      },
+      {
+        "domain": "bubble.io",
+        "label": "Bubble",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "ghost.org",
+        "label": "Ghost",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "robinhood.com",
+        "label": "Robinhood",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "binance.com",
+        "label": "Binance",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "mercury.com",
+        "label": "Mercury",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "brex.com",
+        "label": "Brex",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "ramp.com",
+        "label": "Ramp",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "midjourney.com",
+        "label": "Midjourney",
+        "cat": "Design"
+      },
+      {
+        "domain": "perplexity.ai",
+        "label": "Perplexity",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "huggingface.co",
+        "label": "Hugging Face",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "replicate.com",
+        "label": "Replicate",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "cursor.com",
+        "label": "Cursor",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "medium.com",
+        "label": "Medium",
+        "cat": "Media"
+      },
+      {
+        "domain": "reddit.com",
+        "label": "Reddit",
+        "cat": "Media"
+      },
+      {
+        "domain": "stackoverflow.com",
+        "label": "Stack Overflow",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "signal.org",
+        "label": "Signal",
+        "cat": "Media"
+      },
+      {
+        "domain": "telegram.org",
+        "label": "Telegram",
+        "cat": "Media"
+      },
+      {
+        "domain": "crunchyroll.com",
+        "label": "Crunchyroll",
+        "cat": "Media"
+      },
+      {
+        "domain": "affirm.com",
+        "label": "Affirm",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "airbyte.com",
+        "label": "Airbyte",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "allbirds.com",
+        "label": "Allbirds",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "amplitude.com",
+        "label": "Amplitude",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "angular.dev",
+        "label": "Angular",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "anyscale.com",
+        "label": "Anyscale",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "arc.net",
+        "label": "Arc Browser",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "astro.build",
+        "label": "Astro",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "bitbucket.org",
+        "label": "Bitbucket",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "booking.com",
+        "label": "Booking.com",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "bugatti.com",
+        "label": "Bugatti",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "bun.sh",
+        "label": "Bun",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "chipotle.com",
+        "label": "Chipotle",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "claude.ai",
+        "label": "Claude",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "clay.com",
+        "label": "Clay",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "clickhouse.com",
+        "label": "ClickHouse",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "cloud.google.com",
+        "label": "Google Cloud",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "composio.dev",
+        "label": "Composio",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "elevenlabs.io",
+        "label": "ElevenLabs",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "expo.dev",
+        "label": "Expo",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "codepen.io",
+        "label": "CodePen",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "codesandbox.io",
+        "label": "CodeSandbox",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "cohere.com",
+        "label": "Cohere",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "contentful.com",
+        "label": "Contentful",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "convex.dev",
+        "label": "Convex",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "coolors.co",
+        "label": "Coolors",
+        "cat": "Design"
+      },
+      {
+        "domain": "coursera.org",
+        "label": "Coursera",
+        "cat": "Media"
+      },
+      {
+        "domain": "dbt.com",
+        "label": "dbt Labs",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "deezer.com",
+        "label": "Deezer",
+        "cat": "Media"
+      },
+      {
+        "domain": "deliveroo.com",
+        "label": "Deliveroo",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "deno.com",
+        "label": "Deno",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "dev.to",
+        "label": "DEV Community",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "disneyplus.com",
+        "label": "Disney+",
+        "cat": "Media"
+      },
+      {
+        "domain": "duolingo.com",
+        "label": "Duolingo",
+        "cat": "Media"
+      },
+      {
+        "domain": "fivetran.com",
+        "label": "Fivetran",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "fontshare.com",
+        "label": "Fontshare",
+        "cat": "Design"
+      },
+      {
+        "domain": "glossier.com",
+        "label": "Glossier",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "godly.website",
+        "label": "Godly",
+        "cat": "Design"
+      },
+      {
+        "domain": "grafana.com",
+        "label": "Grafana",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "groq.com",
+        "label": "Groq",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "headspace.com",
+        "label": "Headspace",
+        "cat": "Media"
+      },
+      {
+        "domain": "hotjar.com",
+        "label": "Hotjar",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "hulu.com",
+        "label": "Hulu",
+        "cat": "Media"
+      },
+      {
+        "domain": "ibm.com",
+        "label": "IBM",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "instacart.com",
+        "label": "Instacart",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "kayak.com",
+        "label": "Kayak",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "khanacademy.org",
+        "label": "Khan Academy",
+        "cat": "Media"
+      },
+      {
+        "domain": "kraken.com",
+        "label": "Kraken",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "krisp.ai",
+        "label": "Krisp",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "langchain.com",
+        "label": "LangChain",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "launchdarkly.com",
+        "label": "LaunchDarkly",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "layers.to",
+        "label": "Layers",
+        "cat": "Design"
+      },
+      {
+        "domain": "lottiefiles.com",
+        "label": "LottieFiles",
+        "cat": "Design"
+      },
+      {
+        "domain": "louisvuitton.com",
+        "label": "Louis Vuitton",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "lovable.dev",
+        "label": "Lovable",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "lucidmotors.com",
+        "label": "Lucid Motors",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "lyft.com",
+        "label": "Lyft",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "marqeta.com",
+        "label": "Marqeta",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "marriott.com",
+        "label": "Marriott",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "minimax.io",
+        "label": "MiniMax",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "mintlify.com",
+        "label": "Mintlify",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "miro.com",
+        "label": "Miro",
+        "cat": "Design"
+      },
+      {
+        "domain": "mistral.ai",
+        "label": "Mistral AI",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "mixpanel.com",
+        "label": "Mixpanel",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "neon.tech",
+        "label": "Neon",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "nextjs.org",
+        "label": "Next.js",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "nvidia.com",
+        "label": "NVIDIA",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "nytimes.com",
+        "label": "The New York Times",
+        "cat": "Media"
+      },
+      {
+        "domain": "ollama.com",
+        "label": "Ollama",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "peloton.com",
+        "label": "Peloton",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "pitch.com",
+        "label": "Pitch",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "planetscale.com",
+        "label": "PlanetScale",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "playstation.com",
+        "label": "PlayStation",
+        "cat": "Media"
+      },
+      {
+        "domain": "posthog.com",
+        "label": "PostHog",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "prismic.io",
+        "label": "Prismic",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "readymag.com",
+        "label": "Readymag",
+        "cat": "Design"
+      },
+      {
+        "domain": "remix.run",
+        "label": "Remix",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "renault.com",
+        "label": "Renault",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "replit.com",
+        "label": "Replit",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "resend.com",
+        "label": "Resend",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "retool.com",
+        "label": "Retool",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "rive.app",
+        "label": "Rive",
+        "cat": "Design"
+      },
+      {
+        "domain": "runway.com",
+        "label": "Runway",
+        "cat": "Design"
+      },
+      {
+        "domain": "sanity.io",
+        "label": "Sanity",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "sap.com",
+        "label": "SAP",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "segment.com",
+        "label": "Segment",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "sentry.io",
+        "label": "Sentry",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "shadcn.com",
+        "label": "shadcn/ui",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "soundcloud.com",
+        "label": "SoundCloud",
+        "cat": "Media"
+      },
+      {
+        "domain": "spacex.com",
+        "label": "SpaceX",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "spline.design",
+        "label": "Spline",
+        "cat": "Design"
+      },
+      {
+        "domain": "squareup.com",
+        "label": "Square",
+        "cat": "Fintech"
+      },
+      {
+        "domain": "stability.ai",
+        "label": "Stability AI",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "stackblitz.com",
+        "label": "StackBlitz",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "starbucks.com",
+        "label": "Starbucks",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "storyblok.com",
+        "label": "Storyblok",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "strapi.io",
+        "label": "Strapi",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "stripe.dev",
+        "label": "Stripe Dev",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "substack.com",
+        "label": "Substack",
+        "cat": "Media"
+      },
+      {
+        "domain": "superhuman.com",
+        "label": "Superhuman",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "svelte.dev",
+        "label": "Svelte",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "sweetgreen.com",
+        "label": "Sweetgreen",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "tailwindcss.com",
+        "label": "Tailwind CSS",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "target.com",
+        "label": "Target",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "teams.microsoft.com",
+        "label": "Microsoft Teams",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "techcrunch.com",
+        "label": "TechCrunch",
+        "cat": "Media"
+      },
+      {
+        "domain": "temporal.io",
+        "label": "Temporal",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "theverge.com",
+        "label": "The Verge",
+        "cat": "Media"
+      },
+      {
+        "domain": "together.ai",
+        "label": "Together AI",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "trello.com",
+        "label": "Trello",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "turso.tech",
+        "label": "Turso",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "typewolf.com",
+        "label": "Typewolf",
+        "cat": "Design"
+      },
+      {
+        "domain": "udemy.com",
+        "label": "Udemy",
+        "cat": "Media"
+      },
+      {
+        "domain": "upstash.com",
+        "label": "Upstash",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "vimeo.com",
+        "label": "Vimeo",
+        "cat": "Media"
+      },
+      {
+        "domain": "vuejs.org",
+        "label": "Vue.js",
+        "cat": "Dev Tools"
+      },
+      {
+        "domain": "warbyparker.com",
+        "label": "Warby Parker",
+        "cat": "E-commerce"
+      },
+      {
+        "domain": "whatsapp.com",
+        "label": "WhatsApp",
+        "cat": "Media"
+      },
+      {
+        "domain": "wikipedia.org",
+        "label": "Wikipedia",
+        "cat": "Media"
+      },
+      {
+        "domain": "wired.com",
+        "label": "WIRED",
+        "cat": "Media"
+      },
+      {
+        "domain": "zendesk.com",
+        "label": "Zendesk",
+        "cat": "SaaS"
+      }
+    ],
+    "ja": [
+      {
+        "domain": "apple.com",
+        "label": "Apple",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "line.me",
+        "label": "LINE",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "netflix.com",
+        "label": "Netflix",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "mercari.com",
+        "label": "メルカリ",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "rakuten.co.jp",
+        "label": "楽天",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "spotify.com",
+        "label": "Spotify",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "github.com",
+        "label": "GitHub",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "figma.com",
+        "label": "Figma",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "notion.so",
+        "label": "Notion",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "stripe.com",
+        "label": "Stripe",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "paypay.ne.jp",
+        "label": "PayPay",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "discord.com",
+        "label": "Discord",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "slack.com",
+        "label": "Slack",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "note.com",
+        "label": "note",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "canva.com",
+        "label": "Canva",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "tiktok.com",
+        "label": "TikTok",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "airbnb.com",
+        "label": "Airbnb",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "twitch.tv",
+        "label": "Twitch",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "nike.com",
+        "label": "Nike",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "freee.co.jp",
+        "label": "freee",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "smarthr.jp",
+        "label": "SmartHR",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "shopify.com",
+        "label": "Shopify",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "vercel.com",
+        "label": "Vercel",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "pinterest.jp",
+        "label": "Pinterest",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "cookpad.com",
+        "label": "クックパッド",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "moneyforward.com",
+        "label": "マネーフォワード",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "wantedly.com",
+        "label": "Wantedly",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "supabase.com",
+        "label": "Supabase",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "qiita.com",
+        "label": "Qiita",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "framer.com",
+        "label": "Framer",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "linear.app",
+        "label": "Linear",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "dribbble.com",
+        "label": "Dribbble",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "thebase.com",
+        "label": "BASE",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "layerx.co.jp",
+        "label": "LayerX",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "sansan.com",
+        "label": "Sansan",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "revolut.com",
+        "label": "Revolut",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "webflow.com",
+        "label": "Webflow",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "loom.com",
+        "label": "Loom",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "airtable.com",
+        "label": "Airtable",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "zapier.com",
+        "label": "Zapier",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "intercom.com",
+        "label": "Intercom",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "raycast.com",
+        "label": "Raycast",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "warp.dev",
+        "label": "Warp",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "railway.app",
+        "label": "Railway",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "wise.com",
+        "label": "Wise",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "plaid.com",
+        "label": "Plaid",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "google.com",
+        "label": "Google",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "amazon.com",
+        "label": "Amazon",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "microsoft.com",
+        "label": "Microsoft",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "youtube.com",
+        "label": "YouTube",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "x.com",
+        "label": "X (Twitter)",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "uber.com",
+        "label": "Uber",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "meta.com",
+        "label": "Meta",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "paypal.com",
+        "label": "PayPal",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "zoom.us",
+        "label": "Zoom",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "openai.com",
+        "label": "OpenAI",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "anthropic.com",
+        "label": "Anthropic",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "aws.amazon.com",
+        "label": "AWS",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "azure.microsoft.com",
+        "label": "Azure",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "atlassian.com",
+        "label": "Atlassian",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "dropbox.com",
+        "label": "Dropbox",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "hubspot.com",
+        "label": "HubSpot",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "docker.com",
+        "label": "Docker",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "kubernetes.io",
+        "label": "Kubernetes",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "ebay.com",
+        "label": "eBay",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "ikea.com",
+        "label": "IKEA",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "adidas.com",
+        "label": "Adidas",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "puma.com",
+        "label": "PUMA",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "uniqlo.com",
+        "label": "UNIQLO",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "bmw.com",
+        "label": "BMW",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "porsche.com",
+        "label": "Porsche",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "ferrari.com",
+        "label": "Ferrari",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "lamborghini.com",
+        "label": "Lamborghini",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "audi.com",
+        "label": "Audi",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "toyota.com",
+        "label": "Toyota",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "rivian.com",
+        "label": "Rivian",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "asana.com",
+        "label": "Asana",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "monday.com",
+        "label": "monday.com",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "clickup.com",
+        "label": "ClickUp",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "basecamp.com",
+        "label": "Basecamp",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "todoist.com",
+        "label": "Todoist",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "cloudflare.com",
+        "label": "Cloudflare",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "digitalocean.com",
+        "label": "DigitalOcean",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "heroku.com",
+        "label": "Heroku",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "fly.io",
+        "label": "Fly.io",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "render.com",
+        "label": "Render",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "gitlab.com",
+        "label": "GitLab",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "hashicorp.com",
+        "label": "HashiCorp",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "twilio.com",
+        "label": "Twilio",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "datadog.com",
+        "label": "Datadog",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "elastic.co",
+        "label": "Elastic",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "mongodb.com",
+        "label": "MongoDB",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "snowflake.com",
+        "label": "Snowflake",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "databricks.com",
+        "label": "Databricks",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "behance.net",
+        "label": "Behance",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "unsplash.com",
+        "label": "Unsplash",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "pexels.com",
+        "label": "Pexels",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "awwwards.com",
+        "label": "Awwwards",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "mobbin.com",
+        "label": "Mobbin",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "squarespace.com",
+        "label": "Squarespace",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "wix.com",
+        "label": "Wix",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "bubble.io",
+        "label": "Bubble",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "ghost.org",
+        "label": "Ghost",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "robinhood.com",
+        "label": "Robinhood",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "binance.com",
+        "label": "Binance",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "mercury.com",
+        "label": "Mercury",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "brex.com",
+        "label": "Brex",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "ramp.com",
+        "label": "Ramp",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "midjourney.com",
+        "label": "Midjourney",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "perplexity.ai",
+        "label": "Perplexity",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "huggingface.co",
+        "label": "Hugging Face",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "replicate.com",
+        "label": "Replicate",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "cursor.com",
+        "label": "Cursor",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "medium.com",
+        "label": "Medium",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "reddit.com",
+        "label": "Reddit",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "stackoverflow.com",
+        "label": "Stack Overflow",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "signal.org",
+        "label": "Signal",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "telegram.org",
+        "label": "Telegram",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "crunchyroll.com",
+        "label": "Crunchyroll",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "yahoo.co.jp",
+        "label": "Yahoo! JAPAN",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "tabelog.com",
+        "label": "食べログ",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "retty.me",
+        "label": "Retty",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "dena.com",
+        "label": "DeNA",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "mixi.jp",
+        "label": "MIXI",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "pixiv.net",
+        "label": "pixiv",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "abema.tv",
+        "label": "ABEMA",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "gnavi.co.jp",
+        "label": "ぐるなび",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "affirm.com",
+        "label": "Affirm",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "airbyte.com",
+        "label": "Airbyte",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "allbirds.com",
+        "label": "Allbirds",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "amplitude.com",
+        "label": "Amplitude",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "angular.dev",
+        "label": "Angular",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "anyscale.com",
+        "label": "Anyscale",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "arc.net",
+        "label": "Arc Browser",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "astro.build",
+        "label": "Astro",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "bitbucket.org",
+        "label": "Bitbucket",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "booking.com",
+        "label": "Booking.com",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "bugatti.com",
+        "label": "Bugatti",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "bun.sh",
+        "label": "Bun",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "chipotle.com",
+        "label": "Chipotle",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "claude.ai",
+        "label": "Claude",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "clay.com",
+        "label": "Clay",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "clickhouse.com",
+        "label": "ClickHouse",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "cloud.google.com",
+        "label": "Google Cloud",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "composio.dev",
+        "label": "Composio",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "elevenlabs.io",
+        "label": "ElevenLabs",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "expo.dev",
+        "label": "Expo",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "codepen.io",
+        "label": "CodePen",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "codesandbox.io",
+        "label": "CodeSandbox",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "cohere.com",
+        "label": "Cohere",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "contentful.com",
+        "label": "Contentful",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "convex.dev",
+        "label": "Convex",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "coolors.co",
+        "label": "Coolors",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "coursera.org",
+        "label": "Coursera",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "dbt.com",
+        "label": "dbt Labs",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "deezer.com",
+        "label": "Deezer",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "deliveroo.com",
+        "label": "Deliveroo",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "deno.com",
+        "label": "Deno",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "dev.to",
+        "label": "DEV Community",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "disneyplus.com",
+        "label": "Disney+",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "duolingo.com",
+        "label": "Duolingo",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "fivetran.com",
+        "label": "Fivetran",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "fontshare.com",
+        "label": "Fontshare",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "glossier.com",
+        "label": "Glossier",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "godly.website",
+        "label": "Godly",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "grafana.com",
+        "label": "Grafana",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "groq.com",
+        "label": "Groq",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "headspace.com",
+        "label": "Headspace",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "hotjar.com",
+        "label": "Hotjar",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "hulu.com",
+        "label": "Hulu",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "ibm.com",
+        "label": "IBM",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "instacart.com",
+        "label": "Instacart",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "kayak.com",
+        "label": "Kayak",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "khanacademy.org",
+        "label": "Khan Academy",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "kraken.com",
+        "label": "Kraken",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "krisp.ai",
+        "label": "Krisp",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "langchain.com",
+        "label": "LangChain",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "launchdarkly.com",
+        "label": "LaunchDarkly",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "layers.to",
+        "label": "Layers",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "lottiefiles.com",
+        "label": "LottieFiles",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "louisvuitton.com",
+        "label": "Louis Vuitton",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "lovable.dev",
+        "label": "Lovable",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "lucidmotors.com",
+        "label": "Lucid Motors",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "lyft.com",
+        "label": "Lyft",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "marqeta.com",
+        "label": "Marqeta",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "marriott.com",
+        "label": "Marriott",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "minimax.io",
+        "label": "MiniMax",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "mintlify.com",
+        "label": "Mintlify",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "miro.com",
+        "label": "Miro",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "mistral.ai",
+        "label": "Mistral AI",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "mixpanel.com",
+        "label": "Mixpanel",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "neon.tech",
+        "label": "Neon",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "nextjs.org",
+        "label": "Next.js",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "nvidia.com",
+        "label": "NVIDIA",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "nytimes.com",
+        "label": "The New York Times",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "ollama.com",
+        "label": "Ollama",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "peloton.com",
+        "label": "Peloton",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "pitch.com",
+        "label": "Pitch",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "planetscale.com",
+        "label": "PlanetScale",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "playstation.com",
+        "label": "PlayStation",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "posthog.com",
+        "label": "PostHog",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "prismic.io",
+        "label": "Prismic",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "readymag.com",
+        "label": "Readymag",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "remix.run",
+        "label": "Remix",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "renault.com",
+        "label": "Renault",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "replit.com",
+        "label": "Replit",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "resend.com",
+        "label": "Resend",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "retool.com",
+        "label": "Retool",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "rive.app",
+        "label": "Rive",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "runway.com",
+        "label": "Runway",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "sanity.io",
+        "label": "Sanity",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "sap.com",
+        "label": "SAP",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "segment.com",
+        "label": "Segment",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "sentry.io",
+        "label": "Sentry",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "shadcn.com",
+        "label": "shadcn/ui",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "soundcloud.com",
+        "label": "SoundCloud",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "spacex.com",
+        "label": "SpaceX",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "spline.design",
+        "label": "Spline",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "squareup.com",
+        "label": "Square",
+        "cat": "金融・決済"
+      },
+      {
+        "domain": "stability.ai",
+        "label": "Stability AI",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "stackblitz.com",
+        "label": "StackBlitz",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "starbucks.com",
+        "label": "Starbucks",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "storyblok.com",
+        "label": "Storyblok",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "strapi.io",
+        "label": "Strapi",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "stripe.dev",
+        "label": "Stripe Dev",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "substack.com",
+        "label": "Substack",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "superhuman.com",
+        "label": "Superhuman",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "svelte.dev",
+        "label": "Svelte",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "sweetgreen.com",
+        "label": "Sweetgreen",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "tailwindcss.com",
+        "label": "Tailwind CSS",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "target.com",
+        "label": "Target",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "teams.microsoft.com",
+        "label": "Microsoft Teams",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "techcrunch.com",
+        "label": "TechCrunch",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "temporal.io",
+        "label": "Temporal",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "theverge.com",
+        "label": "The Verge",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "together.ai",
+        "label": "Together AI",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "trello.com",
+        "label": "Trello",
+        "cat": "SaaS"
+      },
+      {
+        "domain": "turso.tech",
+        "label": "Turso",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "typewolf.com",
+        "label": "Typewolf",
+        "cat": "デザイン"
+      },
+      {
+        "domain": "udemy.com",
+        "label": "Udemy",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "upstash.com",
+        "label": "Upstash",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "vimeo.com",
+        "label": "Vimeo",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "vuejs.org",
+        "label": "Vue.js",
+        "cat": "開発ツール"
+      },
+      {
+        "domain": "warbyparker.com",
+        "label": "Warby Parker",
+        "cat": "EC・小売"
+      },
+      {
+        "domain": "whatsapp.com",
+        "label": "WhatsApp",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "wikipedia.org",
+        "label": "Wikipedia",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "wired.com",
+        "label": "WIRED",
+        "cat": "エンタメ・SNS"
+      },
+      {
+        "domain": "zendesk.com",
+        "label": "Zendesk",
+        "cat": "SaaS"
+      }
+    ]
+  }
+}

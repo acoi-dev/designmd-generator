@@ -1,0 +1,29 @@
+{
+  "name": "design-md",
+  "version": "1.0.0",
+  "description": "Generate DESIGN.md files from prebuilt brand design systems",
+  "type": "module",
+  "bin": {
+    "design-md": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "../prebuilt.json"
+  ],
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "tailwind",
+    "css-variables",
+    "brand",
+    "style-guide"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

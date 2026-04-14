@@ -1,0 +1,15 @@
+{
+  "name": "designmd-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx server.ts",
+    "dev": "npx tsx server.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

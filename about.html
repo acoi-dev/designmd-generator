@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- SEO Basic -->
+<title>What is DESIGN.md? — DESIGN.md Generator</title>
+<meta name="description" content="DESIGN.md is a plain-text Markdown file that tells AI coding agents how your UI should look. Learn how to set it up with 250+ brands.">
+<link rel="canonical" href="https://designmd.dev/about.html">
+
+<!-- OGP -->
+<meta property="og:title" content="What is DESIGN.md? — DESIGN.md Generator">
+<meta property="og:description" content="DESIGN.md is a plain-text Markdown file that tells AI coding agents how your UI should look. Learn how to set it up with 250+ brands.">
+<meta property="og:image" content="https://designmd.dev/og-image.png">
+<meta property="og:url" content="https://designmd.dev/about.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="DESIGN.md Generator">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ja_JP">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@claude_skill">
+<meta name="twitter:title" content="What is DESIGN.md? — DESIGN.md Generator">
+<meta name="twitter:description" content="DESIGN.md is a plain-text Markdown file that tells AI coding agents how your UI should look. Learn how to set it up with 250+ brands.">
+<meta name="twitter:image" content="https://designmd.dev/og-image.png">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "What is DESIGN.md?",
+  "description": "DESIGN.md is a plain-text Markdown file that tells AI coding agents how your UI should look. Learn how to set it up with 250+ brands.",
+  "url": "https://designmd.dev/about.html",
+  "image": "https://designmd.dev/og-image.png",
+  "author": {
+    "@type": "Person",
+    "name": "claude_skill",
+    "url": "https://x.com/claude_skill"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "DESIGN.md Generator",
+    "url": "https://designmd.dev/"
+  },
+  "inLanguage": ["en", "ja"],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "DESIGN.md Generator",
+    "url": "https://designmd.dev/"
+  }
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Geist', 'Inter', -apple-system, sans-serif; background: #fafafa; color: #171717; -webkit-font-smoothing: antialiased; }
+.topbar { display: flex; justify-content: space-between; align-items: center; padding: 18px 32px; border-bottom: 1px solid #eee; background: #fff; }
+.topbar-left { display: flex; align-items: center; gap: 12px; }
+.logo { background: none; border: none; font-size: 14px; font-weight: 700; cursor: pointer; color: #171717; letter-spacing: -0.02em; }
+.topbar-right { display: flex; align-items: center; gap: 14px; }
+.lang-switch { display: flex; border: 1px solid #e5e5e5; border-radius: 6px; overflow: hidden; }
+.lang-btn { padding: 4px 10px; font-size: 11px; font-weight: 600; background: #fff; border: none; cursor: pointer; color: #888; }
+.lang-btn.active { background: #171717; color: #fff; }
+.content { max-width: 680px; margin: 48px auto; padding: 0 24px; }
+h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.04em; margin-bottom: 8px; }
+.subtitle { font-size: 15px; color: #666; margin-bottom: 32px; line-height: 1.6; }
+h2 { font-size: 18px; font-weight: 700; letter-spacing: -0.02em; margin: 28px 0 10px; }
+p { font-size: 14px; line-height: 1.7; color: #444; margin-bottom: 14px; }
+.code-block { background: #f5f5f5; border-radius: 8px; padding: 14px 18px; font-family: 'JetBrains Mono', monospace; font-size: 12px; line-height: 1.7; color: #333; margin: 12px 0 18px; white-space: pre; overflow-x: auto; }
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 16px 0 24px; }
+.step { background: #fff; border: 1px solid #eee; border-radius: 10px; padding: 16px; }
+.step-num { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; background: #E27B45; color: #fff; font-size: 11px; font-weight: 700; margin-bottom: 6px; }
+.step h3 { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+.step p { font-size: 12px; color: #666; margin: 0; }
+.tools { display: flex; gap: 12px; flex-wrap: wrap; margin: 12px 0 24px; }
+.tool { padding: 6px 12px; background: #fff; border: 1px solid #eee; border-radius: 6px; font-size: 12px; font-weight: 600; color: #333; }
+.back { display: inline-block; margin-top: 24px; color: #E27B45; text-decoration: none; font-size: 13px; font-weight: 600; }
+.back:hover { text-decoration: underline; }
+footer { max-width: 680px; margin: 40px auto; padding: 20px 24px; border-top: 1px solid #eee; }
+.credit { font-size: 12px; color: #888; }
+.credit a { color: #171717; font-weight: 700; text-decoration: none; }
+.hidden { display: none; }
+@media (max-width: 640px) { .steps { grid-template-columns: 1fr; } h1 { font-size: 24px; } .topbar { padding: 14px 16px; } }
+[lang="ja"] h1, [lang="ja"] h2, [lang="ja"] h3 { font-family: 'Geist', 'Noto Sans JP', sans-serif; }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-left">
+    <button class="logo" onclick="location.href='/'">⌥ DESIGN.md Generator</button>
+  </div>
+  <div class="topbar-right">
+    <div class="lang-switch">
+      <button class="lang-btn active" id="lang-en" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" id="lang-ja" onclick="setLang('ja')">JA</button>
+    </div>
+  </div>
+</div>
+
+<!-- English -->
+<div class="content" id="content-en">
+  <h1>What is DESIGN.md?</h1>
+  <p class="subtitle">A concept introduced by Google Stitch — a plain-text Markdown file that tells AI coding agents how your UI should look.</p>
+
+  <h2>The problem</h2>
+  <p>AI coding agents (Claude Code, Cursor, Copilot) generate UI that all looks the same. Tailwind defaults, generic colors, no brand identity. If you say "make it look like Stripe," the AI guesses — because it can't see the web.</p>
+
+  <h2>The solution</h2>
+  <p>DESIGN.md is a Markdown file you place in your project root. It describes the complete design system — colors, fonts, spacing, components, shadows, do's and don'ts — in a format AI agents can read natively.</p>
+  <p>When an AI agent finds DESIGN.md in your project, it uses those exact values instead of guessing. The result: UI that actually matches the brand.</p>
+
+  <div class="code-block">project/
+├── DESIGN.md    ← the design system file
+├── src/
+├── package.json
+└── ...</div>
+
+  <h2>What's inside a DESIGN.md?</h2>
+  <p>A standard 9-section structure:</p>
+  <div class="code-block">1. Visual Theme & Atmosphere
+2. Color Palette & Roles
+3. Typography Rules
+4. Component Stylings
+5. Layout Principles
+6. Depth & Elevation
+7. Do's and Don'ts
+8. Responsive Behavior
+9. Agent Prompt Guide</div>
+
+  <h2>How to set up</h2>
+  <div class="steps">
+    <div class="step"><span class="step-num">1</span><h3>Pick or extract</h3><p>Click a brand on the home page, or paste any URL to extract live.</p></div>
+    <div class="step"><span class="step-num">2</span><h3>Copy</h3><p>Click "Copy DESIGN.md" on the results panel.</p></div>
+    <div class="step"><span class="step-num">3</span><h3>Drop in</h3><p>Save as DESIGN.md in your project root. Your AI agent reads it automatically.</p></div>
+  </div>
+
+  <h2>Works with</h2>
+  <div class="tools">
+    <span class="tool">Claude Code</span>
+    <span class="tool">Cursor</span>
+    <span class="tool">GitHub Copilot</span>
+    <span class="tool">Windsurf</span>
+    <span class="tool">Any AI agent with file access</span>
+  </div>
+  <p>DESIGN.md is just a Markdown file. Any LLM-based coding tool that can read project files will understand it — no plugins, no config, no lock-in.</p>
+
+  <a href="/" class="back">← Back to generator</a>
+</div>
+
+<!-- Japanese -->
+<div class="content hidden" id="content-ja">
+  <h1>DESIGN.md とは？</h1>
+  <p class="subtitle">Google Stitch が提唱したコンセプト — AIコーディングエージェントにUIの見た目を伝えるプレーンテキストのMarkdownファイル</p>
+
+  <h2>課題</h2>
+  <p>AIコーディングエージェント（Claude Code, Cursor, Copilot）が作るUIは全部同じ見た目になる。Tailwindのデフォルト色、汎用フォント、ブランドの個性ゼロ。「Stripeみたいに作って」と言っても、AIはウェブを見れないから当てずっぽうになる</p>
+
+  <h2>解決策</h2>
+  <p>DESIGN.md はプロジェクトルートに置くMarkdownファイル。色・フォント・スペーシング・コンポーネント・シャドウ・Do's/Don'tsをAIが読める形式で記述する</p>
+  <p>AIエージェントがプロジェクト内にDESIGN.mdを見つけると、推測ではなく記載された実際の値を使ってUIを構築する。結果：ブランドに合ったUI</p>
+
+  <div class="code-block">project/
+├── DESIGN.md    ← デザインシステムファイル
+├── src/
+├── package.json
+└── ...</div>
+
+  <h2>DESIGN.md の中身</h2>
+  <p>標準的な9セクション構成：</p>
+  <div class="code-block">1. ビジュアルテーマ
+2. カラーパレットと役割
+3. タイポグラフィ規則
+4. コンポーネントスタイル
+5. レイアウト原則
+6. 深度とエレベーション
+7. やるべきこと・やらないこと
+8. レスポンシブ挙動
+9. AIエージェント向けガイド</div>
+
+  <h2>使い方</h2>
+  <div class="steps">
+    <div class="step"><span class="step-num">1</span><h3>選ぶ or 抽出</h3><p>トップページでブランドをクリック、またはURLを貼ってライブ抽出</p></div>
+    <div class="step"><span class="step-num">2</span><h3>コピー</h3><p>結果パネルで「Copy DESIGN.md」をクリック</p></div>
+    <div class="step"><span class="step-num">3</span><h3>配置</h3><p>プロジェクトルートに DESIGN.md として保存。AIエージェントが自動で読み込む</p></div>
+  </div>
+
+  <h2>対応ツール</h2>
+  <div class="tools">
+    <span class="tool">Claude Code</span>
+    <span class="tool">Cursor</span>
+    <span class="tool">GitHub Copilot</span>
+    <span class="tool">Windsurf</span>
+    <span class="tool">ファイルアクセスできるAIエージェント全て</span>
+  </div>
+  <p>DESIGN.md はただのMarkdownファイル。プロジェクトファイルを読めるLLMベースのコーディングツールなら全て理解する — プラグイン不要、設定不要、ロックインなし</p>
+
+  <a href="/" class="back">← ジェネレーターに戻る</a>
+</div>
+
+<footer>
+  <div class="credit">Built by <a href="https://x.com/claude_skill" target="_blank">@claude_skill</a></div>
+</footer>
+
+<script>
+const ABOUT_META = {
+  en: {
+    title: 'What is DESIGN.md? — DESIGN.md Generator',
+    description: 'DESIGN.md is a plain-text Markdown file that tells AI coding agents how your UI should look. Learn how to set it up with 250+ brands.',
+    locale: 'en_US',
+    localeAlt: 'ja_JP'
+  },
+  ja: {
+    title: 'DESIGN.md とは？ — DESIGN.md Generator',
+    description: 'DESIGN.md はAIコーディングエージェントにUIの見た目を伝えるプレーンテキストのMarkdownファイル。250以上のブランドに対応、無料、オープンソース。',
+    locale: 'ja_JP',
+    localeAlt: 'en_US'
+  }
+};
+function setLang(lang) {
+  document.documentElement.lang = lang;
+  document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+  document.getElementById('lang-ja').classList.toggle('active', lang === 'ja');
+  document.getElementById('content-en').classList.toggle('hidden', lang !== 'en');
+  document.getElementById('content-ja').classList.toggle('hidden', lang !== 'ja');
+  // Update meta tags for SEO / OGP
+  const m = ABOUT_META[lang] || ABOUT_META.en;
+  document.title = m.title;
+  document.querySelector('meta[name="description"]').setAttribute('content', m.description);
+  document.querySelector('meta[property="og:title"]').setAttribute('content', m.title);
+  document.querySelector('meta[property="og:description"]').setAttribute('content', m.description);
+  document.querySelector('meta[property="og:locale"]').setAttribute('content', m.locale);
+  document.querySelector('meta[property="og:locale:alternate"]').setAttribute('content', m.localeAlt);
+  document.querySelector('meta[name="twitter:title"]').setAttribute('content', m.title);
+  document.querySelector('meta[name="twitter:description"]').setAttribute('content', m.description);
+  localStorage.setItem('style-extractor-lang', lang);
+}
+// Init from stored lang
+const stored = localStorage.getItem('style-extractor-lang');
+if (stored === 'ja') setLang('ja');
+</script>
+</body>
+</html>

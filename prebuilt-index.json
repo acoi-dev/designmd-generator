@@ -1,0 +1,5247 @@
+{
+  "stripe.com": {
+    "label": "Stripe",
+    "domain": "stripe.com",
+    "url": "https://stripe.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#533afd",
+      "secondary": "#00d66f",
+      "text": "#000000",
+      "bgSecondary": "#e5edf5",
+      "border": "#e5edf5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Stripe",
+    "designSystemUrl": "https://brand.stripe.com"
+  },
+  "vercel.com": {
+    "label": "Vercel",
+    "domain": "vercel.com",
+    "url": "https://vercel.com",
+    "colors": {
+      "bg": "#fafafa",
+      "primary": "#8e4ec6",
+      "secondary": "#df2670",
+      "text": "#171717",
+      "bgSecondary": "#171717",
+      "border": "#171717"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Vercel",
+    "designSystemUrl": "https://vercel.com/geist/introduction"
+  },
+  "figma.com": {
+    "label": "Figma",
+    "domain": "figma.com",
+    "url": "https://www.figma.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#00b6ff",
+      "secondary": "#ff7237",
+      "text": "#000000",
+      "bgSecondary": "#000000",
+      "border": "#e6e6e6"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Figma",
+    "designSystemUrl": "https://www.figma.com/using-the-figma-brand/"
+  },
+  "linear.app": {
+    "label": "Linear",
+    "domain": "linear.app",
+    "url": "https://www.linear.app",
+    "colors": {
+      "bg": "#08090a",
+      "primary": "#5e6ad2",
+      "secondary": "#23252a",
+      "text": "#f7f8f8",
+      "bgSecondary": "#ffffff",
+      "border": "#0f1011"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Linear",
+    "designSystemUrl": "https://linear.app/brand"
+  },
+  "github.com": {
+    "label": "GitHub",
+    "domain": "github.com",
+    "url": "https://github.com",
+    "colors": {
+      "bg": "#0d1117",
+      "primary": "#08872b",
+      "secondary": "#0377ff",
+      "text": "#f0f6fc",
+      "bgSecondary": "#000000",
+      "border": "#e4ebe6"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "GitHub",
+    "designSystemUrl": "https://primer.style"
+  },
+  "netflix.com": {
+    "label": "Netflix",
+    "domain": "netflix.com",
+    "url": "https://www.netflix.com",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#e50914",
+      "secondary": "#3860be",
+      "text": "#ffffff",
+      "bgSecondary": "#2d2d2d",
+      "border": "#232323"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Netflix Japan",
+    "designSystemUrl": "https://brand.netflix.com"
+  },
+  "spotify.com": {
+    "label": "Spotify",
+    "domain": "spotify.com",
+    "url": "https://www.spotify.com",
+    "colors": {
+      "bg": "#121212",
+      "primary": "#400073",
+      "secondary": "#4100f4",
+      "text": "#b3b3b3",
+      "bgSecondary": "#000000",
+      "border": "#535353"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Spotify",
+    "designSystemUrl": "https://developer.spotify.com/documentation/design"
+  },
+  "notion.so": {
+    "label": "Notion",
+    "domain": "notion.so",
+    "url": "https://www.notion.so",
+    "colors": {
+      "bg": "#191918",
+      "primary": "#ffc95e",
+      "secondary": "#0075de",
+      "text": "#ffffff",
+      "bgSecondary": "#f7f7f5",
+      "border": "#f7f7f5"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "serif"
+    ],
+    "title": "Notion"
+  },
+  "apple.com": {
+    "label": "Apple",
+    "domain": "apple.com",
+    "url": "https://www.apple.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0071e3",
+      "secondary": "#ec893c",
+      "text": "#1d1d1f",
+      "bgSecondary": "#f5f5f7",
+      "border": "#f5f5f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Apple",
+    "designSystemUrl": "https://developer.apple.com/design/human-interface-guidelines/"
+  },
+  "airbnb.com": {
+    "label": "Airbnb",
+    "domain": "airbnb.com",
+    "url": "https://www.airbnb.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#e00b41",
+      "secondary": "#ff385c",
+      "text": "#222222",
+      "bgSecondary": "#ffffff",
+      "border": "#dddddd"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Airbnb"
+  },
+  "shopify.com": {
+    "label": "Shopify",
+    "domain": "shopify.com",
+    "url": "https://www.shopify.com",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#5a31f4",
+      "secondary": "#36f4a4",
+      "text": "#ffffff",
+      "bgSecondary": "#02090a",
+      "border": "#061a1c"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Shopify",
+    "designSystemUrl": "https://polaris.shopify.com"
+  },
+  "supabase.com": {
+    "label": "Supabase",
+    "domain": "supabase.com",
+    "url": "https://supabase.com",
+    "colors": {
+      "bg": "#121212",
+      "primary": "#006239",
+      "secondary": "#3ecf8e",
+      "text": "#fafafa",
+      "bgSecondary": "#242424",
+      "border": "#171717"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Supabase",
+    "designSystemUrl": "https://supabase.com/design-system"
+  },
+  "framer.com": {
+    "label": "Framer",
+    "domain": "framer.com",
+    "url": "https://www.framer.com",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#ff0022",
+      "secondary": "#0066ff",
+      "text": "#ffffff",
+      "bgSecondary": "#171717",
+      "border": "#171717"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Framer",
+    "designSystemUrl": "https://www.framer.com/brand"
+  },
+  "slack.com": {
+    "label": "Slack",
+    "domain": "slack.com",
+    "url": "https://slack.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#1264a3",
+      "secondary": "#730394",
+      "text": "#000000",
+      "bgSecondary": "#4a154b",
+      "border": "#f4ede4"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Slack",
+    "designSystemUrl": "https://slack.design"
+  },
+  "canva.com": {
+    "label": "Canva",
+    "domain": "canva.com",
+    "url": "https://www.canva.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#8b3dff",
+      "secondary": "#ff6105",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#0f1015"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Canva"
+  },
+  "dribbble.com": {
+    "label": "Dribbble",
+    "domain": "dribbble.com",
+    "url": "https://dribbble.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#f69dd1",
+      "secondary": "#f69dd1",
+      "text": "#0d0c22",
+      "bgSecondary": "#9e9ea7",
+      "border": "#9e9ea7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "sans-serif"
+    ],
+    "title": "Dribbble"
+  },
+  "twitch.tv": {
+    "label": "Twitch",
+    "domain": "twitch.tv",
+    "url": "https://www.twitch.tv",
+    "colors": {
+      "bg": "#f7f7f8",
+      "primary": "#9146ff",
+      "secondary": "#5c16c5",
+      "text": "#0e0e10",
+      "bgSecondary": "#000000",
+      "border": "#adadb8"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Twitch",
+    "designSystemUrl": "https://brand.twitch.com"
+  },
+  "discord.com": {
+    "label": "Discord",
+    "domain": "discord.com",
+    "url": "https://discord.com",
+    "colors": {
+      "bg": "#1a2081",
+      "primary": "#5865f2",
+      "secondary": "#35ed7e",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#dddddd"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Discord",
+    "designSystemUrl": "https://discord.com/branding"
+  },
+  "revolut.com": {
+    "label": "Revolut",
+    "domain": "revolut.com",
+    "url": "https://www.revolut.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#191c1f",
+      "bgSecondary": "#f7f7f7",
+      "border": "#f7f7f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Revolut"
+  },
+  "raycast.com": {
+    "label": "Raycast",
+    "domain": "raycast.com",
+    "url": "https://www.raycast.com",
+    "colors": {
+      "bg": "#07080a",
+      "primary": "#d72a2a",
+      "secondary": "#ff6363",
+      "text": "#ffffff",
+      "bgSecondary": "#ffffff",
+      "border": "#434345"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Raycast"
+  },
+  "warp.dev": {
+    "label": "Warp",
+    "domain": "warp.dev",
+    "url": "https://www.warp.dev",
+    "colors": {
+      "bg": "#121212",
+      "primary": "#be3830",
+      "secondary": "#8e96aa",
+      "text": "#ffffff",
+      "bgSecondary": "#ffffff",
+      "border": "#1a1a1a"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Warp",
+    "designSystemUrl": "https://warp-ds.github.io/docs/"
+  },
+  "loom.com": {
+    "label": "Loom",
+    "domain": "loom.com",
+    "url": "https://www.loom.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#1868db",
+      "secondary": "#ffab00",
+      "text": "#292a2e",
+      "bgSecondary": "#ffffff",
+      "border": "#e9f2fe"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Loom"
+  },
+  "line.me": {
+    "label": "LINE",
+    "domain": "line.me",
+    "url": "https://line.me/ja",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#07b53b",
+      "secondary": "#07b53b",
+      "text": "#000000",
+      "bgSecondary": "#f7f8f9",
+      "border": "#f7f8f9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "LINE",
+    "designSystemUrl": "https://designsystem.line.me"
+  },
+  "mercari.com": {
+    "label": "メルカリ",
+    "domain": "mercari.com",
+    "url": "https://jp.mercari.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0073cc",
+      "secondary": "#ff333f",
+      "text": "#333333",
+      "bgSecondary": "#ffffff",
+      "border": "#f5f5f5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "メルカリ"
+  },
+  "note.com": {
+    "label": "note",
+    "domain": "note.com",
+    "url": "https://note.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#5193c6",
+      "secondary": "#1e7b65",
+      "text": "#08131a",
+      "bgSecondary": "#f5f8fa",
+      "border": "#f5f8fa"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "note（ノート）"
+  },
+  "smarthr.jp": {
+    "label": "SmartHR",
+    "domain": "smarthr.jp",
+    "url": "https://smarthr.jp",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#00c4cc",
+      "secondary": "#00c4cc",
+      "text": "#23221f",
+      "bgSecondary": "#f4f8f9",
+      "border": "#f4f8f9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "SmartHR",
+    "designSystemUrl": "https://smarthr.design"
+  },
+  "freee.co.jp": {
+    "label": "freee",
+    "domain": "freee.co.jp",
+    "url": "https://www.freee.co.jp",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#2864f0",
+      "secondary": "#1d46a9",
+      "text": "#595959",
+      "bgSecondary": "#464343",
+      "border": "#464343"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "クラウド会計ソフト｜freee"
+  },
+  "cookpad.com": {
+    "label": "クックパッド",
+    "domain": "cookpad.com",
+    "url": "https://cookpad.com",
+    "colors": {
+      "bg": "#f8f6f2",
+      "primary": "#ff9933",
+      "secondary": "#e9b83f",
+      "text": "#0f0f0f",
+      "bgSecondary": "#4a4a4a",
+      "border": "#4a4a4a"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Cookpad"
+  },
+  "wantedly.com": {
+    "label": "Wantedly",
+    "domain": "wantedly.com",
+    "url": "https://www.wantedly.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#cc0000",
+      "secondary": "#21bddb",
+      "text": "#24282a",
+      "bgSecondary": "#eeeeee",
+      "border": "#eeeeee"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Wantedly（ウォンテッドリー）共感でつながるビジネスSNS"
+  },
+  "layerx.co.jp": {
+    "label": "LayerX",
+    "domain": "layerx.co.jp",
+    "url": "https://layerx.co.jp",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#534dff",
+      "secondary": "#ff0000",
+      "text": "#152632",
+      "bgSecondary": "#152632",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "株式会社LayerX"
+  },
+  "rakuten.co.jp": {
+    "label": "楽天",
+    "domain": "rakuten.co.jp",
+    "url": "https://www.rakuten.co.jp",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#bf0000",
+      "secondary": "#1d54a7",
+      "text": "#666666",
+      "bgSecondary": "#717171",
+      "border": "#717171"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "楽天市場",
+    "designSystemUrl": "https://global.rakuten.com/corp/brand/"
+  },
+  "paypay.ne.jp": {
+    "label": "PayPay",
+    "domain": "paypay.ne.jp",
+    "url": "https://paypay.ne.jp",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#3895ff",
+      "secondary": "#f24f4f",
+      "text": "#242323",
+      "bgSecondary": "#f7f7f7",
+      "border": "#f7f7f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "PayPay"
+  },
+  "moneyforward.com": {
+    "label": "マネーフォワード",
+    "domain": "moneyforward.com",
+    "url": "https://moneyforward.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#e2750f",
+      "secondary": "#0054ac",
+      "text": "#333333",
+      "bgSecondary": "#043587",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "マネーフォワード｜家計簿アプリやクラウド会計ソフト"
+  },
+  "thebase.com": {
+    "label": "BASE",
+    "domain": "thebase.com",
+    "url": "https://thebase.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0bb7ae",
+      "secondary": "#0fafaa",
+      "text": "#233237",
+      "bgSecondary": "#233237",
+      "border": "#233237"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "BASE (ベイス) | ネットショップを無料で簡単に作成"
+  },
+  "sansan.com": {
+    "label": "Sansan",
+    "domain": "sansan.com",
+    "url": "https://jp.sansan.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0e84e5",
+      "secondary": "#004e98",
+      "text": "#1a1a1a",
+      "bgSecondary": "#e7f3fc",
+      "border": "#e7f3fc"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Sansan"
+  },
+  "qiita.com": {
+    "label": "Qiita",
+    "domain": "qiita.com",
+    "url": "https://qiita.com",
+    "colors": {
+      "bg": "#f5f6f6",
+      "primary": "#55c500",
+      "secondary": "#357a00",
+      "text": "#000000",
+      "bgSecondary": "#edeeee",
+      "border": "#edeeee"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Qiita"
+  },
+  "pinterest.jp": {
+    "label": "Pinterest",
+    "domain": "pinterest.jp",
+    "url": "https://www.pinterest.jp",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#e60023",
+      "secondary": "#fa5f2e",
+      "text": "#211922",
+      "bgSecondary": "#000000",
+      "border": "#e5e5e0"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Pinterest",
+    "designSystemUrl": "https://gestalt.pinterest.systems"
+  },
+  "intercom.com": {
+    "label": "Intercom",
+    "domain": "intercom.com",
+    "url": "https://www.intercom.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#fff94d",
+      "secondary": "#00ff00",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#f1eee9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "monospace",
+      "serif"
+    ],
+    "title": "Intercom",
+    "designSystemUrl": "https://intercom.design"
+  },
+  "zapier.com": {
+    "label": "Zapier",
+    "domain": "zapier.com",
+    "url": "https://zapier.com",
+    "colors": {
+      "bg": "#fffdf9",
+      "primary": "#ff4f00",
+      "secondary": "#503ebd",
+      "text": "#000000",
+      "bgSecondary": "#201515",
+      "border": "#f8f4f0"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Zapier",
+    "designSystemUrl": "https://brand.zapier.com"
+  },
+  "airtable.com": {
+    "label": "Airtable",
+    "domain": "airtable.com",
+    "url": "https://www.airtable.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#254fad",
+      "secondary": "#fcab79",
+      "text": "#333333",
+      "bgSecondary": "#faf5e8",
+      "border": "#f8fafc"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Airtable"
+  },
+  "railway.app": {
+    "label": "Railway",
+    "domain": "railway.app",
+    "url": "https://railway.app",
+    "colors": {
+      "bg": "#13111c",
+      "primary": "#ed852f",
+      "secondary": "#9c7016",
+      "text": "#ffffff",
+      "bgSecondary": "#13111c",
+      "border": "#33323e"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "monospace",
+      "serif"
+    ],
+    "title": "Railway"
+  },
+  "webflow.com": {
+    "label": "Webflow",
+    "domain": "webflow.com",
+    "url": "https://webflow.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#146ef5",
+      "secondary": "#146ef5",
+      "text": "#080808",
+      "bgSecondary": "#171717",
+      "border": "#171717"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Webflow",
+    "designSystemUrl": "https://brand.webflow.com"
+  },
+  "nike.com": {
+    "label": "Nike",
+    "domain": "nike.com",
+    "url": "https://www.nike.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#111111",
+      "bgSecondary": "#e5e5e5",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Nike.com"
+  },
+  "wise.com": {
+    "label": "Wise",
+    "domain": "wise.com",
+    "url": "https://wise.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#163300",
+      "secondary": "#cb272f",
+      "text": "#454745",
+      "bgSecondary": "#163300",
+      "border": "#ecf9f9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Wise",
+    "designSystemUrl": "https://wise.design"
+  },
+  "plaid.com": {
+    "label": "Plaid",
+    "domain": "plaid.com",
+    "url": "https://plaid.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0a54c4",
+      "secondary": "#f2d211",
+      "text": "#111111",
+      "bgSecondary": "#f7faff",
+      "border": "#0c1116"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Plaid"
+  },
+  "tiktok.com": {
+    "label": "TikTok",
+    "domain": "tiktok.com",
+    "url": "https://www.tiktok.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#fe2c55",
+      "secondary": "#fe2c55",
+      "text": "#161823",
+      "bgSecondary": "#ffffff",
+      "border": "#f1f1f1"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Explore",
+    "designSystemUrl": "https://developers.tiktok.com/doc/getting-started-design-guidelines"
+  },
+  "google.com": {
+    "label": "Google",
+    "domain": "google.com",
+    "url": "https://google.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0b57d0",
+      "secondary": "#6442d6",
+      "text": "#1f1f1f",
+      "bgSecondary": "#f2f2f2",
+      "border": "#f2f2f2"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Google",
+    "designSystemUrl": "https://m3.material.io"
+  },
+  "amazon.com": {
+    "label": "Amazon",
+    "domain": "amazon.com",
+    "url": "https://amazon.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffd814",
+      "secondary": "#2162a1",
+      "text": "#0f1111",
+      "bgSecondary": "#131a22",
+      "border": "#131a22"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Amazon.com. Spend less. Smile more."
+  },
+  "anthropic.com": {
+    "label": "Anthropic",
+    "domain": "anthropic.com",
+    "url": "https://anthropic.com",
+    "colors": {
+      "bg": "#faf9f5",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#141413",
+      "bgSecondary": "#f0eee6",
+      "border": "#e3dacc"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Home \\ Anthropic",
+    "designSystemUrl": "https://docs.anthropic.com"
+  },
+  "microsoft.com": {
+    "label": "Microsoft",
+    "domain": "microsoft.com",
+    "url": "https://microsoft.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#9bf00b",
+      "secondary": "#0067b8",
+      "text": "#000000",
+      "bgSecondary": "#f2f2f2",
+      "border": "#f2f2f2"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Microsoft",
+    "designSystemUrl": "https://fluent2.microsoft.design"
+  },
+  "meta.com": {
+    "label": "Meta",
+    "domain": "meta.com",
+    "url": "https://meta.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0457cb",
+      "secondary": "#385898",
+      "text": "#1c1e21",
+      "bgSecondary": "#f1f4f7",
+      "border": "#f1f4f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Meta",
+    "designSystemUrl": "https://www.meta.com/brand/resources/"
+  },
+  "youtube.com": {
+    "label": "YouTube",
+    "domain": "youtube.com",
+    "url": "https://youtube.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#1a73e8",
+      "secondary": "#e1002d",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#f8f8f8"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "YouTube",
+    "designSystemUrl": "https://brand.youtube"
+  },
+  "openai.com": {
+    "label": "OpenAI",
+    "domain": "openai.com",
+    "url": "https://openai.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "#f1f1f1",
+      "border": "#f1f1f1"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "OpenAI",
+    "designSystemUrl": "https://openai.com/brand/"
+  },
+  "zoom.us": {
+    "label": "Zoom",
+    "domain": "zoom.us",
+    "url": "https://zoom.us",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0b5cff",
+      "secondary": "#00053d",
+      "text": "#000000",
+      "bgSecondary": "#e0e0e6",
+      "border": "#e0e0e6"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Zoom",
+    "designSystemUrl": "https://brand.zoom.com"
+  },
+  "x.com": {
+    "label": "X (Twitter)",
+    "domain": "x.com",
+    "url": "https://x.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#1d9bf0",
+      "secondary": "#14171a",
+      "text": "#000000",
+      "bgSecondary": "#0f1419",
+      "border": "#0f1419"
+    },
+    "tags": [
+      "light",
+      "sharp",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "X (formerly Twitter)",
+    "designSystemUrl": "https://about.x.com/en/who-we-are/brand-toolkit"
+  },
+  "cursor.com": {
+    "label": "Cursor",
+    "domain": "cursor.com",
+    "url": "https://cursor.com",
+    "colors": {
+      "bg": "#f7f7f4",
+      "primary": "#22c55e",
+      "secondary": "#c08532",
+      "text": "#26251e",
+      "bgSecondary": "#d9d5cf",
+      "border": "#f2f1ed"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "compact",
+      "monospace",
+      "serif"
+    ],
+    "title": "Cursor",
+    "designSystemUrl": "https://cursor.com/brand"
+  },
+  "dropbox.com": {
+    "label": "Dropbox",
+    "domain": "dropbox.com",
+    "url": "https://dropbox.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#5f9dff",
+      "secondary": "#682760",
+      "text": "#000000",
+      "bgSecondary": "#000000",
+      "border": "#f7f5f2"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Dropbox.com",
+    "designSystemUrl": "https://brand.dropbox.com"
+  },
+  "zendesk.com": {
+    "label": "Zendesk",
+    "domain": "zendesk.com",
+    "url": "https://zendesk.com",
+    "colors": {
+      "bg": "#11110d",
+      "primary": "#0000ee",
+      "secondary": "#063940",
+      "text": "#ffffff",
+      "bgSecondary": "#f5f5f2",
+      "border": "#203524"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Zendesk",
+    "designSystemUrl": "https://garden.zendesk.com"
+  },
+  "atlassian.com": {
+    "label": "Atlassian",
+    "domain": "atlassian.com",
+    "url": "https://atlassian.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#fca700",
+      "secondary": "#051524",
+      "text": "#000000",
+      "bgSecondary": "#1868db",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Atlassian",
+    "designSystemUrl": "https://atlassian.design"
+  },
+  "hubspot.com": {
+    "label": "HubSpot",
+    "domain": "hubspot.com",
+    "url": "https://hubspot.com",
+    "colors": {
+      "bg": "#fcfcfa",
+      "primary": "#ff4800",
+      "secondary": "#ff4800",
+      "text": "#1f1f1f",
+      "bgSecondary": "#042729",
+      "border": "#1f1f1f"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "serif"
+    ],
+    "title": "HubSpot",
+    "designSystemUrl": "https://canvas.hubspot.com"
+  },
+  "twilio.com": {
+    "label": "Twilio",
+    "domain": "twilio.com",
+    "url": "https://twilio.com",
+    "colors": {
+      "bg": "#000d25",
+      "primary": "#1866ee",
+      "secondary": "#006dfa",
+      "text": "#ffffff",
+      "bgSecondary": "#000d25",
+      "border": "#f3f4f7"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Twilio",
+    "designSystemUrl": "https://paste.twilio.design"
+  },
+  "cloudflare.com": {
+    "label": "Cloudflare",
+    "domain": "cloudflare.com",
+    "url": "https://cloudflare.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff6633",
+      "secondary": "#ff6633",
+      "text": "#000000",
+      "bgSecondary": "#070033",
+      "border": "#f8f8fb"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Connect, protect, and build everywhere"
+  },
+  "gitlab.com": {
+    "label": "GitLab",
+    "domain": "gitlab.com",
+    "url": "https://gitlab.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#468254",
+      "secondary": "#171321",
+      "text": "#171321",
+      "bgSecondary": "#1f1c2e",
+      "border": "#1f1c2e"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "about.gitlab.com",
+    "designSystemUrl": "https://design.gitlab.com"
+  },
+  "hashicorp.com": {
+    "label": "HashiCorp",
+    "domain": "hashicorp.com",
+    "url": "https://hashicorp.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#1060ff",
+      "secondary": "#2b89ff",
+      "text": "#000000",
+      "bgSecondary": "#15181e",
+      "border": "#0d0e12"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "HashiCorp",
+    "designSystemUrl": "https://helios.hashicorp.design"
+  },
+  "datadog.com": {
+    "label": "Datadog",
+    "domain": "datadog.com",
+    "url": "https://datadog.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#632ca6",
+      "secondary": "#bf0000",
+      "text": "#212529",
+      "bgSecondary": "#ffffff",
+      "border": "#f6f6f6"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Datadog",
+    "designSystemUrl": "https://design.datadoghq.com"
+  },
+  "bitbucket.org": {
+    "label": "Bitbucket",
+    "domain": "bitbucket.org",
+    "url": "https://bitbucket.org",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffab00",
+      "secondary": "#0052cc",
+      "text": "#091e42",
+      "bgSecondary": "#f0f1f2",
+      "border": "#f0f1f2"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Bitbucket"
+  },
+  "medium.com": {
+    "label": "Medium",
+    "domain": "medium.com",
+    "url": "https://medium.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "#191919",
+      "border": "#f7f4ed"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "monochrome",
+      "bold-typography",
+      "monospace",
+      "serif"
+    ],
+    "title": "Medium"
+  },
+  "stackoverflow.com": {
+    "label": "Stack Overflow",
+    "domain": "stackoverflow.com",
+    "url": "https://stackoverflow.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#1b75d0",
+      "secondary": "#e7700d",
+      "text": "#0c0d0e",
+      "bgSecondary": "#ffffff",
+      "border": "#f1f2f3"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Stack Overflow"
+  },
+  "dev.to": {
+    "label": "DEV Community",
+    "domain": "dev.to",
+    "url": "https://dev.to",
+    "colors": {
+      "bg": "#f7f7f5",
+      "primary": "#f6298c",
+      "secondary": "#404ed3",
+      "text": "#37352f",
+      "bgSecondary": "#dddddd",
+      "border": "#dddddd"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "DEV Community"
+  },
+  "reddit.com": {
+    "label": "Reddit",
+    "domain": "reddit.com",
+    "url": "https://reddit.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#d93900",
+      "secondary": "#ff1aa7",
+      "text": "#333d42",
+      "bgSecondary": "#000000",
+      "border": "#f6f8f9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Reddit"
+  },
+  "wikipedia.org": {
+    "label": "Wikipedia",
+    "domain": "wikipedia.org",
+    "url": "https://wikipedia.org",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#3366cc",
+      "secondary": "#3366cc",
+      "text": "#202122",
+      "bgSecondary": "#3366cc",
+      "border": "#f8f9fa"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "serif"
+    ],
+    "title": "Wikipedia"
+  },
+  "sap.com": {
+    "label": "SAP",
+    "domain": "sap.com",
+    "url": "https://sap.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#5b738b",
+      "secondary": "#0070f2",
+      "text": "#545454",
+      "bgSecondary": "#ffffff",
+      "border": "#ebf8ff"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "SAP",
+    "designSystemUrl": "https://experience.sap.com/fiori-design/"
+  },
+  "ibm.com": {
+    "label": "IBM",
+    "domain": "ibm.com",
+    "url": "https://ibm.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0f62fe",
+      "secondary": "#0f62fe",
+      "text": "#161616",
+      "bgSecondary": "#000000",
+      "border": "#f4f4f4"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "IBM",
+    "designSystemUrl": "https://carbondesignsystem.com"
+  },
+  "databricks.com": {
+    "label": "Databricks",
+    "domain": "databricks.com",
+    "url": "https://databricks.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff3621",
+      "secondary": "#016bc1",
+      "text": "#1b3139",
+      "bgSecondary": "#eeede9",
+      "border": "#eeede9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Databricks",
+    "designSystemUrl": "https://brand.databricks.com"
+  },
+  "snowflake.com": {
+    "label": "Snowflake",
+    "domain": "snowflake.com",
+    "url": "https://snowflake.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#249edc",
+      "secondary": "#29b5e8",
+      "text": "#000000",
+      "bgSecondary": "#249edc",
+      "border": "#fafafa"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Snowflake AIデータクラウド"
+  },
+  "grafana.com": {
+    "label": "Grafana",
+    "domain": "grafana.com",
+    "url": "https://grafana.com",
+    "colors": {
+      "bg": "#f4f4f6",
+      "primary": "#181b1f",
+      "secondary": "#ffbb62",
+      "text": "#000000",
+      "bgSecondary": "#e6e6ea",
+      "border": "#e6e6ea"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Grafana Labs",
+    "designSystemUrl": "https://grafana.com/developers/saga/"
+  },
+  "elastic.co": {
+    "label": "Elastic",
+    "domain": "elastic.co",
+    "url": "https://elastic.co",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0b64dd",
+      "secondary": "#07101f",
+      "text": "#1c1e23",
+      "bgSecondary": "#f5f7fa",
+      "border": "#f5f7fa"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Elastic",
+    "designSystemUrl": "https://eui.elastic.co"
+  },
+  "mongodb.com": {
+    "label": "MongoDB",
+    "domain": "mongodb.com",
+    "url": "https://mongodb.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#112733",
+      "secondary": "#3d4f58",
+      "text": "#000000",
+      "bgSecondary": "#21313c",
+      "border": "#f5f7fa"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "MongoDB",
+    "designSystemUrl": "https://www.mongodb.design"
+  },
+  "unsplash.com": {
+    "label": "Unsplash",
+    "domain": "unsplash.com",
+    "url": "https://unsplash.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#d97326",
+      "secondary": "#d97340",
+      "text": "#111111",
+      "bgSecondary": "#26260c",
+      "border": "#262626"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Beautiful Free Images & Pictures"
+  },
+  "kubernetes.io": {
+    "label": "Kubernetes",
+    "domain": "kubernetes.io",
+    "url": "https://kubernetes.io",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#326ce5",
+      "secondary": "#326ce5",
+      "text": "#222222",
+      "bgSecondary": "#ffffff",
+      "border": "#495057"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Kubernetes"
+  },
+  "behance.net": {
+    "label": "Behance",
+    "domain": "behance.net",
+    "url": "https://behance.net",
+    "colors": {
+      "bg": "#f9f9f9",
+      "primary": "#eb1414",
+      "secondary": "#eb1414",
+      "text": "#191919",
+      "bgSecondary": "#ffffff",
+      "border": "#f0f0f0"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Showcase, Discover, and Hire Creatives :"
+  },
+  "docker.com": {
+    "label": "Docker",
+    "domain": "docker.com",
+    "url": "https://docker.com",
+    "colors": {
+      "bg": "#f9fafb",
+      "primary": "#2560ff",
+      "secondary": "#1d63ed",
+      "text": "#2c333f",
+      "bgSecondary": "#002978",
+      "border": "#efefef"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Docker"
+  },
+  "pexels.com": {
+    "label": "Pexels",
+    "domain": "pexels.com",
+    "url": "https://pexels.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#be864d",
+      "secondary": "#824912",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#cdcdcd"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Pexels — Free Stock Photos & Videos"
+  },
+  "fontshare.com": {
+    "label": "Fontshare",
+    "domain": "fontshare.com",
+    "url": "https://fontshare.com",
+    "colors": {
+      "bg": "#ffffe3",
+      "primary": "#fff1b5",
+      "secondary": "#fff1b5",
+      "text": "#000000",
+      "bgSecondary": "#e8e8cf",
+      "border": "#c0c0ab"
+    },
+    "tags": [
+      "light",
+      "sharp",
+      "monochrome",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Fontshare"
+  },
+  "coolors.co": {
+    "label": "Coolors",
+    "domain": "coolors.co",
+    "url": "https://coolors.co",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#09a579",
+      "secondary": "#fd96b9",
+      "text": "#0a0a0a",
+      "bgSecondary": "#fef9c3",
+      "border": "#f5f5f5"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Coolors"
+  },
+  "mobbin.com": {
+    "label": "Mobbin",
+    "domain": "mobbin.com",
+    "url": "https://mobbin.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#141414",
+      "bgSecondary": "#ffffff",
+      "border": "#404040"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Mobbin"
+  },
+  "awwwards.com": {
+    "label": "Awwwards",
+    "domain": "awwwards.com",
+    "url": "https://awwwards.com",
+    "colors": {
+      "bg": "#f8f8f8",
+      "primary": "#fa5d29",
+      "secondary": "#fa5d29",
+      "text": "#222222",
+      "bgSecondary": "#222222",
+      "border": "#222222"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Awwwards"
+  },
+  "godly.website": {
+    "label": "Godly",
+    "domain": "godly.website",
+    "url": "https://godly.website",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "monochrome",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Godly"
+  },
+  "readymag.com": {
+    "label": "Readymag",
+    "domain": "readymag.com",
+    "url": "https://readymag.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#1032cf",
+      "secondary": "#1032cf",
+      "text": "#282828",
+      "bgSecondary": "#1032cf",
+      "border": "#444444"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Readymag"
+  },
+  "typewolf.com": {
+    "label": "Typewolf",
+    "domain": "typewolf.com",
+    "url": "https://typewolf.com",
+    "colors": {
+      "bg": "#e6ddde",
+      "primary": "#916a70",
+      "secondary": "#916a70",
+      "text": "#443235",
+      "bgSecondary": "#654a4e",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "serif"
+    ],
+    "title": "Typewolf"
+  },
+  "layers.to": {
+    "label": "Layers",
+    "domain": "layers.to",
+    "url": "https://layers.to",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#06b6d4",
+      "secondary": "#d946ef",
+      "text": "#000000",
+      "bgSecondary": "#f1f5f9",
+      "border": "#f1f5f9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Explore"
+  },
+  "miro.com": {
+    "label": "Miro",
+    "domain": "miro.com",
+    "url": "https://miro.com",
+    "colors": {
+      "bg": "#f0f0f0",
+      "primary": "#4800ff",
+      "secondary": "#44ccff",
+      "text": "#000000",
+      "bgSecondary": "#000000",
+      "border": "#1c1c1e"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "AI Innovation Workspace"
+  },
+  "instacart.com": {
+    "label": "Instacart",
+    "domain": "instacart.com",
+    "url": "https://instacart.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffdc23",
+      "secondary": "#0070dc",
+      "text": "#000000",
+      "bgSecondary": "#003d29",
+      "border": "#f6f7f8"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Instacart"
+  },
+  "uber.com": {
+    "label": "Uber",
+    "domain": "uber.com",
+    "url": "https://uber.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0000ee",
+      "secondary": "#0000ee",
+      "text": "#000000",
+      "bgSecondary": "#000000",
+      "border": "#f6f6f6"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Uber",
+    "designSystemUrl": "https://base.uber.com"
+  },
+  "lyft.com": {
+    "label": "Lyft",
+    "domain": "lyft.com",
+    "url": "https://lyft.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff00bf",
+      "secondary": "#cf0090",
+      "text": "#1d0c17",
+      "bgSecondary": "#f1f0ec",
+      "border": "#f1f0ec"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Ride or drive with Lyft"
+  },
+  "ikea.com": {
+    "label": "IKEA",
+    "domain": "ikea.com",
+    "url": "https://ikea.com",
+    "colors": {
+      "bg": "#fffefb",
+      "primary": "#ffdb00",
+      "secondary": "#ffaa00",
+      "text": "#111111",
+      "bgSecondary": "#ffaa00",
+      "border": "#111111"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "IKEA"
+  },
+  "ebay.com": {
+    "label": "eBay",
+    "domain": "ebay.com",
+    "url": "https://ebay.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#80d0fd",
+      "secondary": "#84b4fb",
+      "text": "#191919",
+      "bgSecondary": "#583aee",
+      "border": "#191919"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "eBay",
+    "designSystemUrl": "https://playbook.ebay.com"
+  },
+  "target.com": {
+    "label": "Target",
+    "domain": "target.com",
+    "url": "https://target.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#cc0000",
+      "secondary": "#57cae5",
+      "text": "#333333",
+      "bgSecondary": "#f7f6f0",
+      "border": "#f7f6f0"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Target"
+  },
+  "adidas.com": {
+    "label": "Adidas",
+    "domain": "adidas.com",
+    "url": "https://adidas.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "sharp",
+      "monochrome",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "adidas — Official Website"
+  },
+  "uniqlo.com": {
+    "label": "UNIQLO",
+    "domain": "uniqlo.com",
+    "url": "https://uniqlo.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ee0000",
+      "secondary": "#005db5",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#f4f4f4"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "UNIQLO"
+  },
+  "louisvuitton.com": {
+    "label": "Louis Vuitton",
+    "domain": "louisvuitton.com",
+    "url": "https://louisvuitton.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "sharp",
+      "monochrome",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "LOUIS VUITTON"
+  },
+  "puma.com": {
+    "label": "PUMA",
+    "domain": "puma.com",
+    "url": "https://puma.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#3582df",
+      "secondary": "#81a828",
+      "text": "#191919",
+      "bgSecondary": "#191919",
+      "border": "#191919"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "PUMA 日本",
+    "designSystemUrl": "https://designsystem.puma.com"
+  },
+  "warbyparker.com": {
+    "label": "Warby Parker",
+    "domain": "warbyparker.com",
+    "url": "https://warbyparker.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#1050d0",
+      "secondary": "#09624d",
+      "text": "#121212",
+      "bgSecondary": "#dfebe8",
+      "border": "#fcfbf9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Warby Parker"
+  },
+  "allbirds.com": {
+    "label": "Allbirds",
+    "domain": "allbirds.com",
+    "url": "https://allbirds.com",
+    "colors": {
+      "bg": "#ece9e2",
+      "primary": "#9c0f0f",
+      "secondary": "#9e8949",
+      "text": "#000000",
+      "bgSecondary": "#000000",
+      "border": "#e0dacf"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "monospace",
+      "serif"
+    ],
+    "title": "Allbirds"
+  },
+  "squareup.com": {
+    "label": "Square",
+    "domain": "squareup.com",
+    "url": "https://squareup.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#006aff",
+      "secondary": "#005ad9",
+      "text": "#1a1a1a",
+      "bgSecondary": "#ffffff",
+      "border": "#f2f2f2"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Square",
+    "designSystemUrl": "https://design.squareup.com"
+  },
+  "paypal.com": {
+    "label": "PayPal",
+    "domain": "paypal.com",
+    "url": "https://paypal.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0070e0",
+      "secondary": "#0070e0",
+      "text": "#000000",
+      "bgSecondary": "#f3f3f6",
+      "border": "#f3f3f6"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "PayPal（ペイパル）公式サイト｜世界で使えるオンライン決済サービス"
+  },
+  "robinhood.com": {
+    "label": "Robinhood",
+    "domain": "robinhood.com",
+    "url": "https://robinhood.com",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#ccff00",
+      "secondary": "#ccff00",
+      "text": "#ffffff",
+      "bgSecondary": "#ccff00",
+      "border": "#110e08"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "serif"
+    ],
+    "title": "Robinhood"
+  },
+  "glossier.com": {
+    "label": "Glossier",
+    "domain": "glossier.com",
+    "url": "https://glossier.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#d8a683",
+      "secondary": "#a06a4f",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#f7f7f7"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Glossier"
+  },
+  "binance.com": {
+    "label": "Binance",
+    "domain": "binance.com",
+    "url": "https://binance.com",
+    "colors": {
+      "bg": "#181a20",
+      "primary": "#fcd535",
+      "secondary": "#f0b90b",
+      "text": "#eaecef",
+      "bgSecondary": "#29313d",
+      "border": "#1e2329"
+    },
+    "tags": [
+      "dark",
+      "soft",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Binance"
+  },
+  "kraken.com": {
+    "label": "Kraken",
+    "domain": "kraken.com",
+    "url": "https://kraken.com",
+    "colors": {
+      "bg": "#f6f5f9",
+      "primary": "#7132f5",
+      "secondary": "#855bfb",
+      "text": "#000000",
+      "bgSecondary": "#7132f5",
+      "border": "#9497a9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Kraken"
+  },
+  "brex.com": {
+    "label": "Brex",
+    "domain": "brex.com",
+    "url": "https://brex.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff5900",
+      "secondary": "#ff5900",
+      "text": "#000000",
+      "bgSecondary": "#f3f3f7",
+      "border": "#f3f3f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Brex"
+  },
+  "mercury.com": {
+    "label": "Mercury",
+    "domain": "mercury.com",
+    "url": "https://mercury.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#5266eb",
+      "secondary": "#fc92b4",
+      "text": "#000000",
+      "bgSecondary": "#272735",
+      "border": "#1e1e2a"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Mercury"
+  },
+  "ramp.com": {
+    "label": "Ramp",
+    "domain": "ramp.com",
+    "url": "https://ramp.com",
+    "colors": {
+      "bg": "#010518",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#ffffff",
+      "bgSecondary": "#212121",
+      "border": "#212121"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "monochrome",
+      "sans-serif"
+    ],
+    "title": "Ramp"
+  },
+  "disneyplus.com": {
+    "label": "Disney+",
+    "domain": "disneyplus.com",
+    "url": "https://disneyplus.com",
+    "colors": {
+      "bg": "#040714",
+      "primary": "#02d6e8",
+      "secondary": "#33ddff",
+      "text": "#c0c0c0",
+      "bgSecondary": "#000000",
+      "border": "#1e1f24"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Disney+ — Stream Movies & TV Shows"
+  },
+  "affirm.com": {
+    "label": "Affirm",
+    "domain": "affirm.com",
+    "url": "https://affirm.com",
+    "colors": {
+      "bg": "#13131f",
+      "primary": "#4a4af4",
+      "secondary": "#a8a9fc",
+      "text": "#ffffff",
+      "bgSecondary": "#4a4af4",
+      "border": "#f7f7f8"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Affirm",
+    "designSystemUrl": "https://www.affirm.design"
+  },
+  "hulu.com": {
+    "label": "Hulu",
+    "domain": "hulu.com",
+    "url": "https://hulu.com",
+    "colors": {
+      "bg": "#f6f7f8",
+      "primary": "#1ce783",
+      "secondary": "#1ce783",
+      "text": "#000000",
+      "bgSecondary": "#1ce783",
+      "border": "#0b0c0f"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Hulu",
+    "designSystemUrl": "https://www.thisishulu.com"
+  },
+  "marqeta.com": {
+    "label": "Marqeta",
+    "domain": "marqeta.com",
+    "url": "https://marqeta.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#00e4b4",
+      "secondary": "#03bf99",
+      "text": "#2a206a",
+      "bgSecondary": "#5f53c3",
+      "border": "#f5f6f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Marqeta"
+  },
+  "soundcloud.com": {
+    "label": "SoundCloud",
+    "domain": "soundcloud.com",
+    "url": "https://soundcloud.com",
+    "colors": {
+      "bg": "#121212",
+      "primary": "#699fff",
+      "secondary": "#3370dd",
+      "text": "#ffffff",
+      "bgSecondary": "#666666",
+      "border": "#f3f3f3"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "SoundCloud"
+  },
+  "vimeo.com": {
+    "label": "Vimeo",
+    "domain": "vimeo.com",
+    "url": "https://vimeo.com",
+    "colors": {
+      "bg": "#fafcfd",
+      "primary": "#17d5ff",
+      "secondary": "#13b1d4",
+      "text": "#23313b",
+      "bgSecondary": "#f1f5f9",
+      "border": "#f1f5f9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Vimeo"
+  },
+  "deezer.com": {
+    "label": "Deezer",
+    "domain": "deezer.com",
+    "url": "https://deezer.com",
+    "colors": {
+      "bg": "#0f0d13",
+      "primary": "#a238ff",
+      "secondary": "#d09aff",
+      "text": "#fdfcfe",
+      "bgSecondary": "#f8f8f9",
+      "border": "#1b191f"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Deezer"
+  },
+  "bmw.com": {
+    "label": "BMW",
+    "domain": "bmw.com",
+    "url": "https://bmw.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#1c69d4",
+      "secondary": "#1c69d4",
+      "text": "#262626",
+      "bgSecondary": "#1c69d4",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "sharp",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "BMW.com"
+  },
+  "crunchyroll.com": {
+    "label": "Crunchyroll",
+    "domain": "crunchyroll.com",
+    "url": "https://crunchyroll.com",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#00bfff",
+      "secondary": "#fab818",
+      "text": "#ffffff",
+      "bgSecondary": "#000000",
+      "border": "#151515"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Crunchyroll"
+  },
+  "porsche.com": {
+    "label": "Porsche",
+    "domain": "porsche.com",
+    "url": "https://porsche.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0000ee",
+      "secondary": "#0000ee",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "ポルシェジャパン｜公式ウェブサイト",
+    "designSystemUrl": "https://designsystem.porsche.com"
+  },
+  "lamborghini.com": {
+    "label": "Lamborghini",
+    "domain": "lamborghini.com",
+    "url": "https://lamborghini.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffc000",
+      "secondary": "#917300",
+      "text": "#202020",
+      "bgSecondary": "#ffffff",
+      "border": "#424242"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Lamborghini.com"
+  },
+  "audi.com": {
+    "label": "Audi",
+    "domain": "audi.com",
+    "url": "https://audi.com",
+    "colors": {
+      "bg": "#101319",
+      "primary": "#363d4a",
+      "secondary": "#0000ee",
+      "text": "#ffffff",
+      "bgSecondary": "#020203",
+      "border": "#2a3340"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Audi — The International Audi Website",
+    "designSystemUrl": "https://www.audi.com/ci/en/renewed-brand.html"
+  },
+  "ferrari.com": {
+    "label": "Ferrari",
+    "domain": "ferrari.com",
+    "url": "https://ferrari.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff0000",
+      "secondary": "#3860be",
+      "text": "#000000",
+      "bgSecondary": "#303030",
+      "border": "#181818"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "オフィシャル・フェラーリ・ウェブサイト"
+  },
+  "lucidmotors.com": {
+    "label": "Lucid Motors",
+    "domain": "lucidmotors.com",
+    "url": "https://lucidmotors.com",
+    "colors": {
+      "bg": "#0f0f0f",
+      "primary": "#3860be",
+      "secondary": "#3860be",
+      "text": "#ffffff",
+      "bgSecondary": "#ffffff",
+      "border": "#e4dfd4"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "serif"
+    ],
+    "title": "Home"
+  },
+  "rivian.com": {
+    "label": "Rivian",
+    "domain": "rivian.com",
+    "url": "https://rivian.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffac00",
+      "secondary": "#ffaa00",
+      "text": "#151515",
+      "bgSecondary": "#212121",
+      "border": "#212121"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Rivian"
+  },
+  "toyota.com": {
+    "label": "Toyota",
+    "domain": "toyota.com",
+    "url": "https://toyota.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#cc0000",
+      "secondary": "#145fff",
+      "text": "#000000",
+      "bgSecondary": "#eef3ff",
+      "border": "#eef3ff"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "New Cars, Trucks, SUVs & Hybrids",
+    "designSystemUrl": "https://brand.toyota.com"
+  },
+  "starbucks.com": {
+    "label": "Starbucks",
+    "domain": "starbucks.com",
+    "url": "https://starbucks.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#006342",
+      "secondary": "#006242",
+      "text": "#000000",
+      "bgSecondary": "#006242",
+      "border": "#f5f1eb"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Starbucks Coffee Company",
+    "designSystemUrl": "https://creative.starbucks.com"
+  },
+  "deliveroo.com": {
+    "label": "Deliveroo",
+    "domain": "deliveroo.com",
+    "url": "https://deliveroo.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#00ccbc",
+      "secondary": "#43ddc8",
+      "text": "#2e3333",
+      "bgSecondary": "#ffffff",
+      "border": "#0b0e0e"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Deliveroo"
+  },
+  "chipotle.com": {
+    "label": "Chipotle",
+    "domain": "chipotle.com",
+    "url": "https://chipotle.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#b68207",
+      "secondary": "#ad2118",
+      "text": "#451400",
+      "bgSecondary": "#f2f2f2",
+      "border": "#f2f2f2"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Chipotle"
+  },
+  "sweetgreen.com": {
+    "label": "Sweetgreen",
+    "domain": "sweetgreen.com",
+    "url": "https://sweetgreen.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#3860be",
+      "secondary": "#a61846",
+      "text": "#000000",
+      "bgSecondary": "#f4f3e7",
+      "border": "#d8e5d6"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "serif"
+    ],
+    "title": "sweetgreen — Healthy Fast Food"
+  },
+  "retty.me": {
+    "label": "Retty",
+    "domain": "retty.me",
+    "url": "https://retty.me",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#2d88d9",
+      "secondary": "#c19129",
+      "text": "#2e2e3b",
+      "bgSecondary": "#f4f4f5",
+      "border": "#f4f4f5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Retty（レッティ）"
+  },
+  "tabelog.com": {
+    "label": "食べログ",
+    "domain": "tabelog.com",
+    "url": "https://tabelog.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffaa00",
+      "secondary": "#0066cc",
+      "text": "#595960",
+      "bgSecondary": "#0066cc",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "食べログ"
+  },
+  "yahoo.co.jp": {
+    "label": "Yahoo! JAPAN",
+    "domain": "yahoo.co.jp",
+    "url": "https://yahoo.co.jp",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#4070ff",
+      "secondary": "#1d3994",
+      "text": "#000000",
+      "bgSecondary": "#e6ecfe",
+      "border": "#e6ecfe"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Yahoo! JAPAN"
+  },
+  "dena.com": {
+    "label": "DeNA",
+    "domain": "dena.com",
+    "url": "https://dena.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#dc0451",
+      "secondary": "#5bbbb7",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#181818"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "DeNA"
+  },
+  "pixiv.net": {
+    "label": "pixiv",
+    "domain": "pixiv.net",
+    "url": "https://pixiv.net",
+    "colors": {
+      "bg": "#eeeeee",
+      "primary": "#0096fa",
+      "secondary": "#65c7e9",
+      "text": "#464a4d",
+      "bgSecondary": "#333333",
+      "border": "#333333"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "pixiv"
+  },
+  "abema.tv": {
+    "label": "ABEMA",
+    "domain": "abema.tv",
+    "url": "https://abema.tv",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#f3cc00",
+      "secondary": "#f0163a",
+      "text": "#ffffff",
+      "bgSecondary": "#000000",
+      "border": "#0b0b0b"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "ABEMA"
+  },
+  "todoist.com": {
+    "label": "Todoist",
+    "domain": "todoist.com",
+    "url": "https://todoist.com",
+    "colors": {
+      "bg": "#fefdfc",
+      "primary": "#e34432",
+      "secondary": "#0f66ae",
+      "text": "#25221e",
+      "bgSecondary": "#fff6f0",
+      "border": "#fff6f0"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "serif"
+    ],
+    "title": "Todoist"
+  },
+  "gnavi.co.jp": {
+    "label": "ぐるなび",
+    "domain": "gnavi.co.jp",
+    "url": "https://gnavi.co.jp",
+    "colors": {
+      "bg": "#eeeeee",
+      "primary": "#f44336",
+      "secondary": "#e32f2f",
+      "text": "#000000",
+      "bgSecondary": "#f2f2f2",
+      "border": "#f2f2f2"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "ぐるなび"
+  },
+  "basecamp.com": {
+    "label": "Basecamp",
+    "domain": "basecamp.com",
+    "url": "https://basecamp.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffd60a",
+      "secondary": "#5522fa",
+      "text": "#0b1215",
+      "bgSecondary": "#0b1215",
+      "border": "#0b1215"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Basecamp"
+  },
+  "trello.com": {
+    "label": "Trello",
+    "domain": "trello.com",
+    "url": "https://trello.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0065ff",
+      "secondary": "#ffab00",
+      "text": "#091e42",
+      "bgSecondary": "#0747a6",
+      "border": "#f4f5f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Trello — Organize Your Projects"
+  },
+  "clickup.com": {
+    "label": "ClickUp",
+    "domain": "clickup.com",
+    "url": "https://clickup.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0091ff",
+      "secondary": "#3860be",
+      "text": "#292d34",
+      "bgSecondary": "#090909",
+      "border": "#f8f9fa"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "ClickUp™",
+    "designSystemUrl": "https://clickup.com/brand"
+  },
+  "monday.com": {
+    "label": "monday.com",
+    "domain": "monday.com",
+    "url": "https://monday.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#265573",
+      "secondary": "#5c6870",
+      "text": "#333333",
+      "bgSecondary": "#abf0ff",
+      "border": "#eddff7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "monday.com — Work Management Platform",
+    "designSystemUrl": "https://vibe.monday.com"
+  },
+  "asana.com": {
+    "label": "Asana",
+    "domain": "asana.com",
+    "url": "https://asana.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#27455c",
+      "secondary": "#0d0e10",
+      "text": "#646f79",
+      "bgSecondary": "#690031",
+      "border": "#ffeaec"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Asana",
+    "designSystemUrl": "https://asana.com/brand"
+  },
+  "codepen.io": {
+    "label": "CodePen",
+    "domain": "codepen.io",
+    "url": "https://codepen.io",
+    "colors": {
+      "bg": "#131417",
+      "primary": "#ffdd40",
+      "secondary": "#47cf73",
+      "text": "#ffffff",
+      "bgSecondary": "#444857",
+      "border": "#1e1f26"
+    },
+    "tags": [
+      "dark",
+      "soft",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "CodePen"
+  },
+  "codesandbox.io": {
+    "label": "CodeSandbox",
+    "domain": "codesandbox.io",
+    "url": "https://codesandbox.io",
+    "colors": {
+      "bg": "#0e0e0e",
+      "primary": "#b0a0ff",
+      "secondary": "#b0a0ff",
+      "text": "#f0f0f0",
+      "bgSecondary": "#1d1d1d",
+      "border": "#1d1d1d"
+    },
+    "tags": [
+      "dark",
+      "soft",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "CodeSandbox"
+  },
+  "stackblitz.com": {
+    "label": "StackBlitz",
+    "domain": "stackblitz.com",
+    "url": "https://stackblitz.com",
+    "colors": {
+      "bg": "#1c1f25",
+      "primary": "#1574ef",
+      "secondary": "#33ffcc",
+      "text": "#ffffff",
+      "bgSecondary": "#000000",
+      "border": "#fbfeff"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "StackBlitz"
+  },
+  "fly.io": {
+    "label": "Fly.io",
+    "domain": "fly.io",
+    "url": "https://fly.io",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#7c3aed",
+      "secondary": "#f59e0b",
+      "text": "#281950",
+      "bgSecondary": "#191034",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "serif"
+    ],
+    "title": "Fly.io"
+  },
+  "replit.com": {
+    "label": "Replit",
+    "domain": "replit.com",
+    "url": "https://replit.com",
+    "colors": {
+      "bg": "#f6f5f4",
+      "primary": "#ff3c00",
+      "secondary": "#ff764c",
+      "text": "#0e0e0f",
+      "bgSecondary": "#faf5f0",
+      "border": "#faf5f0"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Replit — Build Software Faster",
+    "designSystemUrl": "https://replit.com/brandkit"
+  },
+  "render.com": {
+    "label": "Render",
+    "domain": "render.com",
+    "url": "https://render.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#8a05ff",
+      "secondary": "#33acff",
+      "text": "#000000",
+      "bgSecondary": "#8a05ff",
+      "border": "#0d0d0d"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Render"
+  },
+  "aws.amazon.com": {
+    "label": "AWS",
+    "domain": "aws.amazon.com",
+    "url": "https://aws.amazon.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0972d3",
+      "secondary": "#0073bb",
+      "text": "#333333",
+      "bgSecondary": "#333843",
+      "border": "#f3f3f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Cloud Computing Services"
+  },
+  "digitalocean.com": {
+    "label": "DigitalOcean",
+    "domain": "digitalocean.com",
+    "url": "https://digitalocean.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0069ff",
+      "secondary": "#1433d6",
+      "text": "#000000",
+      "bgSecondary": "#d3d3d3",
+      "border": "#f9fafe"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "DigitalOcean"
+  },
+  "cloud.google.com": {
+    "label": "Google Cloud",
+    "domain": "cloud.google.com",
+    "url": "https://cloud.google.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#4285f4",
+      "secondary": "#0b57d0",
+      "text": "#5f6368",
+      "bgSecondary": "#000000",
+      "border": "#f8f9fa"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Google Cloud"
+  },
+  "heroku.com": {
+    "label": "Heroku",
+    "domain": "heroku.com",
+    "url": "https://heroku.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0176d3",
+      "secondary": "#0b5cab",
+      "text": "#181818",
+      "bgSecondary": "#f7f6f8",
+      "border": "#f9f9fb"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Heroku"
+  },
+  "azure.microsoft.com": {
+    "label": "Azure",
+    "domain": "azure.microsoft.com",
+    "url": "https://azure.microsoft.com",
+    "colors": {
+      "bg": "#f7f7f7",
+      "primary": "#0078d4",
+      "secondary": "#005597",
+      "text": "#17253d",
+      "bgSecondary": "#005597",
+      "border": "#fefefe"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Cloud Computing Services"
+  },
+  "mixpanel.com": {
+    "label": "Mixpanel",
+    "domain": "mixpanel.com",
+    "url": "https://mixpanel.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#7856ff",
+      "secondary": "#ff7557",
+      "text": "#000000",
+      "bgSecondary": "#e8ddff",
+      "border": "#fafafa"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Mixpanel"
+  },
+  "segment.com": {
+    "label": "Segment",
+    "domain": "segment.com",
+    "url": "https://segment.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ef223a",
+      "secondary": "#1866ee",
+      "text": "#000d25",
+      "bgSecondary": "#191f36",
+      "border": "#f3f4f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Twilio"
+  },
+  "amplitude.com": {
+    "label": "Amplitude",
+    "domain": "amplitude.com",
+    "url": "https://amplitude.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#4785ff",
+      "secondary": "#a273ff",
+      "text": "#565656",
+      "bgSecondary": "#ffffff",
+      "border": "#f2f4f8"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Amplitude — AI Analytics Platform",
+    "designSystemUrl": "https://brand.amplitude.com"
+  },
+  "hotjar.com": {
+    "label": "Hotjar",
+    "domain": "hotjar.com",
+    "url": "https://hotjar.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#324fbe",
+      "secondary": "#ff3c00",
+      "text": "#000000",
+      "bgSecondary": "#202641",
+      "border": "#ebeef9"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Hotjar"
+  },
+  "sentry.io": {
+    "label": "Sentry",
+    "domain": "sentry.io",
+    "url": "https://sentry.io",
+    "colors": {
+      "bg": "#1f1633",
+      "primary": "#1f1633",
+      "secondary": "#f44747",
+      "text": "#ffffff",
+      "bgSecondary": "#1f1633",
+      "border": "#150f23"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Sentry",
+    "designSystemUrl": "https://sentry.io/branding/"
+  },
+  "dbt.com": {
+    "label": "dbt Labs",
+    "domain": "dbt.com",
+    "url": "https://dbt.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff8c00",
+      "secondary": "#ffae00",
+      "text": "#030711",
+      "bgSecondary": "#062ae0",
+      "border": "#030711"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "dbt Labs"
+  },
+  "retool.com": {
+    "label": "Retool",
+    "domain": "retool.com",
+    "url": "https://retool.com",
+    "colors": {
+      "bg": "#151515",
+      "primary": "#0e352c",
+      "secondary": "#0e352c",
+      "text": "#e9ebdf",
+      "bgSecondary": "#242424",
+      "border": "#f7f8f4"
+    },
+    "tags": [
+      "dark",
+      "soft",
+      "monochrome",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Retool"
+  },
+  "launchdarkly.com": {
+    "label": "LaunchDarkly",
+    "domain": "launchdarkly.com",
+    "url": "https://launchdarkly.com",
+    "colors": {
+      "bg": "#191919",
+      "primary": "#405bff",
+      "secondary": "#7084ff",
+      "text": "#ffffff",
+      "bgSecondary": "#ffffff",
+      "border": "#414042"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "LaunchDarkly"
+  },
+  "fivetran.com": {
+    "label": "Fivetran",
+    "domain": "fivetran.com",
+    "url": "https://fivetran.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#306bea",
+      "secondary": "#8cb1ff",
+      "text": "#222222",
+      "bgSecondary": "#00170f",
+      "border": "#00170f"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Fivetran"
+  },
+  "neon.tech": {
+    "label": "Neon",
+    "domain": "neon.tech",
+    "url": "https://neon.tech",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#4ddba7",
+      "secondary": "#ff3621",
+      "text": "#ffffff",
+      "bgSecondary": "#18191b",
+      "border": "#18191b"
+    },
+    "tags": [
+      "dark",
+      "soft",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Neon",
+    "designSystemUrl": "https://neon.com/brand"
+  },
+  "turso.tech": {
+    "label": "Turso",
+    "domain": "turso.tech",
+    "url": "https://turso.tech",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#bc002d",
+      "secondary": "#bc002d",
+      "text": "#111827",
+      "bgSecondary": "#bc002d",
+      "border": "#f9fafb"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Turso"
+  },
+  "temporal.io": {
+    "label": "Temporal",
+    "domain": "temporal.io",
+    "url": "https://temporal.io",
+    "colors": {
+      "bg": "#141414",
+      "primary": "#fecb2f",
+      "secondary": "#444ce7",
+      "text": "#f8fafc",
+      "bgSecondary": "#ffffff",
+      "border": "#222222"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Durable Execution Solutions"
+  },
+  "planetscale.com": {
+    "label": "PlanetScale",
+    "domain": "planetscale.com",
+    "url": "https://planetscale.com",
+    "colors": {
+      "bg": "#fafafa",
+      "primary": "#f2b600",
+      "secondary": "#f35815",
+      "text": "#414141",
+      "bgSecondary": "#111111",
+      "border": "#111111"
+    },
+    "tags": [
+      "light",
+      "sharp",
+      "accented",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "PlanetScale"
+  },
+  "airbyte.com": {
+    "label": "Airbyte",
+    "domain": "airbyte.com",
+    "url": "https://airbyte.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#625eff",
+      "secondary": "#5653d9",
+      "text": "#07072b",
+      "bgSecondary": "#ffffff",
+      "border": "#fff1ee"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Airbyte"
+  },
+  "signal.org": {
+    "label": "Signal",
+    "domain": "signal.org",
+    "url": "https://signal.org",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#4258ff",
+      "secondary": "#3c3744",
+      "text": "#1b1b1b",
+      "bgSecondary": "#a5cad5",
+      "border": "#3c3744"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Signal >> Home",
+    "designSystemUrl": "https://signal.org/brand/"
+  },
+  "upstash.com": {
+    "label": "Upstash",
+    "domain": "upstash.com",
+    "url": "https://upstash.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#047857",
+      "secondary": "#34d399",
+      "text": "#022c22",
+      "bgSecondary": "#047857",
+      "border": "#09090b"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Upstash"
+  },
+  "whatsapp.com": {
+    "label": "WhatsApp",
+    "domain": "whatsapp.com",
+    "url": "https://whatsapp.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#25d366",
+      "secondary": "#43cd66",
+      "text": "#1c1e21",
+      "bgSecondary": "#fcf5eb",
+      "border": "#111b21"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "WhatsApp",
+    "designSystemUrl": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/"
+  },
+  "convex.dev": {
+    "label": "Convex",
+    "domain": "convex.dev",
+    "url": "https://convex.dev",
+    "colors": {
+      "bg": "#f6eedb",
+      "primary": "#de5d33",
+      "secondary": "#c48f6f",
+      "text": "#141414",
+      "bgSecondary": "#191919",
+      "border": "#292929"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Convex"
+  },
+  "telegram.org": {
+    "label": "Telegram",
+    "domain": "telegram.org",
+    "url": "https://telegram.org",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0088cc",
+      "secondary": "#0088cc",
+      "text": "#333333",
+      "bgSecondary": "#0088cc",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Telegram"
+  },
+  "huggingface.co": {
+    "label": "Hugging Face",
+    "domain": "huggingface.co",
+    "url": "https://huggingface.co",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffd21e",
+      "secondary": "#ff9d00",
+      "text": "#000000",
+      "bgSecondary": "#0b0f19",
+      "border": "#0b0f19"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Hugging Face",
+    "designSystemUrl": "https://huggingface.co/brand"
+  },
+  "midjourney.com": {
+    "label": "Midjourney",
+    "domain": "midjourney.com",
+    "url": "https://midjourney.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#3182ce",
+      "secondary": "#63b3ed",
+      "text": "#2e3038",
+      "bgSecondary": "#0f1c36",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Midjourney"
+  },
+  "teams.microsoft.com": {
+    "label": "Microsoft Teams",
+    "domain": "teams.microsoft.com",
+    "url": "https://teams.microsoft.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0067b8",
+      "secondary": "#0067b8",
+      "text": "#1b1b1b",
+      "bgSecondary": "#0067b8",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Microsoft Teams — Collaboration Platform"
+  },
+  "replicate.com": {
+    "label": "Replicate",
+    "domain": "replicate.com",
+    "url": "https://replicate.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ea2804",
+      "secondary": "#005cc5",
+      "text": "#202020",
+      "bgSecondary": "#f0f0f0",
+      "border": "#fcfcfc"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "colorful",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Replicate"
+  },
+  "stability.ai": {
+    "label": "Stability AI",
+    "domain": "stability.ai",
+    "url": "https://stability.ai",
+    "colors": {
+      "bg": "#1e1e1e",
+      "primary": "#a381ff",
+      "secondary": "#3860be",
+      "text": "#ffffff",
+      "bgSecondary": "#ede5e1",
+      "border": "#ede5e1"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Stability AI"
+  },
+  "together.ai": {
+    "label": "Together AI",
+    "domain": "together.ai",
+    "url": "https://together.ai",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#bdbbff",
+      "secondary": "#bdbbff",
+      "text": "#000000",
+      "bgSecondary": "#f3f6fa",
+      "border": "#f3f6fa"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "monochrome",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Together AI"
+  },
+  "perplexity.ai": {
+    "label": "Perplexity",
+    "domain": "perplexity.ai",
+    "url": "https://perplexity.ai",
+    "colors": {
+      "bg": "#fcfcf9",
+      "primary": "#271a00",
+      "secondary": "#271a00",
+      "text": "#000000",
+      "bgSecondary": "#fdfbfa",
+      "border": "#fdfbfa"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Perplexity"
+  },
+  "cohere.com": {
+    "label": "Cohere",
+    "domain": "cohere.com",
+    "url": "https://cohere.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "#f2f2f2",
+      "border": "#f2f2f2"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "bold-typography",
+      "monospace",
+      "serif"
+    ],
+    "title": "Cohere"
+  },
+  "langchain.com": {
+    "label": "LangChain",
+    "domain": "langchain.com",
+    "url": "https://langchain.com",
+    "colors": {
+      "bg": "#030710",
+      "primary": "#006ddd",
+      "secondary": "#7fc8ff",
+      "text": "#cce9ff",
+      "bgSecondary": "#f2faff",
+      "border": "#f2faff"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "LangChain"
+  },
+  "anyscale.com": {
+    "label": "Anyscale",
+    "domain": "anyscale.com",
+    "url": "https://anyscale.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#3385ff",
+      "secondary": "#99c2ff",
+      "text": "#0a0a0a",
+      "bgSecondary": "#000000",
+      "border": "#faf8f7"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Anyscale"
+  },
+  "groq.com": {
+    "label": "Groq",
+    "domain": "groq.com",
+    "url": "https://groq.com",
+    "colors": {
+      "bg": "#f3f3ee",
+      "primary": "#f43e01",
+      "secondary": "#c23101",
+      "text": "#2d2f33",
+      "bgSecondary": "#f43e01",
+      "border": "#e8e8de"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Groq"
+  },
+  "mistral.ai": {
+    "label": "Mistral AI",
+    "domain": "mistral.ai",
+    "url": "https://mistral.ai",
+    "colors": {
+      "bg": "#fffaeb",
+      "primary": "#fff0c2",
+      "secondary": "#fa520f",
+      "text": "#1f1f1f",
+      "bgSecondary": "#fffaeb",
+      "border": "#1f1f1f"
+    },
+    "tags": [
+      "light",
+      "sharp",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Mistral AI — Frontier LLMs & Agents",
+    "designSystemUrl": "https://mistral.ai/brand"
+  },
+  "booking.com": {
+    "label": "Booking.com",
+    "domain": "booking.com",
+    "url": "https://booking.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffb700",
+      "secondary": "#003b95",
+      "text": "#1a1a1a",
+      "bgSecondary": "#ffffff",
+      "border": "#f5f5f5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Booking.com"
+  },
+  "marriott.com": {
+    "label": "Marriott",
+    "domain": "marriott.com",
+    "url": "https://marriott.com",
+    "colors": {
+      "bg": "#f4f4f4",
+      "primary": "#ff8d6b",
+      "secondary": "#ff8d6b",
+      "text": "#1c1c1c",
+      "bgSecondary": "#ffffff",
+      "border": "#1c1c1c"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Marriott Bonvoy Hotels"
+  },
+  "duolingo.com": {
+    "label": "Duolingo",
+    "domain": "duolingo.com",
+    "url": "https://duolingo.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#58cc02",
+      "secondary": "#1cb0f6",
+      "text": "#3c3c3c",
+      "bgSecondary": "#0000ee",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "sharp",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Duolingo",
+    "designSystemUrl": "https://design.duolingo.com"
+  },
+  "kayak.com": {
+    "label": "Kayak",
+    "domain": "kayak.com",
+    "url": "https://kayak.com",
+    "colors": {
+      "bg": "#fafbfc",
+      "primary": "#ffa30f",
+      "secondary": "#0b7b99",
+      "text": "#000000",
+      "bgSecondary": "#f0f3f5",
+      "border": "#f9fafb"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "KAYAK"
+  },
+  "coursera.org": {
+    "label": "Coursera",
+    "domain": "coursera.org",
+    "url": "https://coursera.org",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0056d2",
+      "secondary": "#27455c",
+      "text": "#0f1114",
+      "bgSecondary": "#e3eeff",
+      "border": "#f0f6ff"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Coursera",
+    "designSystemUrl": "https://about.coursera.org/brand-guide"
+  },
+  "khanacademy.org": {
+    "label": "Khan Academy",
+    "domain": "khanacademy.org",
+    "url": "https://khanacademy.org",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0b2149",
+      "secondary": "#c3d2ac",
+      "text": "#21242c",
+      "bgSecondary": "#1865f2",
+      "border": "#edf3fe"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "serif"
+    ],
+    "title": "Khan Academy",
+    "designSystemUrl": "https://brand.khanacademy.org"
+  },
+  "headspace.com": {
+    "label": "Headspace",
+    "domain": "headspace.com",
+    "url": "https://headspace.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0061ef",
+      "secondary": "#ff7300",
+      "text": "#4b4c4d",
+      "bgSecondary": "#f9f4f2",
+      "border": "#f9f4f2"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "Headspace",
+    "designSystemUrl": "https://live.standards.site/headspace"
+  },
+  "peloton.com": {
+    "label": "Peloton",
+    "domain": "peloton.com",
+    "url": "https://peloton.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0270e0",
+      "secondary": "#71bf49",
+      "text": "#3c424b",
+      "bgSecondary": "#71bf49",
+      "border": "#51525b"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "serif"
+    ],
+    "title": "Peloton"
+  },
+  "udemy.com": {
+    "label": "Udemy",
+    "domain": "udemy.com",
+    "url": "https://udemy.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#5624d0",
+      "secondary": "#3860be",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#1c1d1f"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Udemy"
+  },
+  "techcrunch.com": {
+    "label": "TechCrunch",
+    "domain": "techcrunch.com",
+    "url": "https://techcrunch.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#5631ea",
+      "secondary": "#68f176",
+      "text": "#212623",
+      "bgSecondary": "#212623",
+      "border": "#edf1ef"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "TechCrunch"
+  },
+  "nytimes.com": {
+    "label": "The New York Times",
+    "domain": "nytimes.com",
+    "url": "https://nytimes.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#d0021b",
+      "secondary": "#3f893b",
+      "text": "#121212",
+      "bgSecondary": "#ffffff",
+      "border": "#f8f8f8"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "compact",
+      "serif"
+    ],
+    "title": "The New York Times"
+  },
+  "substack.com": {
+    "label": "Substack",
+    "domain": "substack.com",
+    "url": "https://substack.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff6719",
+      "secondary": "#006f5c",
+      "text": "#363737",
+      "bgSecondary": "#ffffff",
+      "border": "#eeeeee"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "serif"
+    ],
+    "title": "Substack",
+    "designSystemUrl": "https://substack.com/brand"
+  },
+  "mixi.jp": {
+    "label": "MIXI",
+    "domain": "mixi.jp",
+    "url": "https://mixi.jp",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#e67e22",
+      "secondary": "#1558d6",
+      "text": "#333333",
+      "bgSecondary": "#fff6d0",
+      "border": "#eeeeee"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "mixi"
+  },
+  "theverge.com": {
+    "label": "The Verge",
+    "domain": "theverge.com",
+    "url": "https://theverge.com",
+    "colors": {
+      "bg": "#131313",
+      "primary": "#5200ff",
+      "secondary": "#d6f31f",
+      "text": "#ffffff",
+      "bgSecondary": "#313131",
+      "border": "#272727"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "compact",
+      "monospace",
+      "serif"
+    ],
+    "title": "The Verge"
+  },
+  "wired.com": {
+    "label": "WIRED",
+    "domain": "wired.com",
+    "url": "https://wired.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#057dbc",
+      "secondary": "#057dbc",
+      "text": "#000000",
+      "bgSecondary": "#f3f3f3",
+      "border": "#f3f3f3"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "WIRED"
+  },
+  "stripe.dev": {
+    "label": "Stripe Dev",
+    "domain": "stripe.dev",
+    "url": "https://stripe.dev",
+    "colors": {
+      "bg": "#e8e8e8",
+      "primary": "#011627",
+      "secondary": "#011627",
+      "text": "#1e1e1e",
+      "bgSecondary": "#1e1e1e",
+      "border": "#e9e9e9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Stripe Dot Dev"
+  },
+  "arc.net": {
+    "label": "Arc Browser",
+    "domain": "arc.net",
+    "url": "https://arc.net",
+    "colors": {
+      "bg": "#fffcec",
+      "primary": "#3139fb",
+      "secondary": "#3139fb",
+      "text": "#000000",
+      "bgSecondary": "#fffcec",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Arc from The Browser Company"
+  },
+  "pitch.com": {
+    "label": "Pitch",
+    "domain": "pitch.com",
+    "url": "https://pitch.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ffd02c",
+      "secondary": "#ffa000",
+      "text": "#2b2a35",
+      "bgSecondary": "#ffd02c",
+      "border": "#808080"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Pitch"
+  },
+  "krisp.ai": {
+    "label": "Krisp",
+    "domain": "krisp.ai",
+    "url": "https://krisp.ai",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#614efa",
+      "secondary": "#3860be",
+      "text": "#000000",
+      "bgSecondary": "#f2ece2",
+      "border": "#f7f7f8"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Krisp"
+  },
+  "lottiefiles.com": {
+    "label": "LottieFiles",
+    "domain": "lottiefiles.com",
+    "url": "https://lottiefiles.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff7100",
+      "secondary": "#ff7bf9",
+      "text": "#000000",
+      "bgSecondary": "#000000",
+      "border": "#111827"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "LottieFiles",
+    "designSystemUrl": "https://lottiefiles.com/brand-assets"
+  },
+  "spline.design": {
+    "label": "Spline",
+    "domain": "spline.design",
+    "url": "https://spline.design",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#0062ff",
+      "secondary": "#0062ff",
+      "text": "#ffffff",
+      "bgSecondary": "#ffffff",
+      "border": "#222222"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Spline"
+  },
+  "rive.app": {
+    "label": "Rive",
+    "domain": "rive.app",
+    "url": "https://rive.app",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#ffa41c",
+      "secondary": "#ffa41c",
+      "text": "#ffffff",
+      "bgSecondary": "#262626",
+      "border": "#121212"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Rive"
+  },
+  "sanity.io": {
+    "label": "Sanity",
+    "domain": "sanity.io",
+    "url": "https://sanity.io",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#f500ff",
+      "secondary": "#45ff00",
+      "text": "#0b0b0b",
+      "bgSecondary": "#ffffff",
+      "border": "#0b0b0b"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Sanity.io"
+  },
+  "contentful.com": {
+    "label": "Contentful",
+    "domain": "contentful.com",
+    "url": "https://contentful.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#036fe3",
+      "secondary": "#54768e",
+      "text": "#2b2d31",
+      "bgSecondary": "#d8f6e7",
+      "border": "#eff2f6"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Contentful — Content Platform",
+    "designSystemUrl": "https://f36.contentful.com"
+  },
+  "storyblok.com": {
+    "label": "Storyblok",
+    "domain": "storyblok.com",
+    "url": "https://storyblok.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#8d60ff",
+      "secondary": "#184db5",
+      "text": "#1f1f1f",
+      "bgSecondary": "#1f1f1f",
+      "border": "#1f1f1f"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Storyblok"
+  },
+  "prismic.io": {
+    "label": "Prismic",
+    "domain": "prismic.io",
+    "url": "https://prismic.io",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#8e44ec",
+      "secondary": "#59b5f8",
+      "text": "#000000",
+      "bgSecondary": "#1f1f1f",
+      "border": "#1f1f1f"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Prismic"
+  },
+  "strapi.io": {
+    "label": "Strapi",
+    "domain": "strapi.io",
+    "url": "https://strapi.io",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#4945ff",
+      "secondary": "#9739de",
+      "text": "#000000",
+      "bgSecondary": "#f6f6ff",
+      "border": "#f6f6ff"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Strapi"
+  },
+  "ghost.org": {
+    "label": "Ghost",
+    "domain": "ghost.org",
+    "url": "https://ghost.org",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff0000",
+      "secondary": "#d1ff19",
+      "text": "#000000",
+      "bgSecondary": "#e2e8f0",
+      "border": "#e2e8f0"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Ghost"
+  },
+  "squarespace.com": {
+    "label": "Squarespace",
+    "domain": "squarespace.com",
+    "url": "https://squarespace.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "#2f2f2f",
+      "border": "#2f2f2f"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "sans-serif"
+    ],
+    "title": "Squarespace",
+    "designSystemUrl": "https://brand.squarespace.com"
+  },
+  "wix.com": {
+    "label": "Wix",
+    "domain": "wix.com",
+    "url": "https://wix.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#000624",
+      "secondary": "#116dff",
+      "text": "#000000",
+      "bgSecondary": "#eceff3",
+      "border": "#eceff3"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Wix — Website Builder",
+    "designSystemUrl": "https://www.wixdesignsystem.com"
+  },
+  "bubble.io": {
+    "label": "Bubble",
+    "domain": "bubble.io",
+    "url": "https://bubble.io",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0c29ab",
+      "secondary": "#625dfe",
+      "text": "#000000",
+      "bgSecondary": "#e4eaf1",
+      "border": "#e4eaf1"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Bubble"
+  },
+  "deno.com": {
+    "label": "Deno",
+    "domain": "deno.com",
+    "url": "https://deno.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#121417",
+      "secondary": "#70ffaf",
+      "text": "#000000",
+      "bgSecondary": "#121417",
+      "border": "#121417"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "serif"
+    ],
+    "title": "Deno",
+    "designSystemUrl": "https://deno.com/brand"
+  },
+  "bun.sh": {
+    "label": "Bun",
+    "domain": "bun.sh",
+    "url": "https://bun.sh",
+    "colors": {
+      "bg": "#14151a",
+      "primary": "#3b82f6",
+      "secondary": "#ef4444",
+      "text": "#ffffff",
+      "bgSecondary": "#282a36",
+      "border": "#282a36"
+    },
+    "tags": [
+      "dark",
+      "soft",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Bun"
+  },
+  "astro.build": {
+    "label": "Astro",
+    "domain": "astro.build",
+    "url": "https://astro.build",
+    "colors": {
+      "bg": "#060913",
+      "primary": "#23262d",
+      "secondary": "#3245ff",
+      "text": "#f2f6fa",
+      "bgSecondary": "#07040f",
+      "border": "#0c0f19"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Astro",
+    "designSystemUrl": "https://astro.build/press/"
+  },
+  "nextjs.org": {
+    "label": "Next.js",
+    "domain": "nextjs.org",
+    "url": "https://nextjs.org",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#d17724",
+      "secondary": "#3b88e9",
+      "text": "#171717",
+      "bgSecondary": "#171717",
+      "border": "#171717"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "monospace",
+      "serif"
+    ],
+    "title": "Next.js by Vercel"
+  },
+  "remix.run": {
+    "label": "Remix",
+    "domain": "remix.run",
+    "url": "https://remix.run",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#259eef",
+      "secondary": "#06ea8a",
+      "text": "#121212",
+      "bgSecondary": "#dee2e6",
+      "border": "#f7fbff"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Remix",
+    "designSystemUrl": "https://remix.run/brand"
+  },
+  "svelte.dev": {
+    "label": "Svelte",
+    "domain": "svelte.dev",
+    "url": "https://svelte.dev",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#d43008",
+      "secondary": "#d43008",
+      "text": "#262626",
+      "bgSecondary": "#666666",
+      "border": "#fdfdfd"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "serif"
+    ],
+    "title": "Svelte — Web Development Framework"
+  },
+  "vuejs.org": {
+    "label": "Vue.js",
+    "domain": "vuejs.org",
+    "url": "https://vuejs.org",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#42b883",
+      "secondary": "#42b983",
+      "text": "#213547",
+      "bgSecondary": "#262626",
+      "border": "#f9f9f9"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Vue.js"
+  },
+  "angular.dev": {
+    "label": "Angular",
+    "domain": "angular.dev",
+    "url": "https://angular.dev",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#f97583",
+      "secondary": "#79b8ff",
+      "text": "#000000",
+      "bgSecondary": "#24292e",
+      "border": "#24292e"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Home • Angular",
+    "designSystemUrl": "https://angular.dev/press-kit"
+  },
+  "tailwindcss.com": {
+    "label": "Tailwind CSS",
+    "domain": "tailwindcss.com",
+    "url": "https://tailwindcss.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "#000000",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Tailwind CSS",
+    "designSystemUrl": "https://tailwindcss.com/brand"
+  },
+  "shadcn.com": {
+    "label": "shadcn/ui",
+    "domain": "shadcn.com",
+    "url": "https://shadcn.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#09090b",
+      "bgSecondary": "#ffffff",
+      "border": "#e0e0e0"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "shadcn/ui — UI Components"
+  },
+  "claude.ai": {
+    "label": "Claude",
+    "domain": "claude.ai",
+    "url": "https://claude.ai",
+    "colors": {
+      "bg": "#f8f8f6",
+      "primary": "#8a2424",
+      "secondary": "#8a2424",
+      "text": "#121212",
+      "bgSecondary": "#faf9f5",
+      "border": "#faf9f5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "serif"
+    ],
+    "title": "Claude"
+  },
+  "expo.dev": {
+    "label": "Expo",
+    "domain": "expo.dev",
+    "url": "https://expo.dev",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0072de",
+      "secondary": "#0090ff",
+      "text": "#1c2024",
+      "bgSecondary": "#000000",
+      "border": "#f9f9fb"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Expo",
+    "designSystemUrl": "https://expo.dev/brand"
+  },
+  "spacex.com": {
+    "label": "SpaceX",
+    "domain": "spacex.com",
+    "url": "https://spacex.com",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#0000ee",
+      "secondary": "#0000ee",
+      "text": "#f0f0fa",
+      "bgSecondary": "#f0f0fa",
+      "border": "#f0f0fa"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "SpaceX"
+  },
+  "nvidia.com": {
+    "label": "NVIDIA",
+    "domain": "nvidia.com",
+    "url": "https://nvidia.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#76b900",
+      "secondary": "#134d00",
+      "text": "#000000",
+      "bgSecondary": "#76b900",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "NVIDIA",
+    "designSystemUrl": "https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/"
+  },
+  "playstation.com": {
+    "label": "PlayStation",
+    "domain": "playstation.com",
+    "url": "https://playstation.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#0070cc",
+      "secondary": "#75a5ff",
+      "text": "#1f1f1f",
+      "bgSecondary": "#75a5ff",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "sans-serif"
+    ],
+    "title": "PlayStation 公式サイト"
+  },
+  "elevenlabs.io": {
+    "label": "ElevenLabs",
+    "domain": "elevenlabs.io",
+    "url": "https://elevenlabs.io",
+    "colors": {
+      "bg": "#fdfcfc",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "#fdfcfc",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "sans-serif"
+    ],
+    "title": "ElevenLabs",
+    "designSystemUrl": "https://elevenlabs.io/brand"
+  },
+  "posthog.com": {
+    "label": "PostHog",
+    "domain": "posthog.com",
+    "url": "https://posthog.com",
+    "colors": {
+      "bg": "#eeefe9",
+      "primary": "#cd8407",
+      "secondary": "#eb9d2a",
+      "text": "#000000",
+      "bgSecondary": "#2f80fa",
+      "border": "#fdfdf8"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "colorful",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "PostHog",
+    "designSystemUrl": "https://posthog.com/handbook/company/brand-assets"
+  },
+  "resend.com": {
+    "label": "Resend",
+    "domain": "resend.com",
+    "url": "https://resend.com",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#00a3ff",
+      "secondary": "#fa8200",
+      "text": "#f0f0f0",
+      "bgSecondary": "#ffffff",
+      "border": "#0b0e14"
+    },
+    "tags": [
+      "dark",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Resend · Email for developers",
+    "designSystemUrl": "https://resend.com/handbook/design/what-are-our-brand-guidelines"
+  },
+  "mintlify.com": {
+    "label": "Mintlify",
+    "domain": "mintlify.com",
+    "url": "https://mintlify.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#000000",
+      "bgSecondary": "",
+      "border": "#e5e5e5"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Mintlify"
+  },
+  "superhuman.com": {
+    "label": "Superhuman",
+    "domain": "superhuman.com",
+    "url": "https://superhuman.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#d4c7ff",
+      "secondary": "#d4c7ff",
+      "text": "#292827",
+      "bgSecondary": "#421d24",
+      "border": "#f7f5f2"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "sans-serif"
+    ],
+    "title": "Superhuman"
+  },
+  "runway.com": {
+    "label": "Runway",
+    "domain": "runway.com",
+    "url": "https://runway.com",
+    "colors": {
+      "bg": "#f8f7f5",
+      "primary": "#f9a600",
+      "secondary": "#f0624f",
+      "text": "#261b07",
+      "bgSecondary": "#f8f7f5",
+      "border": "#e3dfd5"
+    },
+    "tags": [
+      "light",
+      "soft",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Runway"
+  },
+  "clickhouse.com": {
+    "label": "ClickHouse",
+    "domain": "clickhouse.com",
+    "url": "https://clickhouse.com",
+    "colors": {
+      "bg": "#1f1f1c",
+      "primary": "#166534",
+      "secondary": "#166534",
+      "text": "#ffffff",
+      "bgSecondary": "#faff69",
+      "border": "#151515"
+    },
+    "tags": [
+      "dark",
+      "soft",
+      "accented",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "ClickHouse"
+  },
+  "ollama.com": {
+    "label": "Ollama",
+    "domain": "ollama.com",
+    "url": "https://ollama.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#facc15",
+      "secondary": "#2563eb",
+      "text": "#000000",
+      "bgSecondary": "#262626",
+      "border": "#262626"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Ollama"
+  },
+  "renault.com": {
+    "label": "Renault",
+    "domain": "renault.com",
+    "url": "https://renault.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#e60000",
+      "secondary": "#65d7d0",
+      "text": "#000000",
+      "bgSecondary": "#f2f2f2",
+      "border": "#9e9e9e"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "accented",
+      "sans-serif"
+    ],
+    "title": "Renault Group"
+  },
+  "clay.com": {
+    "label": "Clay",
+    "domain": "clay.com",
+    "url": "https://clay.com",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#ff7614",
+      "secondary": "#0667d9",
+      "text": "#000000",
+      "bgSecondary": "#000000",
+      "border": "#f9f8f6"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "bold-typography",
+      "sans-serif"
+    ],
+    "title": "Clay"
+  },
+  "bugatti.com": {
+    "label": "Bugatti",
+    "domain": "bugatti.com",
+    "url": "https://bugatti.com",
+    "colors": {
+      "bg": "#000000",
+      "primary": "#004bfa",
+      "secondary": "#004bfa",
+      "text": "#ffffff",
+      "bgSecondary": "#004bfa",
+      "border": "#222222"
+    },
+    "tags": [
+      "dark",
+      "soft",
+      "accented",
+      "compact",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "BUGATTI"
+  },
+  "lovable.dev": {
+    "label": "Lovable",
+    "domain": "lovable.dev",
+    "url": "https://lovable.dev",
+    "colors": {
+      "bg": "#fcfbf8",
+      "primary": "#888888",
+      "secondary": "#aaaaaa",
+      "text": "#1c1c1c",
+      "bgSecondary": "#fcfbf8",
+      "border": "#f7f4ed"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "monochrome",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "Lovable",
+    "designSystemUrl": "https://lovable.dev/brand"
+  },
+  "composio.dev": {
+    "label": "Composio",
+    "domain": "composio.dev",
+    "url": "https://composio.dev",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#00ffff",
+      "secondary": "#0089ff",
+      "text": "#000000",
+      "bgSecondary": "#ffffff",
+      "border": "#0f0f0f"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "monospace",
+      "sans-serif"
+    ],
+    "title": "Composio"
+  },
+  "minimax.io": {
+    "label": "MiniMax",
+    "domain": "minimax.io",
+    "url": "https://minimax.io",
+    "colors": {
+      "bg": "#ffffff",
+      "primary": "#886cff",
+      "secondary": "#a782ff",
+      "text": "#18181b",
+      "bgSecondary": "#000000",
+      "border": "#181e25"
+    },
+    "tags": [
+      "light",
+      "rounded",
+      "colorful",
+      "compact",
+      "sans-serif"
+    ],
+    "title": "MiniMax"
+  }
+}

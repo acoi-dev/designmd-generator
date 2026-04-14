@@ -1,0 +1,17 @@
+node_modules/
+*.log
+.DS_Store
+retry-ds.ts
+retry-brandonly.ts
+recapture-from-ds.ts
+recapture-en.ts
+test-quality.ts
+generate-index.py
+generate-og-images.ts
+og-brand-template.html
+_eval.ts
+_qa_interactive.ts
+check_ja.ts
+buzz-assets/
+avatar.jpg
+DESIGN.md

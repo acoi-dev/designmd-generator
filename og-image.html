@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  width: 1200px;
+  height: 630px;
+  background: #fafafa;
+  font-family: 'Inter', -apple-system, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+/* Background grid of brand screenshots */
+.bg-grid {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 4px;
+  padding: 4px;
+  opacity: 0.12;
+}
+.bg-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+/* Overlay */
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, rgba(250,250,250,0.92) 0%, rgba(250,250,250,0.85) 100%);
+}
+/* Content */
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 60px;
+}
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0a0a0a;
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+.logo .beta {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #f0f0f0;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #666;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: #0a0a0a;
+  margin-bottom: 16px;
+}
+h1 .accent {
+  background: linear-gradient(135deg, #E27B45 0%, #D4885A 50%, #E27B45 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sub {
+  font-size: 22px;
+  color: #666;
+  line-height: 1.4;
+  max-width: 700px;
+  margin: 0 auto 28px;
+}
+.stats {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+.stat .num {
+  color: #E27B45;
+  font-weight: 800;
+}
+.credit {
+  position: absolute;
+  bottom: 24px;
+  right: 32px;
+  font-size: 14px;
+  color: #999;
+  z-index: 1;
+}
+.credit strong { color: #0a0a0a; }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="bg-grid">
+  <img src="screenshots/stripe.com.jpg"><img src="screenshots/figma.com.jpg"><img src="screenshots/spotify.com.jpg"><img src="screenshots/netflix.com.jpg"><img src="screenshots/github.com.jpg"><img src="screenshots/apple.com.jpg">
+  <img src="screenshots/notion.so.jpg"><img src="screenshots/discord.com.jpg"><img src="screenshots/airbnb.com.jpg"><img src="screenshots/vercel.com.jpg"><img src="screenshots/canva.com.jpg"><img src="screenshots/linear.app.jpg">
+  <img src="screenshots/nike.com.jpg"><img src="screenshots/dribbble.com.jpg"><img src="screenshots/supabase.com.jpg"><img src="screenshots/slack.com.jpg"><img src="screenshots/framer.com.jpg"><img src="screenshots/twitch.tv.jpg">
+</div>
+<div class="overlay"></div>
+<div class="content">
+  <div class="logo">⌥ DESIGN.md Generator <span class="beta">Beta</span></div>
+  <h1>好きなサイトのデザインを<br><span class="accent">AIに真似させる</span></h1>
+  <div class="sub">色・フォント・コンポーネントを抽出 → AIがそっくりなUIを作る</div>
+  <div class="stats">
+    <span class="stat"><span class="num">252</span> brands</span>
+    <span class="stat"><span class="num">4</span> formats</span>
+    <span class="stat"><span class="num">Free</span> & Open Source</span>
+  </div>
+</div>
+<div class="credit">Built by <strong>@claude_skill</strong></div>
+</body>
+</html>
