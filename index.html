@@ -2051,7 +2051,7 @@ function renderResults(data) {
     <div class="component-preview" style="background:${d.colors.bg};border:1px solid ${d.colors.border}">
       <div class="heading" style="color:${d.colors.text};font-family:'${d.typography.headingFont.cleanFamily}',sans-serif">${compHeadline}</div>
       <div class="body-text" style="color:${d.colors.textSecondary};font-family:'${d.typography.bodyFont.cleanFamily}',sans-serif">${compSub}</div>
-      ${btn ? `<span class="btn" style="background:${btn.bg};color:${btnColor};padding:${btn.paddingV}px ${btn.paddingH}px;border-radius:${btn.borderRadius}px;font-weight:${btn.fontWeight};font-size:${btn.fontSize}px">Primary CTA</span>` : ''}
+      ${btn ? `<span class="btn" style="background:${btn.bg};color:${btnColor};padding:${Math.max(btn.paddingV, 8)}px ${Math.max(btn.paddingH, 16)}px;border-radius:${btn.borderRadius}px;font-weight:${btn.fontWeight};font-size:${Math.max(btn.fontSize, 13)}px">Primary CTA</span>` : ''}
     </div>
   `;
 
