@@ -1768,7 +1768,7 @@ const _imgObserver = new IntersectionObserver((entries) => {
       _imgObserver.unobserve(img);
     }
   });
-}, { rootMargin: '800px 0px' });
+}, { rootMargin: '2000px 0px' });
 
 function observeLazyImages() {
   document.querySelectorAll('img[data-src]').forEach(img => _imgObserver.observe(img));
