@@ -18,7 +18,7 @@
       "sans-serif"
     ],
     "title": "Stripe",
-    "designSystemUrl": "https://brand.stripe.com"
+    "designSystemUrl": null
   },
   "vercel.com": {
     "label": "Vercel",
@@ -26,7 +26,7 @@
     "url": "https://vercel.com",
     "colors": {
       "bg": "#fafafa",
-      "primary": "#8e4ec6",
+      "primary": "#171717",
       "secondary": "#df2670",
       "text": "#171717",
       "bgSecondary": "#171717",
@@ -40,7 +40,7 @@
       "sans-serif"
     ],
     "title": "Vercel",
-    "designSystemUrl": "https://vercel.com/geist/introduction"
+    "designSystemUrl": null
   },
   "figma.com": {
     "label": "Figma",
@@ -48,8 +48,8 @@
     "url": "https://www.figma.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#00b6ff",
-      "secondary": "#ff7237",
+      "primary": "#ff7237",
+      "secondary": "#00b6ff",
       "text": "#000000",
       "bgSecondary": "#000000",
       "border": "#e6e6e6"
@@ -63,7 +63,7 @@
       "sans-serif"
     ],
     "title": "Figma",
-    "designSystemUrl": "https://www.figma.com/using-the-figma-brand/"
+    "designSystemUrl": null
   },
   "linear.app": {
     "label": "Linear",
@@ -85,7 +85,7 @@
       "sans-serif"
     ],
     "title": "Linear",
-    "designSystemUrl": "https://linear.app/brand"
+    "designSystemUrl": null
   },
   "github.com": {
     "label": "GitHub",
@@ -107,7 +107,7 @@
       "sans-serif"
     ],
     "title": "GitHub",
-    "designSystemUrl": "https://primer.style"
+    "designSystemUrl": null
   },
   "netflix.com": {
     "label": "Netflix",
@@ -128,7 +128,7 @@
       "sans-serif"
     ],
     "title": "Netflix Japan",
-    "designSystemUrl": "https://brand.netflix.com"
+    "designSystemUrl": null
   },
   "spotify.com": {
     "label": "Spotify",
@@ -136,7 +136,7 @@
     "url": "https://www.spotify.com",
     "colors": {
       "bg": "#121212",
-      "primary": "#400073",
+      "primary": "#1ed760",
       "secondary": "#4100f4",
       "text": "#b3b3b3",
       "bgSecondary": "#000000",
@@ -150,7 +150,7 @@
       "sans-serif"
     ],
     "title": "Spotify",
-    "designSystemUrl": "https://developer.spotify.com/documentation/design"
+    "designSystemUrl": null
   },
   "notion.so": {
     "label": "Notion",
@@ -158,7 +158,7 @@
     "url": "https://www.notion.so",
     "colors": {
       "bg": "#191918",
-      "primary": "#ffc95e",
+      "primary": "#000000",
       "secondary": "#0075de",
       "text": "#ffffff",
       "bgSecondary": "#f7f7f5",
@@ -170,7 +170,8 @@
       "colorful",
       "serif"
     ],
-    "title": "Notion"
+    "title": "Notion",
+    "designSystemUrl": null
   },
   "apple.com": {
     "label": "Apple",
@@ -191,7 +192,7 @@
       "sans-serif"
     ],
     "title": "Apple",
-    "designSystemUrl": "https://developer.apple.com/design/human-interface-guidelines/"
+    "designSystemUrl": null
   },
   "airbnb.com": {
     "label": "Airbnb",
@@ -211,7 +212,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Airbnb"
+    "title": "Airbnb",
+    "designSystemUrl": null
   },
   "shopify.com": {
     "label": "Shopify",
@@ -219,7 +221,7 @@
     "url": "https://www.shopify.com",
     "colors": {
       "bg": "#000000",
-      "primary": "#5a31f4",
+      "primary": "#96BF48",
       "secondary": "#36f4a4",
       "text": "#ffffff",
       "bgSecondary": "#02090a",
@@ -234,7 +236,7 @@
       "sans-serif"
     ],
     "title": "Shopify",
-    "designSystemUrl": "https://polaris.shopify.com"
+    "designSystemUrl": null
   },
   "supabase.com": {
     "label": "Supabase",
@@ -257,7 +259,7 @@
       "sans-serif"
     ],
     "title": "Supabase",
-    "designSystemUrl": "https://supabase.com/design-system"
+    "designSystemUrl": null
   },
   "framer.com": {
     "label": "Framer",
@@ -279,7 +281,7 @@
       "sans-serif"
     ],
     "title": "Framer",
-    "designSystemUrl": "https://www.framer.com/brand"
+    "designSystemUrl": null
   },
   "slack.com": {
     "label": "Slack",
@@ -287,7 +289,7 @@
     "url": "https://slack.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#1264a3",
+      "primary": "#4a154b",
       "secondary": "#730394",
       "text": "#000000",
       "bgSecondary": "#4a154b",
@@ -300,7 +302,7 @@
       "sans-serif"
     ],
     "title": "Slack",
-    "designSystemUrl": "https://slack.design"
+    "designSystemUrl": null
   },
   "canva.com": {
     "label": "Canva",
@@ -321,7 +323,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Canva"
+    "title": "Canva",
+    "designSystemUrl": null
   },
   "dribbble.com": {
     "label": "Dribbble",
@@ -341,7 +344,8 @@
       "monochrome",
       "sans-serif"
     ],
-    "title": "Dribbble"
+    "title": "Dribbble",
+    "designSystemUrl": null
   },
   "twitch.tv": {
     "label": "Twitch",
@@ -363,7 +367,7 @@
       "sans-serif"
     ],
     "title": "Twitch",
-    "designSystemUrl": "https://brand.twitch.com"
+    "designSystemUrl": null
   },
   "discord.com": {
     "label": "Discord",
@@ -384,7 +388,7 @@
       "sans-serif"
     ],
     "title": "Discord",
-    "designSystemUrl": "https://discord.com/branding"
+    "designSystemUrl": null
   },
   "revolut.com": {
     "label": "Revolut",
@@ -392,7 +396,7 @@
     "url": "https://www.revolut.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#191c1f",
       "secondary": "#aaaaaa",
       "text": "#191c1f",
       "bgSecondary": "#f7f7f7",
@@ -405,7 +409,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Revolut"
+    "title": "Revolut",
+    "designSystemUrl": null
   },
   "raycast.com": {
     "label": "Raycast",
@@ -426,7 +431,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Raycast"
+    "title": "Raycast",
+    "designSystemUrl": null
   },
   "warp.dev": {
     "label": "Warp",
@@ -448,7 +454,7 @@
       "sans-serif"
     ],
     "title": "Warp",
-    "designSystemUrl": "https://warp-ds.github.io/docs/"
+    "designSystemUrl": null
   },
   "loom.com": {
     "label": "Loom",
@@ -468,7 +474,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Loom"
+    "title": "Loom",
+    "designSystemUrl": null
   },
   "line.me": {
     "label": "LINE",
@@ -490,7 +497,7 @@
       "sans-serif"
     ],
     "title": "LINE",
-    "designSystemUrl": "https://designsystem.line.me"
+    "designSystemUrl": null
   },
   "mercari.com": {
     "label": "メルカリ",
@@ -511,7 +518,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "メルカリ"
+    "title": "メルカリ",
+    "designSystemUrl": null
   },
   "note.com": {
     "label": "note",
@@ -532,7 +540,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "note（ノート）"
+    "title": "note（ノート）",
+    "designSystemUrl": null
   },
   "smarthr.jp": {
     "label": "SmartHR",
@@ -554,7 +563,7 @@
       "sans-serif"
     ],
     "title": "SmartHR",
-    "designSystemUrl": "https://smarthr.design"
+    "designSystemUrl": null
   },
   "freee.co.jp": {
     "label": "freee",
@@ -574,7 +583,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "クラウド会計ソフト｜freee"
+    "title": "クラウド会計ソフト｜freee",
+    "designSystemUrl": null
   },
   "cookpad.com": {
     "label": "クックパッド",
@@ -595,7 +605,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Cookpad"
+    "title": "Cookpad",
+    "designSystemUrl": null
   },
   "wantedly.com": {
     "label": "Wantedly",
@@ -615,7 +626,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Wantedly（ウォンテッドリー）共感でつながるビジネスSNS"
+    "title": "Wantedly（ウォンテッドリー）共感でつながるビジネスSNS",
+    "designSystemUrl": null
   },
   "layerx.co.jp": {
     "label": "LayerX",
@@ -636,7 +648,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "株式会社LayerX"
+    "title": "株式会社LayerX",
+    "designSystemUrl": null
   },
   "rakuten.co.jp": {
     "label": "楽天",
@@ -658,7 +671,7 @@
       "sans-serif"
     ],
     "title": "楽天市場",
-    "designSystemUrl": "https://global.rakuten.com/corp/brand/"
+    "designSystemUrl": null
   },
   "paypay.ne.jp": {
     "label": "PayPay",
@@ -678,7 +691,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "PayPay"
+    "title": "PayPay",
+    "designSystemUrl": null
   },
   "moneyforward.com": {
     "label": "マネーフォワード",
@@ -699,7 +713,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "マネーフォワード｜家計簿アプリやクラウド会計ソフト"
+    "title": "マネーフォワード｜家計簿アプリやクラウド会計ソフト",
+    "designSystemUrl": null
   },
   "thebase.com": {
     "label": "BASE",
@@ -720,7 +735,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "BASE (ベイス) | ネットショップを無料で簡単に作成"
+    "title": "BASE (ベイス) | ネットショップを無料で簡単に作成",
+    "designSystemUrl": null
   },
   "sansan.com": {
     "label": "Sansan",
@@ -740,7 +756,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Sansan"
+    "title": "Sansan",
+    "designSystemUrl": null
   },
   "qiita.com": {
     "label": "Qiita",
@@ -761,7 +778,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Qiita"
+    "title": "Qiita",
+    "designSystemUrl": null
   },
   "pinterest.jp": {
     "label": "Pinterest",
@@ -782,7 +800,7 @@
       "sans-serif"
     ],
     "title": "Pinterest",
-    "designSystemUrl": "https://gestalt.pinterest.systems"
+    "designSystemUrl": null
   },
   "intercom.com": {
     "label": "Intercom",
@@ -805,7 +823,7 @@
       "serif"
     ],
     "title": "Intercom",
-    "designSystemUrl": "https://intercom.design"
+    "designSystemUrl": null
   },
   "zapier.com": {
     "label": "Zapier",
@@ -826,7 +844,7 @@
       "sans-serif"
     ],
     "title": "Zapier",
-    "designSystemUrl": "https://brand.zapier.com"
+    "designSystemUrl": null
   },
   "airtable.com": {
     "label": "Airtable",
@@ -846,7 +864,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Airtable"
+    "title": "Airtable",
+    "designSystemUrl": null
   },
   "railway.app": {
     "label": "Railway",
@@ -867,7 +886,8 @@
       "monospace",
       "serif"
     ],
-    "title": "Railway"
+    "title": "Railway",
+    "designSystemUrl": null
   },
   "webflow.com": {
     "label": "Webflow",
@@ -889,7 +909,7 @@
       "sans-serif"
     ],
     "title": "Webflow",
-    "designSystemUrl": "https://brand.webflow.com"
+    "designSystemUrl": null
   },
   "nike.com": {
     "label": "Nike",
@@ -897,7 +917,7 @@
     "url": "https://www.nike.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#000000",
       "secondary": "#aaaaaa",
       "text": "#111111",
       "bgSecondary": "#e5e5e5",
@@ -910,7 +930,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Nike.com"
+    "title": "Nike.com",
+    "designSystemUrl": null
   },
   "wise.com": {
     "label": "Wise",
@@ -931,7 +952,7 @@
       "sans-serif"
     ],
     "title": "Wise",
-    "designSystemUrl": "https://wise.design"
+    "designSystemUrl": null
   },
   "plaid.com": {
     "label": "Plaid",
@@ -953,7 +974,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Plaid"
+    "title": "Plaid",
+    "designSystemUrl": null
   },
   "tiktok.com": {
     "label": "TikTok",
@@ -961,7 +983,7 @@
     "url": "https://www.tiktok.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#fe2c55",
+      "primary": "#000000",
       "secondary": "#fe2c55",
       "text": "#161823",
       "bgSecondary": "#ffffff",
@@ -975,7 +997,7 @@
       "sans-serif"
     ],
     "title": "Explore",
-    "designSystemUrl": "https://developers.tiktok.com/doc/getting-started-design-guidelines"
+    "designSystemUrl": null
   },
   "google.com": {
     "label": "Google",
@@ -998,7 +1020,7 @@
       "sans-serif"
     ],
     "title": "Google",
-    "designSystemUrl": "https://m3.material.io"
+    "designSystemUrl": null
   },
   "amazon.com": {
     "label": "Amazon",
@@ -1019,7 +1041,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Amazon.com. Spend less. Smile more."
+    "title": "Amazon.com. Spend less. Smile more.",
+    "designSystemUrl": null
   },
   "anthropic.com": {
     "label": "Anthropic",
@@ -1027,8 +1050,8 @@
     "url": "https://anthropic.com",
     "colors": {
       "bg": "#faf9f5",
-      "primary": "#888888",
-      "secondary": "#aaaaaa",
+      "primary": "#D4A27F",
+      "secondary": "#e3dacc",
       "text": "#141413",
       "bgSecondary": "#f0eee6",
       "border": "#e3dacc"
@@ -1041,7 +1064,7 @@
       "sans-serif"
     ],
     "title": "Home \\ Anthropic",
-    "designSystemUrl": "https://docs.anthropic.com"
+    "designSystemUrl": null
   },
   "microsoft.com": {
     "label": "Microsoft",
@@ -1049,7 +1072,7 @@
     "url": "https://microsoft.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#9bf00b",
+      "primary": "#00A4EF",
       "secondary": "#0067b8",
       "text": "#000000",
       "bgSecondary": "#f2f2f2",
@@ -1062,7 +1085,7 @@
       "sans-serif"
     ],
     "title": "Microsoft",
-    "designSystemUrl": "https://fluent2.microsoft.design"
+    "designSystemUrl": null
   },
   "meta.com": {
     "label": "Meta",
@@ -1083,7 +1106,7 @@
       "sans-serif"
     ],
     "title": "Meta",
-    "designSystemUrl": "https://www.meta.com/brand/resources/"
+    "designSystemUrl": null
   },
   "youtube.com": {
     "label": "YouTube",
@@ -1091,8 +1114,8 @@
     "url": "https://youtube.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#1a73e8",
-      "secondary": "#e1002d",
+      "primary": "#e1002d",
+      "secondary": "#1a73e8",
       "text": "#000000",
       "bgSecondary": "#ffffff",
       "border": "#f8f8f8"
@@ -1105,7 +1128,7 @@
       "sans-serif"
     ],
     "title": "YouTube",
-    "designSystemUrl": "https://brand.youtube"
+    "designSystemUrl": null
   },
   "openai.com": {
     "label": "OpenAI",
@@ -1113,7 +1136,7 @@
     "url": "https://openai.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#000000",
       "secondary": "#aaaaaa",
       "text": "#000000",
       "bgSecondary": "#f1f1f1",
@@ -1127,7 +1150,7 @@
       "sans-serif"
     ],
     "title": "OpenAI",
-    "designSystemUrl": "https://openai.com/brand/"
+    "designSystemUrl": null
   },
   "zoom.us": {
     "label": "Zoom",
@@ -1148,7 +1171,7 @@
       "sans-serif"
     ],
     "title": "Zoom",
-    "designSystemUrl": "https://brand.zoom.com"
+    "designSystemUrl": null
   },
   "x.com": {
     "label": "X (Twitter)",
@@ -1156,7 +1179,7 @@
     "url": "https://x.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#1d9bf0",
+      "primary": "#0f1419",
       "secondary": "#14171a",
       "text": "#000000",
       "bgSecondary": "#0f1419",
@@ -1170,7 +1193,7 @@
       "sans-serif"
     ],
     "title": "X (formerly Twitter)",
-    "designSystemUrl": "https://about.x.com/en/who-we-are/brand-toolkit"
+    "designSystemUrl": null
   },
   "cursor.com": {
     "label": "Cursor",
@@ -1193,7 +1216,7 @@
       "serif"
     ],
     "title": "Cursor",
-    "designSystemUrl": "https://cursor.com/brand"
+    "designSystemUrl": null
   },
   "dropbox.com": {
     "label": "Dropbox",
@@ -1214,7 +1237,7 @@
       "sans-serif"
     ],
     "title": "Dropbox.com",
-    "designSystemUrl": "https://brand.dropbox.com"
+    "designSystemUrl": null
   },
   "zendesk.com": {
     "label": "Zendesk",
@@ -1235,7 +1258,7 @@
       "sans-serif"
     ],
     "title": "Zendesk",
-    "designSystemUrl": "https://garden.zendesk.com"
+    "designSystemUrl": null
   },
   "atlassian.com": {
     "label": "Atlassian",
@@ -1257,7 +1280,7 @@
       "sans-serif"
     ],
     "title": "Atlassian",
-    "designSystemUrl": "https://atlassian.design"
+    "designSystemUrl": null
   },
   "hubspot.com": {
     "label": "HubSpot",
@@ -1279,7 +1302,7 @@
       "serif"
     ],
     "title": "HubSpot",
-    "designSystemUrl": "https://canvas.hubspot.com"
+    "designSystemUrl": null
   },
   "twilio.com": {
     "label": "Twilio",
@@ -1300,7 +1323,7 @@
       "sans-serif"
     ],
     "title": "Twilio",
-    "designSystemUrl": "https://paste.twilio.design"
+    "designSystemUrl": null
   },
   "cloudflare.com": {
     "label": "Cloudflare",
@@ -1321,7 +1344,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Connect, protect, and build everywhere"
+    "title": "Connect, protect, and build everywhere",
+    "designSystemUrl": null
   },
   "gitlab.com": {
     "label": "GitLab",
@@ -1343,7 +1367,7 @@
       "sans-serif"
     ],
     "title": "about.gitlab.com",
-    "designSystemUrl": "https://design.gitlab.com"
+    "designSystemUrl": null
   },
   "hashicorp.com": {
     "label": "HashiCorp",
@@ -1365,7 +1389,7 @@
       "sans-serif"
     ],
     "title": "HashiCorp",
-    "designSystemUrl": "https://helios.hashicorp.design"
+    "designSystemUrl": null
   },
   "datadog.com": {
     "label": "Datadog",
@@ -1387,7 +1411,7 @@
       "sans-serif"
     ],
     "title": "Datadog",
-    "designSystemUrl": "https://design.datadoghq.com"
+    "designSystemUrl": null
   },
   "bitbucket.org": {
     "label": "Bitbucket",
@@ -1407,7 +1431,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Bitbucket"
+    "title": "Bitbucket",
+    "designSystemUrl": null
   },
   "medium.com": {
     "label": "Medium",
@@ -1415,7 +1440,7 @@
     "url": "https://medium.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#191919",
       "secondary": "#aaaaaa",
       "text": "#000000",
       "bgSecondary": "#191919",
@@ -1429,7 +1454,8 @@
       "monospace",
       "serif"
     ],
-    "title": "Medium"
+    "title": "Medium",
+    "designSystemUrl": null
   },
   "stackoverflow.com": {
     "label": "Stack Overflow",
@@ -1450,7 +1476,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Stack Overflow"
+    "title": "Stack Overflow",
+    "designSystemUrl": null
   },
   "dev.to": {
     "label": "DEV Community",
@@ -1471,7 +1498,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "DEV Community"
+    "title": "DEV Community",
+    "designSystemUrl": null
   },
   "reddit.com": {
     "label": "Reddit",
@@ -1492,7 +1520,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Reddit"
+    "title": "Reddit",
+    "designSystemUrl": null
   },
   "wikipedia.org": {
     "label": "Wikipedia",
@@ -1512,7 +1541,8 @@
       "accented",
       "serif"
     ],
-    "title": "Wikipedia"
+    "title": "Wikipedia",
+    "designSystemUrl": null
   },
   "sap.com": {
     "label": "SAP",
@@ -1533,7 +1563,7 @@
       "sans-serif"
     ],
     "title": "SAP",
-    "designSystemUrl": "https://experience.sap.com/fiori-design/"
+    "designSystemUrl": null
   },
   "ibm.com": {
     "label": "IBM",
@@ -1554,7 +1584,7 @@
       "sans-serif"
     ],
     "title": "IBM",
-    "designSystemUrl": "https://carbondesignsystem.com"
+    "designSystemUrl": null
   },
   "databricks.com": {
     "label": "Databricks",
@@ -1576,7 +1606,7 @@
       "sans-serif"
     ],
     "title": "Databricks",
-    "designSystemUrl": "https://brand.databricks.com"
+    "designSystemUrl": null
   },
   "snowflake.com": {
     "label": "Snowflake",
@@ -1596,7 +1626,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Snowflake AIデータクラウド"
+    "title": "Snowflake AIデータクラウド",
+    "designSystemUrl": null
   },
   "grafana.com": {
     "label": "Grafana",
@@ -1617,7 +1648,7 @@
       "sans-serif"
     ],
     "title": "Grafana Labs",
-    "designSystemUrl": "https://grafana.com/developers/saga/"
+    "designSystemUrl": null
   },
   "elastic.co": {
     "label": "Elastic",
@@ -1639,7 +1670,7 @@
       "sans-serif"
     ],
     "title": "Elastic",
-    "designSystemUrl": "https://eui.elastic.co"
+    "designSystemUrl": null
   },
   "mongodb.com": {
     "label": "MongoDB",
@@ -1660,7 +1691,7 @@
       "sans-serif"
     ],
     "title": "MongoDB",
-    "designSystemUrl": "https://www.mongodb.design"
+    "designSystemUrl": null
   },
   "unsplash.com": {
     "label": "Unsplash",
@@ -1681,7 +1712,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Beautiful Free Images & Pictures"
+    "title": "Beautiful Free Images & Pictures",
+    "designSystemUrl": null
   },
   "kubernetes.io": {
     "label": "Kubernetes",
@@ -1701,7 +1733,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Kubernetes"
+    "title": "Kubernetes",
+    "designSystemUrl": null
   },
   "behance.net": {
     "label": "Behance",
@@ -1722,7 +1755,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Showcase, Discover, and Hire Creatives :"
+    "title": "Showcase, Discover, and Hire Creatives :",
+    "designSystemUrl": null
   },
   "docker.com": {
     "label": "Docker",
@@ -1742,7 +1776,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Docker"
+    "title": "Docker",
+    "designSystemUrl": null
   },
   "pexels.com": {
     "label": "Pexels",
@@ -1762,7 +1797,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Pexels — Free Stock Photos & Videos"
+    "title": "Pexels — Free Stock Photos & Videos",
+    "designSystemUrl": null
   },
   "fontshare.com": {
     "label": "Fontshare",
@@ -1783,7 +1819,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Fontshare"
+    "title": "Fontshare",
+    "designSystemUrl": null
   },
   "coolors.co": {
     "label": "Coolors",
@@ -1805,7 +1842,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Coolors"
+    "title": "Coolors",
+    "designSystemUrl": null
   },
   "mobbin.com": {
     "label": "Mobbin",
@@ -1813,7 +1851,7 @@
     "url": "https://mobbin.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#141414",
       "secondary": "#aaaaaa",
       "text": "#141414",
       "bgSecondary": "#ffffff",
@@ -1826,7 +1864,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Mobbin"
+    "title": "Mobbin",
+    "designSystemUrl": null
   },
   "awwwards.com": {
     "label": "Awwwards",
@@ -1847,7 +1886,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Awwwards"
+    "title": "Awwwards",
+    "designSystemUrl": null
   },
   "godly.website": {
     "label": "Godly",
@@ -1855,7 +1895,7 @@
     "url": "https://godly.website",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#000000",
       "secondary": "#aaaaaa",
       "text": "#000000",
       "bgSecondary": "#ffffff",
@@ -1868,7 +1908,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Godly"
+    "title": "Godly",
+    "designSystemUrl": null
   },
   "readymag.com": {
     "label": "Readymag",
@@ -1888,7 +1929,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Readymag"
+    "title": "Readymag",
+    "designSystemUrl": null
   },
   "typewolf.com": {
     "label": "Typewolf",
@@ -1908,7 +1950,8 @@
       "monochrome",
       "serif"
     ],
-    "title": "Typewolf"
+    "title": "Typewolf",
+    "designSystemUrl": null
   },
   "layers.to": {
     "label": "Layers",
@@ -1929,7 +1972,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Explore"
+    "title": "Explore",
+    "designSystemUrl": null
   },
   "miro.com": {
     "label": "Miro",
@@ -1949,7 +1993,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "AI Innovation Workspace"
+    "title": "AI Innovation Workspace",
+    "designSystemUrl": null
   },
   "instacart.com": {
     "label": "Instacart",
@@ -1970,7 +2015,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Instacart"
+    "title": "Instacart",
+    "designSystemUrl": null
   },
   "uber.com": {
     "label": "Uber",
@@ -1978,7 +2024,7 @@
     "url": "https://uber.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#0000ee",
+      "primary": "#000000",
       "secondary": "#0000ee",
       "text": "#000000",
       "bgSecondary": "#000000",
@@ -1991,7 +2037,7 @@
       "sans-serif"
     ],
     "title": "Uber",
-    "designSystemUrl": "https://base.uber.com"
+    "designSystemUrl": null
   },
   "lyft.com": {
     "label": "Lyft",
@@ -2011,7 +2057,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Ride or drive with Lyft"
+    "title": "Ride or drive with Lyft",
+    "designSystemUrl": null
   },
   "ikea.com": {
     "label": "IKEA",
@@ -2032,7 +2079,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "IKEA"
+    "title": "IKEA",
+    "designSystemUrl": null
   },
   "ebay.com": {
     "label": "eBay",
@@ -2053,7 +2101,7 @@
       "sans-serif"
     ],
     "title": "eBay",
-    "designSystemUrl": "https://playbook.ebay.com"
+    "designSystemUrl": null
   },
   "target.com": {
     "label": "Target",
@@ -2073,7 +2121,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Target"
+    "title": "Target",
+    "designSystemUrl": null
   },
   "adidas.com": {
     "label": "Adidas",
@@ -2081,7 +2130,7 @@
     "url": "https://adidas.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#000000",
       "secondary": "#aaaaaa",
       "text": "#000000",
       "bgSecondary": "#ffffff",
@@ -2094,7 +2143,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "adidas — Official Website"
+    "title": "adidas — Official Website",
+    "designSystemUrl": null
   },
   "uniqlo.com": {
     "label": "UNIQLO",
@@ -2114,7 +2164,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "UNIQLO"
+    "title": "UNIQLO",
+    "designSystemUrl": null
   },
   "louisvuitton.com": {
     "label": "Louis Vuitton",
@@ -2122,7 +2173,7 @@
     "url": "https://louisvuitton.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#000000",
       "secondary": "#aaaaaa",
       "text": "#000000",
       "bgSecondary": "#ffffff",
@@ -2135,7 +2186,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "LOUIS VUITTON"
+    "title": "LOUIS VUITTON",
+    "designSystemUrl": null
   },
   "puma.com": {
     "label": "PUMA",
@@ -2156,7 +2208,7 @@
       "sans-serif"
     ],
     "title": "PUMA 日本",
-    "designSystemUrl": "https://designsystem.puma.com"
+    "designSystemUrl": null
   },
   "warbyparker.com": {
     "label": "Warby Parker",
@@ -2177,7 +2229,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Warby Parker"
+    "title": "Warby Parker",
+    "designSystemUrl": null
   },
   "allbirds.com": {
     "label": "Allbirds",
@@ -2199,7 +2252,8 @@
       "monospace",
       "serif"
     ],
-    "title": "Allbirds"
+    "title": "Allbirds",
+    "designSystemUrl": null
   },
   "squareup.com": {
     "label": "Square",
@@ -2220,7 +2274,7 @@
       "sans-serif"
     ],
     "title": "Square",
-    "designSystemUrl": "https://design.squareup.com"
+    "designSystemUrl": null
   },
   "paypal.com": {
     "label": "PayPal",
@@ -2241,7 +2295,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "PayPal（ペイパル）公式サイト｜世界で使えるオンライン決済サービス"
+    "title": "PayPal（ペイパル）公式サイト｜世界で使えるオンライン決済サービス",
+    "designSystemUrl": null
   },
   "robinhood.com": {
     "label": "Robinhood",
@@ -2262,7 +2317,8 @@
       "bold-typography",
       "serif"
     ],
-    "title": "Robinhood"
+    "title": "Robinhood",
+    "designSystemUrl": null
   },
   "glossier.com": {
     "label": "Glossier",
@@ -2284,7 +2340,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Glossier"
+    "title": "Glossier",
+    "designSystemUrl": null
   },
   "binance.com": {
     "label": "Binance",
@@ -2305,7 +2362,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Binance"
+    "title": "Binance",
+    "designSystemUrl": null
   },
   "kraken.com": {
     "label": "Kraken",
@@ -2325,7 +2383,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Kraken"
+    "title": "Kraken",
+    "designSystemUrl": null
   },
   "brex.com": {
     "label": "Brex",
@@ -2346,7 +2405,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Brex"
+    "title": "Brex",
+    "designSystemUrl": null
   },
   "mercury.com": {
     "label": "Mercury",
@@ -2366,7 +2426,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Mercury"
+    "title": "Mercury",
+    "designSystemUrl": null
   },
   "ramp.com": {
     "label": "Ramp",
@@ -2374,7 +2435,7 @@
     "url": "https://ramp.com",
     "colors": {
       "bg": "#010518",
-      "primary": "#888888",
+      "primary": "#EA6C3A",
       "secondary": "#aaaaaa",
       "text": "#ffffff",
       "bgSecondary": "#212121",
@@ -2386,7 +2447,8 @@
       "monochrome",
       "sans-serif"
     ],
-    "title": "Ramp"
+    "title": "Ramp",
+    "designSystemUrl": null
   },
   "disneyplus.com": {
     "label": "Disney+",
@@ -2406,7 +2468,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Disney+ — Stream Movies & TV Shows"
+    "title": "Disney+ — Stream Movies & TV Shows",
+    "designSystemUrl": null
   },
   "affirm.com": {
     "label": "Affirm",
@@ -2428,7 +2491,7 @@
       "sans-serif"
     ],
     "title": "Affirm",
-    "designSystemUrl": "https://www.affirm.design"
+    "designSystemUrl": null
   },
   "hulu.com": {
     "label": "Hulu",
@@ -2449,7 +2512,7 @@
       "sans-serif"
     ],
     "title": "Hulu",
-    "designSystemUrl": "https://www.thisishulu.com"
+    "designSystemUrl": null
   },
   "marqeta.com": {
     "label": "Marqeta",
@@ -2469,7 +2532,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Marqeta"
+    "title": "Marqeta",
+    "designSystemUrl": null
   },
   "soundcloud.com": {
     "label": "SoundCloud",
@@ -2489,7 +2553,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "SoundCloud"
+    "title": "SoundCloud",
+    "designSystemUrl": null
   },
   "vimeo.com": {
     "label": "Vimeo",
@@ -2511,7 +2576,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Vimeo"
+    "title": "Vimeo",
+    "designSystemUrl": null
   },
   "deezer.com": {
     "label": "Deezer",
@@ -2532,7 +2598,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Deezer"
+    "title": "Deezer",
+    "designSystemUrl": null
   },
   "bmw.com": {
     "label": "BMW",
@@ -2552,7 +2619,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "BMW.com"
+    "title": "BMW.com",
+    "designSystemUrl": null
   },
   "crunchyroll.com": {
     "label": "Crunchyroll",
@@ -2573,7 +2641,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Crunchyroll"
+    "title": "Crunchyroll",
+    "designSystemUrl": null
   },
   "porsche.com": {
     "label": "Porsche",
@@ -2595,7 +2664,7 @@
       "sans-serif"
     ],
     "title": "ポルシェジャパン｜公式ウェブサイト",
-    "designSystemUrl": "https://designsystem.porsche.com"
+    "designSystemUrl": null
   },
   "lamborghini.com": {
     "label": "Lamborghini",
@@ -2616,7 +2685,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Lamborghini.com"
+    "title": "Lamborghini.com",
+    "designSystemUrl": null
   },
   "audi.com": {
     "label": "Audi",
@@ -2637,7 +2707,7 @@
       "sans-serif"
     ],
     "title": "Audi — The International Audi Website",
-    "designSystemUrl": "https://www.audi.com/ci/en/renewed-brand.html"
+    "designSystemUrl": null
   },
   "ferrari.com": {
     "label": "Ferrari",
@@ -2659,7 +2729,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "オフィシャル・フェラーリ・ウェブサイト"
+    "title": "オフィシャル・フェラーリ・ウェブサイト",
+    "designSystemUrl": null
   },
   "lucidmotors.com": {
     "label": "Lucid Motors",
@@ -2680,7 +2751,8 @@
       "bold-typography",
       "serif"
     ],
-    "title": "Home"
+    "title": "Home",
+    "designSystemUrl": null
   },
   "rivian.com": {
     "label": "Rivian",
@@ -2701,7 +2773,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Rivian"
+    "title": "Rivian",
+    "designSystemUrl": null
   },
   "toyota.com": {
     "label": "Toyota",
@@ -2722,7 +2795,7 @@
       "sans-serif"
     ],
     "title": "New Cars, Trucks, SUVs & Hybrids",
-    "designSystemUrl": "https://brand.toyota.com"
+    "designSystemUrl": null
   },
   "starbucks.com": {
     "label": "Starbucks",
@@ -2744,7 +2817,7 @@
       "sans-serif"
     ],
     "title": "Starbucks Coffee Company",
-    "designSystemUrl": "https://creative.starbucks.com"
+    "designSystemUrl": null
   },
   "deliveroo.com": {
     "label": "Deliveroo",
@@ -2764,7 +2837,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Deliveroo"
+    "title": "Deliveroo",
+    "designSystemUrl": null
   },
   "chipotle.com": {
     "label": "Chipotle",
@@ -2784,7 +2858,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Chipotle"
+    "title": "Chipotle",
+    "designSystemUrl": null
   },
   "sweetgreen.com": {
     "label": "Sweetgreen",
@@ -2805,7 +2880,8 @@
       "compact",
       "serif"
     ],
-    "title": "sweetgreen — Healthy Fast Food"
+    "title": "sweetgreen — Healthy Fast Food",
+    "designSystemUrl": null
   },
   "retty.me": {
     "label": "Retty",
@@ -2826,7 +2902,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Retty（レッティ）"
+    "title": "Retty（レッティ）",
+    "designSystemUrl": null
   },
   "tabelog.com": {
     "label": "食べログ",
@@ -2847,7 +2924,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "食べログ"
+    "title": "食べログ",
+    "designSystemUrl": null
   },
   "yahoo.co.jp": {
     "label": "Yahoo! JAPAN",
@@ -2868,7 +2946,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Yahoo! JAPAN"
+    "title": "Yahoo! JAPAN",
+    "designSystemUrl": null
   },
   "dena.com": {
     "label": "DeNA",
@@ -2888,7 +2967,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "DeNA"
+    "title": "DeNA",
+    "designSystemUrl": null
   },
   "pixiv.net": {
     "label": "pixiv",
@@ -2909,7 +2989,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "pixiv"
+    "title": "pixiv",
+    "designSystemUrl": null
   },
   "abema.tv": {
     "label": "ABEMA",
@@ -2930,7 +3011,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "ABEMA"
+    "title": "ABEMA",
+    "designSystemUrl": null
   },
   "todoist.com": {
     "label": "Todoist",
@@ -2950,7 +3032,8 @@
       "colorful",
       "serif"
     ],
-    "title": "Todoist"
+    "title": "Todoist",
+    "designSystemUrl": null
   },
   "gnavi.co.jp": {
     "label": "ぐるなび",
@@ -2971,7 +3054,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "ぐるなび"
+    "title": "ぐるなび",
+    "designSystemUrl": null
   },
   "basecamp.com": {
     "label": "Basecamp",
@@ -2992,7 +3076,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Basecamp"
+    "title": "Basecamp",
+    "designSystemUrl": null
   },
   "trello.com": {
     "label": "Trello",
@@ -3012,7 +3097,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Trello — Organize Your Projects"
+    "title": "Trello — Organize Your Projects",
+    "designSystemUrl": null
   },
   "clickup.com": {
     "label": "ClickUp",
@@ -3034,7 +3120,7 @@
       "sans-serif"
     ],
     "title": "ClickUp™",
-    "designSystemUrl": "https://clickup.com/brand"
+    "designSystemUrl": null
   },
   "monday.com": {
     "label": "monday.com",
@@ -3055,7 +3141,7 @@
       "sans-serif"
     ],
     "title": "monday.com — Work Management Platform",
-    "designSystemUrl": "https://vibe.monday.com"
+    "designSystemUrl": null
   },
   "asana.com": {
     "label": "Asana",
@@ -3077,7 +3163,7 @@
       "sans-serif"
     ],
     "title": "Asana",
-    "designSystemUrl": "https://asana.com/brand"
+    "designSystemUrl": null
   },
   "codepen.io": {
     "label": "CodePen",
@@ -3098,7 +3184,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "CodePen"
+    "title": "CodePen",
+    "designSystemUrl": null
   },
   "codesandbox.io": {
     "label": "CodeSandbox",
@@ -3119,7 +3206,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "CodeSandbox"
+    "title": "CodeSandbox",
+    "designSystemUrl": null
   },
   "stackblitz.com": {
     "label": "StackBlitz",
@@ -3141,7 +3229,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "StackBlitz"
+    "title": "StackBlitz",
+    "designSystemUrl": null
   },
   "fly.io": {
     "label": "Fly.io",
@@ -3161,7 +3250,8 @@
       "colorful",
       "serif"
     ],
-    "title": "Fly.io"
+    "title": "Fly.io",
+    "designSystemUrl": null
   },
   "replit.com": {
     "label": "Replit",
@@ -3182,7 +3272,7 @@
       "sans-serif"
     ],
     "title": "Replit — Build Software Faster",
-    "designSystemUrl": "https://replit.com/brandkit"
+    "designSystemUrl": null
   },
   "render.com": {
     "label": "Render",
@@ -3204,7 +3294,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Render"
+    "title": "Render",
+    "designSystemUrl": null
   },
   "aws.amazon.com": {
     "label": "AWS",
@@ -3226,7 +3317,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Cloud Computing Services"
+    "title": "Cloud Computing Services",
+    "designSystemUrl": null
   },
   "digitalocean.com": {
     "label": "DigitalOcean",
@@ -3246,7 +3338,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "DigitalOcean"
+    "title": "DigitalOcean",
+    "designSystemUrl": null
   },
   "cloud.google.com": {
     "label": "Google Cloud",
@@ -3266,7 +3359,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Google Cloud"
+    "title": "Google Cloud",
+    "designSystemUrl": null
   },
   "heroku.com": {
     "label": "Heroku",
@@ -3287,7 +3381,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Heroku"
+    "title": "Heroku",
+    "designSystemUrl": null
   },
   "azure.microsoft.com": {
     "label": "Azure",
@@ -3307,7 +3402,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Cloud Computing Services"
+    "title": "Cloud Computing Services",
+    "designSystemUrl": null
   },
   "mixpanel.com": {
     "label": "Mixpanel",
@@ -3327,7 +3423,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Mixpanel"
+    "title": "Mixpanel",
+    "designSystemUrl": null
   },
   "segment.com": {
     "label": "Segment",
@@ -3347,7 +3444,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Twilio"
+    "title": "Twilio",
+    "designSystemUrl": null
   },
   "amplitude.com": {
     "label": "Amplitude",
@@ -3369,7 +3467,7 @@
       "sans-serif"
     ],
     "title": "Amplitude — AI Analytics Platform",
-    "designSystemUrl": "https://brand.amplitude.com"
+    "designSystemUrl": null
   },
   "hotjar.com": {
     "label": "Hotjar",
@@ -3389,7 +3487,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "Hotjar"
+    "title": "Hotjar",
+    "designSystemUrl": null
   },
   "sentry.io": {
     "label": "Sentry",
@@ -3397,7 +3496,7 @@
     "url": "https://sentry.io",
     "colors": {
       "bg": "#1f1633",
-      "primary": "#1f1633",
+      "primary": "#6a5fc1",
       "secondary": "#f44747",
       "text": "#ffffff",
       "bgSecondary": "#1f1633",
@@ -3412,7 +3511,7 @@
       "sans-serif"
     ],
     "title": "Sentry",
-    "designSystemUrl": "https://sentry.io/branding/"
+    "designSystemUrl": null
   },
   "dbt.com": {
     "label": "dbt Labs",
@@ -3433,7 +3532,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "dbt Labs"
+    "title": "dbt Labs",
+    "designSystemUrl": null
   },
   "retool.com": {
     "label": "Retool",
@@ -3455,7 +3555,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Retool"
+    "title": "Retool",
+    "designSystemUrl": null
   },
   "launchdarkly.com": {
     "label": "LaunchDarkly",
@@ -3477,7 +3578,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "LaunchDarkly"
+    "title": "LaunchDarkly",
+    "designSystemUrl": null
   },
   "fivetran.com": {
     "label": "Fivetran",
@@ -3498,7 +3600,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Fivetran"
+    "title": "Fivetran",
+    "designSystemUrl": null
   },
   "neon.tech": {
     "label": "Neon",
@@ -3520,7 +3623,7 @@
       "sans-serif"
     ],
     "title": "Neon",
-    "designSystemUrl": "https://neon.com/brand"
+    "designSystemUrl": null
   },
   "turso.tech": {
     "label": "Turso",
@@ -3542,7 +3645,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Turso"
+    "title": "Turso",
+    "designSystemUrl": null
   },
   "temporal.io": {
     "label": "Temporal",
@@ -3564,7 +3668,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Durable Execution Solutions"
+    "title": "Durable Execution Solutions",
+    "designSystemUrl": null
   },
   "planetscale.com": {
     "label": "PlanetScale",
@@ -3586,7 +3691,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "PlanetScale"
+    "title": "PlanetScale",
+    "designSystemUrl": null
   },
   "airbyte.com": {
     "label": "Airbyte",
@@ -3606,7 +3712,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Airbyte"
+    "title": "Airbyte",
+    "designSystemUrl": null
   },
   "signal.org": {
     "label": "Signal",
@@ -3627,7 +3734,7 @@
       "sans-serif"
     ],
     "title": "Signal >> Home",
-    "designSystemUrl": "https://signal.org/brand/"
+    "designSystemUrl": null
   },
   "upstash.com": {
     "label": "Upstash",
@@ -3649,7 +3756,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Upstash"
+    "title": "Upstash",
+    "designSystemUrl": null
   },
   "whatsapp.com": {
     "label": "WhatsApp",
@@ -3671,7 +3779,7 @@
       "sans-serif"
     ],
     "title": "WhatsApp",
-    "designSystemUrl": "https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/"
+    "designSystemUrl": null
   },
   "convex.dev": {
     "label": "Convex",
@@ -3692,7 +3800,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Convex"
+    "title": "Convex",
+    "designSystemUrl": null
   },
   "telegram.org": {
     "label": "Telegram",
@@ -3713,7 +3822,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Telegram"
+    "title": "Telegram",
+    "designSystemUrl": null
   },
   "huggingface.co": {
     "label": "Hugging Face",
@@ -3735,7 +3845,7 @@
       "sans-serif"
     ],
     "title": "Hugging Face",
-    "designSystemUrl": "https://huggingface.co/brand"
+    "designSystemUrl": null
   },
   "midjourney.com": {
     "label": "Midjourney",
@@ -3756,7 +3866,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Midjourney"
+    "title": "Midjourney",
+    "designSystemUrl": null
   },
   "teams.microsoft.com": {
     "label": "Microsoft Teams",
@@ -3777,7 +3888,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Microsoft Teams — Collaboration Platform"
+    "title": "Microsoft Teams — Collaboration Platform",
+    "designSystemUrl": null
   },
   "replicate.com": {
     "label": "Replicate",
@@ -3799,7 +3911,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Replicate"
+    "title": "Replicate",
+    "designSystemUrl": null
   },
   "stability.ai": {
     "label": "Stability AI",
@@ -3820,7 +3933,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Stability AI"
+    "title": "Stability AI",
+    "designSystemUrl": null
   },
   "together.ai": {
     "label": "Together AI",
@@ -3841,7 +3955,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Together AI"
+    "title": "Together AI",
+    "designSystemUrl": null
   },
   "perplexity.ai": {
     "label": "Perplexity",
@@ -3862,7 +3977,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Perplexity"
+    "title": "Perplexity",
+    "designSystemUrl": null
   },
   "cohere.com": {
     "label": "Cohere",
@@ -3870,8 +3986,8 @@
     "url": "https://cohere.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
-      "secondary": "#aaaaaa",
+      "primary": "#39594D",
+      "secondary": "#f0dff3",
       "text": "#000000",
       "bgSecondary": "#f2f2f2",
       "border": "#f2f2f2"
@@ -3884,7 +4000,8 @@
       "monospace",
       "serif"
     ],
-    "title": "Cohere"
+    "title": "Cohere",
+    "designSystemUrl": null
   },
   "langchain.com": {
     "label": "LangChain",
@@ -3904,7 +4021,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "LangChain"
+    "title": "LangChain",
+    "designSystemUrl": null
   },
   "anyscale.com": {
     "label": "Anyscale",
@@ -3924,7 +4042,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Anyscale"
+    "title": "Anyscale",
+    "designSystemUrl": null
   },
   "groq.com": {
     "label": "Groq",
@@ -3945,7 +4064,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Groq"
+    "title": "Groq",
+    "designSystemUrl": null
   },
   "mistral.ai": {
     "label": "Mistral AI",
@@ -3967,7 +4087,7 @@
       "sans-serif"
     ],
     "title": "Mistral AI — Frontier LLMs & Agents",
-    "designSystemUrl": "https://mistral.ai/brand"
+    "designSystemUrl": null
   },
   "booking.com": {
     "label": "Booking.com",
@@ -3988,7 +4108,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Booking.com"
+    "title": "Booking.com",
+    "designSystemUrl": null
   },
   "marriott.com": {
     "label": "Marriott",
@@ -4009,7 +4130,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Marriott Bonvoy Hotels"
+    "title": "Marriott Bonvoy Hotels",
+    "designSystemUrl": null
   },
   "duolingo.com": {
     "label": "Duolingo",
@@ -4030,7 +4152,7 @@
       "sans-serif"
     ],
     "title": "Duolingo",
-    "designSystemUrl": "https://design.duolingo.com"
+    "designSystemUrl": null
   },
   "kayak.com": {
     "label": "Kayak",
@@ -4051,7 +4173,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "KAYAK"
+    "title": "KAYAK",
+    "designSystemUrl": null
   },
   "coursera.org": {
     "label": "Coursera",
@@ -4072,7 +4195,7 @@
       "sans-serif"
     ],
     "title": "Coursera",
-    "designSystemUrl": "https://about.coursera.org/brand-guide"
+    "designSystemUrl": null
   },
   "khanacademy.org": {
     "label": "Khan Academy",
@@ -4094,7 +4217,7 @@
       "serif"
     ],
     "title": "Khan Academy",
-    "designSystemUrl": "https://brand.khanacademy.org"
+    "designSystemUrl": null
   },
   "headspace.com": {
     "label": "Headspace",
@@ -4115,7 +4238,7 @@
       "sans-serif"
     ],
     "title": "Headspace",
-    "designSystemUrl": "https://live.standards.site/headspace"
+    "designSystemUrl": null
   },
   "peloton.com": {
     "label": "Peloton",
@@ -4136,7 +4259,8 @@
       "bold-typography",
       "serif"
     ],
-    "title": "Peloton"
+    "title": "Peloton",
+    "designSystemUrl": null
   },
   "udemy.com": {
     "label": "Udemy",
@@ -4156,7 +4280,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Udemy"
+    "title": "Udemy",
+    "designSystemUrl": null
   },
   "techcrunch.com": {
     "label": "TechCrunch",
@@ -4177,7 +4302,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "TechCrunch"
+    "title": "TechCrunch",
+    "designSystemUrl": null
   },
   "nytimes.com": {
     "label": "The New York Times",
@@ -4198,7 +4324,8 @@
       "compact",
       "serif"
     ],
-    "title": "The New York Times"
+    "title": "The New York Times",
+    "designSystemUrl": null
   },
   "substack.com": {
     "label": "Substack",
@@ -4220,7 +4347,7 @@
       "serif"
     ],
     "title": "Substack",
-    "designSystemUrl": "https://substack.com/brand"
+    "designSystemUrl": null
   },
   "mixi.jp": {
     "label": "MIXI",
@@ -4241,7 +4368,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "mixi"
+    "title": "mixi",
+    "designSystemUrl": null
   },
   "theverge.com": {
     "label": "The Verge",
@@ -4263,7 +4391,8 @@
       "monospace",
       "serif"
     ],
-    "title": "The Verge"
+    "title": "The Verge",
+    "designSystemUrl": null
   },
   "wired.com": {
     "label": "WIRED",
@@ -4284,7 +4413,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "WIRED"
+    "title": "WIRED",
+    "designSystemUrl": null
   },
   "stripe.dev": {
     "label": "Stripe Dev",
@@ -4305,7 +4435,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Stripe Dot Dev"
+    "title": "Stripe Dot Dev",
+    "designSystemUrl": null
   },
   "arc.net": {
     "label": "Arc Browser",
@@ -4326,7 +4457,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Arc from The Browser Company"
+    "title": "Arc from The Browser Company",
+    "designSystemUrl": null
   },
   "pitch.com": {
     "label": "Pitch",
@@ -4347,7 +4479,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Pitch"
+    "title": "Pitch",
+    "designSystemUrl": null
   },
   "krisp.ai": {
     "label": "Krisp",
@@ -4367,7 +4500,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Krisp"
+    "title": "Krisp",
+    "designSystemUrl": null
   },
   "lottiefiles.com": {
     "label": "LottieFiles",
@@ -4390,7 +4524,7 @@
       "sans-serif"
     ],
     "title": "LottieFiles",
-    "designSystemUrl": "https://lottiefiles.com/brand-assets"
+    "designSystemUrl": null
   },
   "spline.design": {
     "label": "Spline",
@@ -4411,7 +4545,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Spline"
+    "title": "Spline",
+    "designSystemUrl": null
   },
   "rive.app": {
     "label": "Rive",
@@ -4431,7 +4566,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Rive"
+    "title": "Rive",
+    "designSystemUrl": null
   },
   "sanity.io": {
     "label": "Sanity",
@@ -4453,7 +4589,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Sanity.io"
+    "title": "Sanity.io",
+    "designSystemUrl": null
   },
   "contentful.com": {
     "label": "Contentful",
@@ -4475,7 +4612,7 @@
       "sans-serif"
     ],
     "title": "Contentful — Content Platform",
-    "designSystemUrl": "https://f36.contentful.com"
+    "designSystemUrl": null
   },
   "storyblok.com": {
     "label": "Storyblok",
@@ -4496,7 +4633,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Storyblok"
+    "title": "Storyblok",
+    "designSystemUrl": null
   },
   "prismic.io": {
     "label": "Prismic",
@@ -4516,7 +4654,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Prismic"
+    "title": "Prismic",
+    "designSystemUrl": null
   },
   "strapi.io": {
     "label": "Strapi",
@@ -4537,7 +4676,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Strapi"
+    "title": "Strapi",
+    "designSystemUrl": null
   },
   "ghost.org": {
     "label": "Ghost",
@@ -4558,7 +4698,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Ghost"
+    "title": "Ghost",
+    "designSystemUrl": null
   },
   "squarespace.com": {
     "label": "Squarespace",
@@ -4566,7 +4707,7 @@
     "url": "https://squarespace.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#000000",
       "secondary": "#aaaaaa",
       "text": "#000000",
       "bgSecondary": "#2f2f2f",
@@ -4579,7 +4720,7 @@
       "sans-serif"
     ],
     "title": "Squarespace",
-    "designSystemUrl": "https://brand.squarespace.com"
+    "designSystemUrl": null
   },
   "wix.com": {
     "label": "Wix",
@@ -4601,7 +4742,7 @@
       "sans-serif"
     ],
     "title": "Wix — Website Builder",
-    "designSystemUrl": "https://www.wixdesignsystem.com"
+    "designSystemUrl": null
   },
   "bubble.io": {
     "label": "Bubble",
@@ -4622,7 +4763,8 @@
       "compact",
       "sans-serif"
     ],
-    "title": "Bubble"
+    "title": "Bubble",
+    "designSystemUrl": null
   },
   "deno.com": {
     "label": "Deno",
@@ -4645,7 +4787,7 @@
       "serif"
     ],
     "title": "Deno",
-    "designSystemUrl": "https://deno.com/brand"
+    "designSystemUrl": null
   },
   "bun.sh": {
     "label": "Bun",
@@ -4666,7 +4808,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Bun"
+    "title": "Bun",
+    "designSystemUrl": null
   },
   "astro.build": {
     "label": "Astro",
@@ -4688,7 +4831,7 @@
       "sans-serif"
     ],
     "title": "Astro",
-    "designSystemUrl": "https://astro.build/press/"
+    "designSystemUrl": null
   },
   "nextjs.org": {
     "label": "Next.js",
@@ -4710,7 +4853,8 @@
       "monospace",
       "serif"
     ],
-    "title": "Next.js by Vercel"
+    "title": "Next.js by Vercel",
+    "designSystemUrl": null
   },
   "remix.run": {
     "label": "Remix",
@@ -4732,7 +4876,7 @@
       "sans-serif"
     ],
     "title": "Remix",
-    "designSystemUrl": "https://remix.run/brand"
+    "designSystemUrl": null
   },
   "svelte.dev": {
     "label": "Svelte",
@@ -4752,7 +4896,8 @@
       "accented",
       "serif"
     ],
-    "title": "Svelte — Web Development Framework"
+    "title": "Svelte — Web Development Framework",
+    "designSystemUrl": null
   },
   "vuejs.org": {
     "label": "Vue.js",
@@ -4773,7 +4918,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Vue.js"
+    "title": "Vue.js",
+    "designSystemUrl": null
   },
   "angular.dev": {
     "label": "Angular",
@@ -4796,7 +4942,7 @@
       "sans-serif"
     ],
     "title": "Home • Angular",
-    "designSystemUrl": "https://angular.dev/press-kit"
+    "designSystemUrl": null
   },
   "tailwindcss.com": {
     "label": "Tailwind CSS",
@@ -4804,7 +4950,7 @@
     "url": "https://tailwindcss.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#06B6D4",
       "secondary": "#aaaaaa",
       "text": "#000000",
       "bgSecondary": "#000000",
@@ -4819,7 +4965,7 @@
       "sans-serif"
     ],
     "title": "Tailwind CSS",
-    "designSystemUrl": "https://tailwindcss.com/brand"
+    "designSystemUrl": null
   },
   "shadcn.com": {
     "label": "shadcn/ui",
@@ -4827,7 +4973,7 @@
     "url": "https://shadcn.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#000000",
       "secondary": "#aaaaaa",
       "text": "#09090b",
       "bgSecondary": "#ffffff",
@@ -4841,7 +4987,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "shadcn/ui — UI Components"
+    "title": "shadcn/ui — UI Components",
+    "designSystemUrl": null
   },
   "claude.ai": {
     "label": "Claude",
@@ -4861,7 +5008,8 @@
       "accented",
       "serif"
     ],
-    "title": "Claude"
+    "title": "Claude",
+    "designSystemUrl": null
   },
   "expo.dev": {
     "label": "Expo",
@@ -4883,7 +5031,7 @@
       "sans-serif"
     ],
     "title": "Expo",
-    "designSystemUrl": "https://expo.dev/brand"
+    "designSystemUrl": null
   },
   "spacex.com": {
     "label": "SpaceX",
@@ -4903,7 +5051,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "SpaceX"
+    "title": "SpaceX",
+    "designSystemUrl": null
   },
   "nvidia.com": {
     "label": "NVIDIA",
@@ -4924,7 +5073,7 @@
       "sans-serif"
     ],
     "title": "NVIDIA",
-    "designSystemUrl": "https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/"
+    "designSystemUrl": null
   },
   "playstation.com": {
     "label": "PlayStation",
@@ -4944,7 +5093,8 @@
       "colorful",
       "sans-serif"
     ],
-    "title": "PlayStation 公式サイト"
+    "title": "PlayStation 公式サイト",
+    "designSystemUrl": null
   },
   "elevenlabs.io": {
     "label": "ElevenLabs",
@@ -4952,7 +5102,7 @@
     "url": "https://elevenlabs.io",
     "colors": {
       "bg": "#fdfcfc",
-      "primary": "#888888",
+      "primary": "#000000",
       "secondary": "#aaaaaa",
       "text": "#000000",
       "bgSecondary": "#fdfcfc",
@@ -4965,7 +5115,7 @@
       "sans-serif"
     ],
     "title": "ElevenLabs",
-    "designSystemUrl": "https://elevenlabs.io/brand"
+    "designSystemUrl": null
   },
   "posthog.com": {
     "label": "PostHog",
@@ -4988,7 +5138,7 @@
       "sans-serif"
     ],
     "title": "PostHog",
-    "designSystemUrl": "https://posthog.com/handbook/company/brand-assets"
+    "designSystemUrl": null
   },
   "resend.com": {
     "label": "Resend",
@@ -5011,7 +5161,7 @@
       "sans-serif"
     ],
     "title": "Resend · Email for developers",
-    "designSystemUrl": "https://resend.com/handbook/design/what-are-our-brand-guidelines"
+    "designSystemUrl": null
   },
   "mintlify.com": {
     "label": "Mintlify",
@@ -5019,7 +5169,7 @@
     "url": "https://mintlify.com",
     "colors": {
       "bg": "#ffffff",
-      "primary": "#888888",
+      "primary": "#0D9373",
       "secondary": "#aaaaaa",
       "text": "#000000",
       "bgSecondary": "",
@@ -5032,7 +5182,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Mintlify"
+    "title": "Mintlify",
+    "designSystemUrl": null
   },
   "superhuman.com": {
     "label": "Superhuman",
@@ -5052,7 +5203,8 @@
       "monochrome",
       "sans-serif"
     ],
-    "title": "Superhuman"
+    "title": "Superhuman",
+    "designSystemUrl": null
   },
   "runway.com": {
     "label": "Runway",
@@ -5073,7 +5225,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Runway"
+    "title": "Runway",
+    "designSystemUrl": null
   },
   "clickhouse.com": {
     "label": "ClickHouse",
@@ -5094,7 +5247,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "ClickHouse"
+    "title": "ClickHouse",
+    "designSystemUrl": null
   },
   "ollama.com": {
     "label": "Ollama",
@@ -5115,7 +5269,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Ollama"
+    "title": "Ollama",
+    "designSystemUrl": null
   },
   "renault.com": {
     "label": "Renault",
@@ -5135,7 +5290,8 @@
       "accented",
       "sans-serif"
     ],
-    "title": "Renault Group"
+    "title": "Renault Group",
+    "designSystemUrl": null
   },
   "clay.com": {
     "label": "Clay",
@@ -5156,7 +5312,8 @@
       "bold-typography",
       "sans-serif"
     ],
-    "title": "Clay"
+    "title": "Clay",
+    "designSystemUrl": null
   },
   "bugatti.com": {
     "label": "Bugatti",
@@ -5178,7 +5335,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "BUGATTI"
+    "title": "BUGATTI",
+    "designSystemUrl": null
   },
   "lovable.dev": {
     "label": "Lovable",
@@ -5186,7 +5344,7 @@
     "url": "https://lovable.dev",
     "colors": {
       "bg": "#fcfbf8",
-      "primary": "#888888",
+      "primary": "#9b87f5",
       "secondary": "#aaaaaa",
       "text": "#1c1c1c",
       "bgSecondary": "#fcfbf8",
@@ -5200,7 +5358,7 @@
       "sans-serif"
     ],
     "title": "Lovable",
-    "designSystemUrl": "https://lovable.dev/brand"
+    "designSystemUrl": null
   },
   "composio.dev": {
     "label": "Composio",
@@ -5221,7 +5379,8 @@
       "monospace",
       "sans-serif"
     ],
-    "title": "Composio"
+    "title": "Composio",
+    "designSystemUrl": null
   },
   "minimax.io": {
     "label": "MiniMax",
@@ -5242,6 +5401,7 @@
       "compact",
       "sans-serif"
     ],
-    "title": "MiniMax"
+    "title": "MiniMax",
+    "designSystemUrl": null
   }
 }
