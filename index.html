@@ -2090,6 +2090,8 @@ function renderResults(data) {
 
   // More designs grid (Pinterest-style, exclude current brand)
   renderMoreDesigns(d);
+  // Trigger lazy image loading for more-designs grid
+  requestAnimationFrame(observeLazyImages);
 
   // Mobile accordion: make left panel sections collapsible on small screens
   if (window.innerWidth <= 800) {
