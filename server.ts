@@ -587,7 +587,7 @@ const server = http.createServer(async (req, res) => {
           const brandTitle = escAttr(brand?.design?.title || brand?.label || parsedDomain);
           const ogImageUrl = `https://designmd-generator-production.up.railway.app/og/${parsedDomain}.png`;
           const ogTitle = `${brandTitle} — DESIGN.md Generator`;
-          const ogDesc = `${brandTitle}のカラー・フォント・コンポーネントを抽出。AIにそっくりなUIを作らせよう`;
+          const ogDesc = `${brandTitle} — colors, fonts, components extracted. Feed to AI to build matching UI.`;
           // Replace og:image
           html = html.replace(
             /<meta property="og:image" content="[^"]*">/,
