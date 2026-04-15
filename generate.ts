@@ -358,7 +358,8 @@ export function generateDesignMd(d: ExtractedDesign, mode: 'compact' | 'extended
   if (d.tags.includes('serif')) donts.push("Don't mix in geometric sans-serif headlines — it breaks the editorial tone");
   if (d.tags.includes('compact')) donts.push("Don't use oversized hero text — this brand uses restrained type");
   donts.push(`Don't use pure black (#000000) for text — use \`${d.colors.text}\` instead`);
-  donts.push("Don't add decorative elements not present in the original design");
+  donts.push("Don't add decorative elements not present in the original design — no badges, ribbons, banners, or ornaments unless the source site uses them");
+  donts.push("Don't invent UI patterns the source site doesn't have — if the original has no NEW badge, don't add one just because a red is in the palette");
   if (isJP) {
     donts.push("Don't use `word-break: break-all` for Japanese text — it breaks in the middle of words");
     donts.push("Don't set body font size below 14px for Japanese — characters are too complex");
