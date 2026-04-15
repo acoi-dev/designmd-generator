@@ -2145,7 +2145,7 @@ function renderMoreDesigns(d) {
     const dotC2 = dc2 ? [dc2.bg, dc2.primary, dc2.secondary, dc2.text, dc2.bgSecondary, dc2.border].filter(Boolean) : [];
     const sn2 = new Set(); const uq2 = dotC2.filter(x => { if(sn2.has(x)) return false; sn2.add(x); return true; });
     const dots = uq2.slice(0, 6).map(h => `<span class="dot" style="background:${h}"></span>`).join('');
-    return `<div class="brand-card" onclick="setUrl('${chipUrl}');window.scrollTo({top:0,behavior:'smooth'})">
+    return `<div class="brand-card" onclick="location.href='?url='+encodeURIComponent('${c.domain}')">
       <img class="brand-card-img" src="${screenshot}" alt="${c.label}" loading="lazy" onerror="this.style.minHeight='120px';this.style.background='#f0f0f0'">
       <div class="brand-card-info">
         <img class="brand-logo" src="${favicon}" alt="" onerror="this.style.display='none'">
