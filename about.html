@@ -85,7 +85,10 @@ p { font-size: 14px; line-height: 1.7; color: #444; margin-bottom: 14px; }
 .tool { padding: 6px 12px; background: #fff; border: 1px solid #eee; border-radius: 6px; font-size: 12px; font-weight: 600; color: #333; }
 .back { display: inline-block; margin-top: 24px; color: #E27B45; text-decoration: none; font-size: 13px; font-weight: 600; }
 .back:hover { text-decoration: underline; }
-footer { max-width: 680px; margin: 40px auto; padding: 20px 24px; border-top: 1px solid #eee; }
+footer.footer { max-width: 680px; margin: 40px auto; padding: 20px 24px; border-top: 1px solid #eee; display: flex; justify-content: center; align-items: center; gap: 6px; font-size: 12px; color: #888; }
+footer.footer a { color: #555; font-weight: 600; text-decoration: none; }
+footer.footer a:hover { color: #0a0a0a; }
+footer.footer .sep { color: #ddd; margin: 0 4px; }
 .credit { font-size: 12px; color: #888; }
 .credit a { color: #171717; font-weight: 700; text-decoration: none; }
 .hidden { display: none; }
@@ -221,12 +224,14 @@ footer { max-width: 680px; margin: 40px auto; padding: 20px 24px; border-top: 1p
   </div>
 </div>
 
-<footer style="max-width:680px;margin:40px auto;padding:20px 24px;border-top:1px solid #eee;display:flex;justify-content:center;align-items:center;gap:8px;font-size:12px;color:#888">
-  <a href="https://x.com/claude_skill" target="_blank" rel="noopener" style="color:#888;text-decoration:none">@claude_skill</a>
-  <span>·</span>
+<footer class="footer">
+  <a href="https://x.com/claude_skill" target="_blank" rel="noopener">@claude_skill</a>
+  <span class="sep">·</span>
   <span>Free</span>
-  <span>·</span>
+  <span class="sep">·</span>
   <span>Open source</span>
+  <span class="sep">·</span>
+  <a href="/about.html#disclaimer" style="color:#aaa;text-decoration:none;font-size:11px">Disclaimer</a>
 </footer>
 
 <script>

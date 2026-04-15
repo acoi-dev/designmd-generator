@@ -1677,6 +1677,14 @@ document.addEventListener('DOMContentLoaded', () => {
       card.style.display = (name.includes(q) || domain.includes(q)) ? '' : 'none';
     });
   });
+  // Auto-extract on paste (Cmd+V / Ctrl+V)
+  input.addEventListener('paste', (e) => {
+    const pasted = (e.clipboardData || window.clipboardData).getData('text').trim();
+    const isUrl = /^https?:\/\//i.test(pasted) || /^[a-zA-Z0-9][\w.-]*\.(com|io|dev|app|org|net|co|ai|so|tv|me|xyz|design|build|run|sh|gg|fm|to)\b/i.test(pasted);
+    if (isUrl) {
+      setTimeout(() => extract(), 300);
+    }
+  });
   // Autofocus on load
   setTimeout(() => input.focus(), 50);
 
