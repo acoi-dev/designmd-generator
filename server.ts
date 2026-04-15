@@ -43,6 +43,19 @@ setInterval(() => {
   }
 }, 5 * 60 * 1000);
 
+// ───── Live Extraction Cache ─────
+// Cache live extraction results for 1 hour to avoid repeated Playwright launches
+const EXTRACT_CACHE_TTL = 60 * 60 * 1000; // 1 hour
+const extractCache = new Map<string, { result: any; expiresAt: number }>();
+
+// Clean up expired cache every 10 minutes
+setInterval(() => {
+  const now = Date.now();
+  for (const [url, entry] of extractCache.entries()) {
+    if (now > entry.expiresAt) extractCache.delete(url);
+  }
+}, 10 * 60 * 1000);
+
 // Capture screenshot of the source site (separate browser session)
 async function captureScreenshot(url: string): Promise<string | undefined> {
   try {
@@ -474,6 +487,16 @@ const server = http.createServer(async (req, res) => {
           }
         } catch (_) {}
 
+        // Check live extraction cache
+        const cacheKey = extractUrl;
+        const cached = extractCache.get(cacheKey);
+        if (cached && Date.now() < cached.expiresAt) {
+          console.log(`[extract] ${targetUrl} → cache hit`);
+          res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
+          res.end(JSON.stringify(cached.result));
+          return;
+        }
+
         console.log(`[extract] ${targetUrl} (lang=${lang}) → ${extractUrl}`);
         const [design, screenshot] = await Promise.all([
           extractStyle(extractUrl),
@@ -491,6 +514,8 @@ const server = http.createServer(async (req, res) => {
             'design-tokens.json': generateTokensJson(design),
           },
         };
+        // Store in cache
+        extractCache.set(cacheKey, { result, expiresAt: Date.now() + EXTRACT_CACHE_TTL });
         res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
         res.end(JSON.stringify(result));
       } catch (err: any) {
@@ -651,6 +676,14 @@ const server = http.createServer(async (req, res) => {
     // Add JPEG support
     if (ext === '.jpg' || ext === '.jpeg') {
       headers['Content-Type'] = 'image/jpeg';
+    }
+    // Cache-Control for static assets (images, fonts, etc.)
+    if (['.jpg', '.jpeg', '.png', '.svg', '.woff', '.woff2'].includes(ext)) {
+      headers['Cache-Control'] = 'public, max-age=86400'; // 24 hours
+    }
+    // HTML/CSS/JS: short cache with revalidation
+    if (['.html', '.css', '.js'].includes(ext)) {
+      headers['Cache-Control'] = 'public, max-age=300, must-revalidate'; // 5 minutes
     }
     // gzip compression for JSON files
     if (ext === '.json' && req.headers['accept-encoding']?.includes('gzip')) {
