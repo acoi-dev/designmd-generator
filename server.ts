@@ -408,17 +408,76 @@ const server = http.createServer(async (req, res) => {
           res.end(JSON.stringify({ error: 'url required' }));
           return;
         }
-        const fullUrl = targetUrl.startsWith('http') ? targetUrl : `https://${targetUrl}`;
+        let fullUrl = targetUrl.startsWith('http') ? targetUrl : `https://${targetUrl}`;
         // C-1: SSRF prevention
         if (!isAllowedUrl(fullUrl)) {
           res.writeHead(400, { 'Content-Type': 'application/json' });
           res.end(JSON.stringify({ error: 'URL not allowed' }));
           return;
         }
-        console.log(`[extract] ${targetUrl} (lang=${lang})`);
+
+        // Check if we have prebuilt data for this domain (avoid CAPTCHA/bot detection)
+        const parsedHost = new URL(fullUrl).hostname.replace(/^www\./, '');
+        const prebuilt = getPrebuiltData();
+        if (prebuilt[parsedHost]) {
+          console.log(`[extract] ${parsedHost} found in prebuilt, using cached data`);
+          const entry = prebuilt[parsedHost];
+          const result = {
+            design: entry.design,
+            screenshotUrl: `/screenshots/${parsedHost}.jpg`,
+            similarBrands: findSimilarBrands(entry.design, 5),
+            formats: {
+              'DESIGN.md': entry.designMd || generateDesignMd(entry.design, 'extended'),
+              'tailwind.config.js': entry.tailwind || generateTailwindConfig(entry.design),
+              'css-variables.css': entry.cssVars || generateCssVars(entry.design),
+              'design-tokens.json': entry.tokens || generateTokensJson(entry.design),
+            },
+          };
+          res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
+          res.end(JSON.stringify(result));
+          return;
+        }
+        // Also check bare domain (e.g., amazon.co.jp → amazon.com)
+        const bareDomain = parsedHost.split('.').slice(-2).join('.');
+        if (bareDomain !== parsedHost && prebuilt[bareDomain]) {
+          console.log(`[extract] ${parsedHost} → fallback to prebuilt ${bareDomain}`);
+          const entry = prebuilt[bareDomain];
+          const result = {
+            design: entry.design,
+            screenshotUrl: `/screenshots/${bareDomain}.jpg`,
+            similarBrands: findSimilarBrands(entry.design, 5),
+            formats: {
+              'DESIGN.md': entry.designMd || generateDesignMd(entry.design, 'extended'),
+              'tailwind.config.js': entry.tailwind || generateTailwindConfig(entry.design),
+              'css-variables.css': entry.cssVars || generateCssVars(entry.design),
+              'design-tokens.json': entry.tokens || generateTokensJson(entry.design),
+            },
+          };
+          res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
+          res.end(JSON.stringify(result));
+          return;
+        }
+
+        // Check design-systems.json for a better extraction URL
+        let extractUrl = fullUrl;
+        try {
+          const dsPath = path.join(STATIC_DIR, 'design-systems.json');
+          if (fs.existsSync(dsPath)) {
+            const dsMap = JSON.parse(fs.readFileSync(dsPath, 'utf8'));
+            if (dsMap[parsedHost]) {
+              console.log(`[extract] ${parsedHost} has design system: ${dsMap[parsedHost]}, extracting from there`);
+              extractUrl = dsMap[parsedHost];
+            } else if (dsMap[bareDomain]) {
+              console.log(`[extract] ${bareDomain} has design system: ${dsMap[bareDomain]}, extracting from there`);
+              extractUrl = dsMap[bareDomain];
+            }
+          }
+        } catch (_) {}
+
+        console.log(`[extract] ${targetUrl} (lang=${lang}) → ${extractUrl}`);
         const [design, screenshot] = await Promise.all([
-          extractStyle(fullUrl),
-          captureScreenshot(fullUrl),
+          extractStyle(extractUrl),
+          captureScreenshot(fullUrl),  // Screenshot from original URL for visual
         ]);
         const similarBrands = findSimilarBrands(design, 5);
         const result = {

@@ -1837,6 +1837,13 @@ async function extract() {
         indexEntry = prebuiltData[bare];
         if (indexEntry) resolvedDomain = bare;
       }
+      // Try .com variant for ccTLD domains (e.g., amazon.co.jp → amazon.com)
+      if (!indexEntry) {
+        const brand = hostname.replace(/^www\./, '').split('.')[0];
+        const comDomain = brand + '.com';
+        indexEntry = prebuiltData[comDomain];
+        if (indexEntry) resolvedDomain = comDomain;
+      }
       if (indexEntry) {
         const entry = await fetchBrandDetail(resolvedDomain);
         if (entry && entry.design && entry.designMd) {
