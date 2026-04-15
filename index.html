@@ -683,7 +683,7 @@ body {
 .cat-tab.active { color: #fff; background: #171717; border-color: #171717; }
 .brand-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
 }
 .brand-card {
@@ -704,7 +704,7 @@ body {
   width: 100%;
   display: block;
   background: #f5f5f5;
-  aspect-ratio: 16/9;
+  aspect-ratio: 3/2;
   object-fit: cover;
 }
 .brand-card-info {
@@ -864,6 +864,7 @@ body {
   .value-props { grid-template-columns: 1fr; gap: 10px; }
   .pack-callout { flex-wrap: wrap; gap: 4px; font-size: 11px; text-align: center; }
   .brand-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .brand-grid:not(.brand-grid-compact) { grid-template-columns: repeat(2, 1fr); }
   .brand-card { margin-bottom: 8px; border-radius: 10px; }
   .brand-card-info { padding: 8px 10px; }
   .brand-name { font-size: 12px; }
