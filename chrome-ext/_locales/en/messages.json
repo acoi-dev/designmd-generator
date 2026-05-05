@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "DESIGN.md Generator"
+  },
+  "extDescription": {
+    "message": "Extract any website's design system as DESIGN.md or SKILL.md — feed to Claude Code, Cursor, or Codex."
+  },
+  "extTitle": {
+    "message": "DESIGN.md Generator — extract this site's design"
+  },
+  "tagline": {
+    "message": "Extract any site's design system as DESIGN.md for AI coding agents."
+  },
+  "extractBtn": {
+    "message": "Extract this site's design"
+  },
+  "analysing": {
+    "message": "Analysing page…"
+  },
+  "labelBrand": {
+    "message": "Brand"
+  },
+  "labelUrl": {
+    "message": "URL"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "copied": {
+    "message": "Copied!"
+  },
+  "download": {
+    "message": "Download"
+  },
+  "reExtract": {
+    "message": "Re-extract"
+  },
+  "untitled": {
+    "message": "(untitled)"
+  },
+  "errNoTab": {
+    "message": "Could not read the active tab."
+  },
+  "errRestricted": {
+    "message": "This page cannot be analysed. Chrome does not allow extensions to run on chrome://, chrome-extension://, file://, or the Chrome Web Store. Open any regular http(s) site and try again."
+  },
+  "errInjection": {
+    "message": "Script injection failed: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "errNoData": {
+    "message": "Extraction returned no data. The page may be blocked or empty."
+  },
+  "errPostprocess": {
+    "message": "Post-processing failed: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "errGenerate": {
+    "message": "Markdown generation failed: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "errClipboard": {
+    "message": "Clipboard copy failed: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  }
+}

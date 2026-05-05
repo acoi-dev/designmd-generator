@@ -1,0 +1,74 @@
+{
+  "extName": {
+    "message": "DESIGN.md ジェネレーター"
+  },
+  "extDescription": {
+    "message": "Webサイトのデザインシステムを DESIGN.md / SKILL.md として抽出 — Claude Code、Cursor、Codex にそのまま渡せます"
+  },
+  "extTitle": {
+    "message": "DESIGN.md ジェネレーター — このサイトのデザインを抽出"
+  },
+  "tagline": {
+    "message": "あらゆるサイトのデザインシステムを DESIGN.md として抽出。AIコーディングエージェントにそのまま渡せます"
+  },
+  "extractBtn": {
+    "message": "このサイトのデザインを抽出"
+  },
+  "analysing": {
+    "message": "ページを解析中…"
+  },
+  "labelBrand": {
+    "message": "ブランド"
+  },
+  "labelUrl": {
+    "message": "URL"
+  },
+  "copy": {
+    "message": "コピー"
+  },
+  "copied": {
+    "message": "コピー完了!"
+  },
+  "download": {
+    "message": "ダウンロード"
+  },
+  "reExtract": {
+    "message": "再抽出"
+  },
+  "untitled": {
+    "message": "（タイトルなし）"
+  },
+  "errNoTab": {
+    "message": "アクティブなタブを読み取れませんでした"
+  },
+  "errRestricted": {
+    "message": "このページは解析できません。chrome://、chrome-extension://、file://、Chrome ウェブストアでは拡張機能を実行できません。通常の http(s) サイトを開いてもう一度お試しください"
+  },
+  "errInjection": {
+    "message": "スクリプトの注入に失敗しました: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "errNoData": {
+    "message": "データを取得できませんでした。ページがブロックされているか、空の可能性があります"
+  },
+  "errPostprocess": {
+    "message": "後処理に失敗しました: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "errGenerate": {
+    "message": "Markdown生成に失敗しました: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  },
+  "errClipboard": {
+    "message": "クリップボードへのコピーに失敗しました: $ERROR$",
+    "placeholders": {
+      "error": { "content": "$1" }
+    }
+  }
+}

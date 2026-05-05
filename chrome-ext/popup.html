@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DESIGN.md Generator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="hdr">
+    <div class="brand">
+      <span class="brand-mark">{ }</span>
+      <span class="brand-name">DESIGN.md</span>
+    </div>
+    <span class="brand-sub">Generator</span>
+  </header>
+
+  <section id="pre" class="pre">
+    <p class="tagline" data-i18n="tagline"></p>
+    <button id="extract-btn" class="btn-primary" data-i18n="extractBtn"></button>
+    <p id="err" class="err hidden"></p>
+  </section>
+
+  <section id="loading" class="loading hidden">
+    <div class="spinner"></div>
+    <p data-i18n="analysing"></p>
+  </section>
+
+  <section id="result" class="result hidden">
+    <div class="meta">
+      <div class="meta-row">
+        <span class="meta-label" data-i18n="labelBrand"></span>
+        <span id="meta-title" class="meta-val"></span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label" data-i18n="labelUrl"></span>
+        <span id="meta-url" class="meta-val url"></span>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="design">DESIGN.md</button>
+      <button class="tab" data-tab="skill">SKILL.md</button>
+      <button class="tab" data-tab="json">JSON</button>
+    </div>
+
+    <div class="toolbar">
+      <button id="copy-btn" class="btn-ghost" data-i18n="copy"></button>
+      <button id="download-btn" class="btn-ghost" data-i18n="download"></button>
+      <button id="reset-btn" class="btn-ghost right" data-i18n="reExtract"></button>
+    </div>
+
+    <pre id="output" class="output"></pre>
+  </section>
+
+  <footer class="ft">
+    <span>v1.1.0</span>
+    <span>by @claude_skill</span>
+  </footer>
+
+  <script src="extract.js"></script>
+  <script src="postprocess.js"></script>
+  <script src="generate.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

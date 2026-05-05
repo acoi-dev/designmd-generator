@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="22" fill="#0d1117"/>
+  <!-- Left curly brace { -->
+  <path d="M 52 32 Q 40 32 40 44 L 40 58 Q 40 64 30 64 Q 40 64 40 70 L 40 84 Q 40 96 52 96"
+        stroke="#f97316" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Right curly brace } -->
+  <path d="M 76 32 Q 88 32 88 44 L 88 58 Q 88 64 98 64 Q 88 64 88 70 L 88 84 Q 88 96 76 96"
+        stroke="#f97316" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Orange underline accent -->
+  <rect x="32" y="108" width="64" height="5" rx="2.5" fill="#f97316"/>
+</svg>

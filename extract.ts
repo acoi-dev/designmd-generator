@@ -221,6 +221,11 @@ const EXTRACT_FN = `(() => {
   var marginCounts = {};
   var radiusCounts = {};
   var shadowCounts = {};
+  // v1.2.0 additions
+  var fontFeatureCounts = {};
+  var iconFontCounts = {};
+  var gradientCounts = {};
+  var ICON_FONT_PATTERNS = ['material symbols', 'material icons', 'fontawesome', 'font awesome', 'phosphor', 'remixicon', 'ionicons', 'feather', 'bootstrap-icons', 'google symbols'];
 
   for (var i = 0; i < maxScan; i++) {
     var el = allEls[i];
@@ -253,11 +258,25 @@ const EXTRACT_FN = `(() => {
 
     // Fonts
     var f = cs.fontFamily;
-    if (f) fontCounts[f] = (fontCounts[f] || 0) + 1;
+    if (f) {
+      fontCounts[f] = (fontCounts[f] || 0) + 1;
+      // v1.2.0: detect icon fonts
+      var fLower = f.toLowerCase();
+      for (var ifp = 0; ifp < ICON_FONT_PATTERNS.length; ifp++) {
+        if (fLower.indexOf(ICON_FONT_PATTERNS[ifp]) >= 0) {
+          iconFontCounts[f] = (iconFontCounts[f] || 0) + 1;
+          break;
+        }
+      }
+    }
     var w = cs.fontWeight;
     if (w) weightCounts[w] = (weightCounts[w] || 0) + 1;
     var sz = px(cs.fontSize);
     if (sz > 0) sizeCounts[sz] = (sizeCounts[sz] || 0) + 1;
+
+    // v1.2.0: font-feature-settings (tabular-nums, ligatures, stylistic sets)
+    var ff = cs.fontFeatureSettings;
+    if (ff && ff !== 'normal') fontFeatureCounts[ff] = (fontFeatureCounts[ff] || 0) + 1;
 
     // Spacing
     var p = px(cs.paddingTop);
@@ -272,6 +291,12 @@ const EXTRACT_FN = `(() => {
     // Shadow
     var sh = cs.boxShadow;
     if (sh && sh !== 'none') shadowCounts[sh] = (shadowCounts[sh] || 0) + 1;
+
+    // v1.2.0: gradients from background-image
+    var bgi = cs.backgroundImage;
+    if (bgi && bgi !== 'none' && /gradient/.test(bgi)) {
+      gradientCounts[bgi] = (gradientCounts[bgi] || 0) + 1;
+    }
   }
 
   // Build palette sorted by area
@@ -358,6 +383,54 @@ const EXTRACT_FN = `(() => {
   var radii = Object.keys(radiusCounts).map(function(k) { return [parseFloat(k), radiusCounts[k]]; });
   radii.sort(function(a, b) { return b[1] - a[1]; });
   var topRadii = radii.slice(0, 6);
+
+  // v1.2.0: margins
+  var marginsArr = Object.keys(marginCounts).map(function(k) { return [parseFloat(k), marginCounts[k]]; });
+  marginsArr.sort(function(a, b) { return b[1] - a[1]; });
+  var topMargins = marginsArr.slice(0, 8);
+
+  // v1.2.0: detect 4px / 8px spacing scale base
+  function detectSpacingBase(arrs) {
+    var seen = {};
+    for (var sa = 0; sa < arrs.length; sa++) {
+      for (var sb = 0; sb < arrs[sa].length; sb++) {
+        var n = arrs[sa][sb][0];
+        if (n > 0 && n <= 96 && !(n in seen)) seen[n] = 1;
+      }
+    }
+    var keys = Object.keys(seen).map(parseFloat);
+    if (!keys.length) return null;
+    var div8 = 0, div4 = 0;
+    for (var k = 0; k < keys.length; k++) {
+      if (keys[k] % 8 === 0) div8++;
+      if (keys[k] % 4 === 0) div4++;
+    }
+    var ratio8 = div8 / keys.length;
+    var ratio4 = div4 / keys.length;
+    keys.sort(function(a, b) { return a - b; });
+    return {
+      base: ratio8 > 0.6 ? 8 : ratio4 > 0.6 ? 4 : null,
+      ratio8: Math.round(ratio8 * 100),
+      ratio4: Math.round(ratio4 * 100),
+      sample: keys.slice(0, 12)
+    };
+  }
+  var spacingScale = detectSpacingBase([topSpacings, topMargins]);
+
+  // v1.2.0: font-feature-settings
+  var fontFeatures = Object.keys(fontFeatureCounts).map(function(k) { return { value: k, count: fontFeatureCounts[k] }; });
+  fontFeatures.sort(function(a, b) { return b.count - a.count; });
+  fontFeatures = fontFeatures.slice(0, 5);
+
+  // v1.2.0: icon fonts
+  var iconFonts = Object.keys(iconFontCounts).map(function(k) { return { value: k, count: iconFontCounts[k] }; });
+  iconFonts.sort(function(a, b) { return b.count - a.count; });
+  iconFonts = iconFonts.slice(0, 3);
+
+  // v1.2.0: gradients
+  var gradients = Object.keys(gradientCounts).map(function(k) { return { value: k, count: gradientCounts[k] }; });
+  gradients.sort(function(a, b) { return b.count - a.count; });
+  gradients = gradients.slice(0, 5);
 
   // ===== TYPOGRAPHY DETAILS (per heading level + body) =====
   var typoDetails = [];
@@ -587,7 +660,13 @@ const EXTRACT_FN = `(() => {
     shadows: shadowList,
     typoDetails: typoDetails,
     isJapanese: isJapanese,
-    cssCustomProps: cssCustomProps
+    cssCustomProps: cssCustomProps,
+    // v1.2.0
+    margins: topMargins,
+    spacingScale: spacingScale,
+    fontFeatures: fontFeatures,
+    iconFonts: iconFonts,
+    gradients: gradients
   };
 })()`;
 
